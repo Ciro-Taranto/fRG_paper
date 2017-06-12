@@ -1,6 +1,24 @@
 \subsection{Flow equations}
 
 \begin{itemize} 
+\item General consideration about functional renormalizaton group: 1PI, truncation, 
+\item vertex: notation, momentum and energy conservation, spin. Spin symmetry 
 
 \end{itemize}
 
+In the following paragraph we will introduce the functional renormalization group in the implementation that we used, and we will clarify some notational issue about the vertex. 
+
+Generally speaking, the fRG allows to use the renormalization group idea to approach functional integrals. 
+This is done by endowing the non-interacting propagator with an additional dependence on a scale parameter $\Lambda$, which generates an exact functional flow equation with known initial conditions. 
+
+We will apply this approach to the effective action, whose expansions into the fields generates the one-particle irreducible (1PI)  functions. By expanding the functional flow equation one obtains a hierarchy of flow equations for the 1PI functions, involving vertexes of arbitrarily  high orders. 
+We will restrict ourselves to the level-two truncation by retaining only the two lowest nonvanishing orders in the expansion, i.e., we consider the flow of the (scale dependent) self-energy $\Sigma^\Lambda$ and of the two-particle 1PI vertex $V^\Lambda$, neglecting the effects of higher order vertexes. 
+Hence our approach becomes perturbative, and sums up efficiently, although approximately, the so-called parquet-diagrams. 
+
+\subparagraph*{Symmetry considerations} We use the energy and momentum conservation to fix one of the arguments of the arguments of the self energy and of the vertex. 
+Furthermore we restrict ourselves to the spin-symmetric phase. 
+Hence for the self-energy  we only need to consider one function depending on one frequency-momentum argument: 
+\begin{equation}
+\Sigma^\Lambda_{\sigma\sigma'}(k)=\Sigma(k)\delta_{\sigma,\sigma'}, 
+\end{equation}
+where $\sigma = \{\uparrow, \downarrow\} $, and $k=(\nu,\mathbf{k})$, $\nu$ being a Matsubara frequency and $\mathbf{k}$ a momentum in the first Brillouin zone. 
