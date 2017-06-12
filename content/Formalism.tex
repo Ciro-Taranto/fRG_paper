@@ -1,20 +1,13 @@
 \subsection{Model}
 
-\begin{itemize}
-
-\item Model defined by:
+The Hubbard model describes spin-$\frac{1}{2}$ fermions with a density-density interaction:
 
 \begin{equation}
 H = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma} + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow}
 \end{equation}
 
-where hopping amplitude $t_{ij} = t$ for nearest sites while $t_{ij}=t'$ for next-to-nearest sites. 
-Fourier transform:
-\begin{equation}
-\epsilon_{\bs{k}} = -2t(\cos(k_x)+\cos(k_y)) - 4t' \cos(k_x) \cos(k_y)
-\end{equation}
-
-\end{itemize}
+where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are creation and annihilation operators, respectively, 
+for fermions with spin $\sigma=\uparrow,\downarrow$. We consider 2-dimensional case with square lattice and repulsive interaction $U>0$. We use the hopping amplitude $t_{ij} = t$ for nearest sites while $t_{ij}=t'$ for next-to-nearest sites.
 
 \subsection{Flow equation}
 
@@ -36,41 +29,3 @@ only for that one.
 \item Cutoff discussion
 
 \end{itemize}
-
-\subsection{Frequency space and Vertex approximations}
-
-\begin{itemize}
-
-
-\item Discuss spin symmetry of the vertex with frequencies relations. It's important because 
-those relations become trivial in case of Karrasch approximation while in this case they become crucial. 
-Point out: $V_{\uparrow \downarrow}$ as the only "complete" component.
-
-\item Decomposition:
-
-We use frequency dependent vertex decomposition:
-\begin{equation}
-V^{\omega_1,\omega_2,\omega_3}_{\bs{k}_1,\bs{k}_2,\bs{k}_3}  = U + 
-  \phi^{\omega_1,\omega_2,\omega_3}_{pp,\bs{k}_1+\bs{k}_2,\bs{k}_1,\bs{k}_3} + \phi^{\omega_1,\omega_2,\omega_3}_{m,\bs{k}_3-\bs{k}_1} + \frac{1}{2} \phi^{\omega_1,\omega_3,\omega_2}_{m,\bs{k}_2-\bs{k}_3}
-- \frac{1}{2} \phi^{\omega_1,\omega_2,\omega_3}_{c,\bs{k}_2-\bs{k}_3}
-\end{equation}
-
-\item Form factor decomposition for PP channel:
-
-\begin{equation}
-  \phi^{\omega_1,\omega_2,\omega_3}_{pp,\bs{Q},\bs{k}_1,\bs{k}_3}  =
-    \phi_{sw,\bs{Q}}^{\omega_1,\omega_2,\omega_3} 
-    + f_{\frac{\bs{Q}}{2}-\bs{k}_1} f_{\frac{\bs{Q}}{2}-\bs{k}_3} \phi_{dw,\bs{Q}}^{\omega_1,\omega_2,\omega_3} 
-\end{equation}
-
-\item Comment: The channels are defined by the possibility to build an instability only for the exchange 
-   momentum $\bs{Q}$
-   
-\item Channel division:
-
-\begin{equation}
-\phi_{sw} = \int \tau 
-\end{equation}
-
-\end{itemize}
-
