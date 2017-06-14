@@ -23,26 +23,55 @@ Hence for the self-energy  we only need to consider one function depending on on
 \end{equation}
 where $\sigma = \{\uparrow, \downarrow\} $, and $k=(\nu,\mathbf{k})$, $\nu$ being a Matsubara frequency and $\mathbf{k}$ a momentum in the first Brillouin zone. 
 
-For the notation of the two-particle vertex we refer to Fig. (fig), where $k_4=(\nu_1+\nu_2-\nu_3,\mathbf{k_1+k_2-k_3}$ can be omitted. 
-Furthermore spin conservation and SU(2) guarantee that the vertex does not vanish only for six spin combinations, pairwaise equal under spin inversion: $V^\Lambda_{\sigma\sigma\sigma\sigma}$, $V^\Lambda_{\sigma\sigma\overline\sigma\overline\sigma}$ and $V^\Lambda_{\sigma\overline\sigma\overline\sigma\sigma}$. \emph{should we specify the meaning of $\overline \sigma$ or is it obvious?}
-Finally, using the crossing relation we obtain: 
+For the notation of the two-particle vertex we refer to Fig. (fig), where $k_i=(\nu_i,\mathbf{k_i})$,
+and $k_4=(\nu_1+\nu_2-\nu_3,\mathbf{k_1+k_2-k_3})$ can be omitted. 
+Furthermore  SU(2)-symmetry guarantees that the vertex does not vanish only for six spin combinations, pairwaise equal under spin inversion:
+$
+ V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} = V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
+$  V^\Lambda_{\uparrow\downarrow\uparrow\downarrow} = V^\Lambda_{\downarrow\uparrow\downarrow\uparrow}  $, and
+$  V^\Lambda_{\uparrow\downarrow\downarrow\uparrow } = V^\Lambda_{\downarrow\uparrow\uparrow\downarrow}$.   
+Finally, due to SU(2) symmetry and crossing relation one has: 
 \begin{eqnarray}
-V^\Lambda_{\sigma\sigma\sigma\sigma}(k_1,k_2,k_3) &=& V^\Lambda_{\sigma\sigma\overline\sigma\overline\sigma}(k_1,k_2,k_3)- V^\Lambda_{\sigma\sigma\overline\sigma\overline\sigma}(k_1,k_2,k_4), \\ 
-V^\Lambda_{\sigma\overline\sigma\overline\sigma\sigma}(k_1,k_2,k_3)& =& -V^\Lambda_{\sigma\sigma\overline\sigma\overline\sigma}(k_1,k_2,k_1+k_2-k_3). 
+\nonumber
+V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)\\&-& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3), \\ 
+V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \end{eqnarray}
-This allows us to consider only one spin component for the vertex $V^\Lambda(k_1,k_2,k_3)=V^\Lambda_{\sigma\sigma\overline\sigma\overline\sigma}(k_1,k_2,k_3)$, all the others being obtained by symmetry. 
+This allows us to consider for the vertex only one function of three arguments:  $V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)=V^\Lambda(k_1,k_2,k_3)$, all the others spin components being obtained by symmetry. 
 
 With these considerations the flow equation for the self energy reads: 
 \begin{equation}
-\frac{d \Sigma^\Lambda(k)}{d \Lambda}= -T\sum_{\omega}\int\frac{d\mathbf{q}}{4\pi^2} S^\Lambda(q)\left[2V^\Lambda(k,q,q) -V^\Lambda(k,q,k)\right], 
+\frac{d}{d \Lambda} \Sigma^\Lambda(k)= -\int_q  S^\Lambda(q)\left[2V^\Lambda(k,q,q) -V^\Lambda(k,q,k)\right], 
 \end{equation}
-with $q=(\omega,\mathbf{q}$ and $k = (\nu,\mathbf{k})$. 
+with $q=(\omega,\mathbf{q})$ and $k = (\nu,\mathbf{k})$ and we use the notation  $\int_{q} =T\sum_\omega \int_{\mathbf{q}}$, and $\int_{\mathbf{q}}=\int  \frac{d\mathbf{q}}{4\pi^2}$ is the normalized integral over the first Brillouin zone. 
 \begin{equation}
-S^\Lambda=-(G^\Lambda)^2\frac{d(G_0^\Lambda)^{-1}}{d\Lambda}
-\end{equation} is the single-scale propagator, $G_0^\Lambda$ the non-interacting Green's function and $G^\Lambda=\left[(G_0^\Lambda)^{-1}-\Sigma^\Lambda\right]^{-1}$ the full propagator. 
-
+ S^\Lambda=\frac{dG^\Lambda}{d\Lambda}\Bigg|_{\Sigma=\mathrm{const}} 
+\end{equation}
+  is the single-scale propagator; $G^\Lambda=\left[(G_0^\Lambda)^{-1}-\Sigma^\Lambda\right]^{-1}$ is the full propagator,  $G_0^\Lambda$ is the non-interacting Green's function. 
+  
+ \begin{widetext} 
 The vertex flow equation can be written as: 
-\begin{equation}
- \frac{dV(k1,k2,k3)}{d\Lambda} = \mathcal(T}^\Lambda_{\mathrm{pp}}(k_1,k_2,k_3)
-\end{equation} 
-\emph{ok, lo so, sono un rompipalle, possiamo ricontrollare il fattore un mezzo nel canale particle particle che non sta in nessun caso in FRG?}.
+\begin{align}
+ \frac{d}{d\Lambda}V(k1,k2,k3) =  \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
+  \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + \fl{\mathcal{T}}{phc}(k_1,k_2,k_3),
+\end{align} 
+where:\footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.  }
+\begin{eqnarray} 
+\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_q \fl{{P}}{}(q,k_1+k_2-q) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-q)\fl{V}{}(k_1+k_2-q,q,k_3)   \\ 
+\nonumber
+&&+  \fl{V}{}(k_1,k_2,q)\fl{V}{}(q,k_1+k_2-q,k_3) \Big\} ; \\  
+\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_q \fl{P}{}(q,k_3-k_1+q)
+\Big\{ 2 \fl{V}{}( k_1,k_3-k_1+q,k_3)  \fl{V}{}(q,k_2,k_3-k_1+q) \\
+\nonumber
+&&- \fl{V}{}( k_1,k_3-k_1+q,q)  \fl{V}{}(q,k_2,k_3-k_1+q) - \fl{V}{}( k_1,k_3-k_1+q,k_3)  \fl{V}{}(k_2,q,k_3-k_1+q) \Big\}; \\
+\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_q \fl{P}{}(q,k_2-k_3+q) \fl{V}{}(k_1,k_2-k_3+q,q)
+\fl{V}{}(q,k_2,k_3).
+\end{eqnarray} 
+Here we have defined the quantity:
+\begin{align}
+\fl{ {P }}{}(q,q') &= G^\Lambda(q)S^\Lambda(q') +G^\Lambda(q')S^\Lambda(q).
+\end{align} 
+
+
+
+
+\end{widetext} 
