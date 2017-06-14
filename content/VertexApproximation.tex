@@ -3,38 +3,97 @@
 %
 %
 
-\begin{itemize}
+%For the parametrization of the vertex, we use bosonic exchange frequencies $\OmPP=\nu_1 + \nu_2$,  
+%$\OmPH = \nu_2 - \nu_3$ and $\OmPHC = \nu_3 - \nu_1$.
+%If not specify otherwise, we use capital letters for bosonic frequency transfer opposite to fermionic ones.
 
+We start by decomposing the vertex as follows:
 
-\item Discuss spin symmetry of the vertex with frequencies relations. It's important because 
-those relations become trivial in case of Karrasch approximation while in this case they become crucial. 
-Point out: $V_{\uparrow \downarrow}$ as the only "complete" component.
+\begin{widetext}
+\begin{align}
+\ve^{\Lambda}(k_1,k_2,k_3) = U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2,k_1,k_3) + \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1,k_1,k_3)
+ + \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3,k_1,k_2) - \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3,k_1,k_2),
+\end{align}
+\end{widetext}
 
-\item Decomposition:
+where the physical meaning of each $\phi$ channel is defined by its flow equations:
 
-We use frequency dependent vertex decomposition:
+\begin{align}
+\dot{\phi}_{\mathrm{p}}^{\Lambda}(q,k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,q-k_1,k_3) , \\
+\dot{\phi}_{\mathrm{c}}^{\Lambda}(q,k_1,k_2) &= -2\mathcal{T}^{\Lambda}_{\mathrm{ph}}(k_1,k_2,k_2-1) + \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,q+k_1) , \\
+\dot{\phi}_{\mathrm{m}}^{\Lambda}(q,k_1,k_2) &= \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,q+k_1) .
+\end{align}
+
+It should be emphasized that each channel can be associated with a possible instabily of the 
+system. $\phi_{\mathrm{p}}$ is associated to a pairing instability, $\phi_{\mathrm{m}}$ to magnetic 
+instabilities and $\phi_{\mathrm{c}}$ to charge instabilities.
+
+%We project each channel into a form factor decomposition, starting from the pairing channel:
+We address first the momentum dependence. To this end, we introduce a decomposition of the 
+unity by means of a set of orthonormal form factors for the two fermionic momenta $\{f_{l}(\bs{k})\}$ obeying 
+the completeness relation:
+
 \begin{equation}
-\ve^{\omega_1,\omega_2,\omega_3}_{\bs{k}_1,\bs{k}_2,\bs{k}_3}  = U + 
-  \phi^{\omega_1,\omega_2,\omega_3}_{pp,\bs{k}_1+\bs{k}_2,\bs{k}_1,\bs{k}_3} + \phi^{\omega_1,\omega_2,\omega_3}_{m,\bs{k}_3-\bs{k}_1} + \frac{1}{2} \phi^{\omega_1,\omega_3,\omega_2}_{m,\bs{k}_2-\bs{k}_3}
-- \frac{1}{2} \phi^{\omega_1,\omega_2,\omega_3}_{c,\bs{k}_2-\bs{k}_3}
+ \int_{\bs{k}}  f_{l}(\bs{k}) f_{m}(\bs{k}) = \delta_{l,m}
 \end{equation}
 
-\item Form factor decomposition for PP channel:
+We can then project each channel on a subset of form factors whose choice is physically motivated. 
+Let us stress that the full form factor expansion is exact but the truncation introduces an approximation.
+
+For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k_x} - \cos{k_y}$:
 
 \begin{equation}
-  \phi^{\omega_1,\omega_2,\omega_3}_{pp,\bs{Q},\bs{k}_1,\bs{k}_3}  =
-    \phi_{sw,\bs{Q}}^{\omega_1,\omega_2,\omega_3} 
-    + f_{\frac{\bs{Q}}{2}-\bs{k}_1} f_{\frac{\bs{Q}}{2}-\bs{k}_3} \phi_{dw,\bs{Q}}^{\omega_1,\omega_2,\omega_3} 
+  \phi^{\Lambda}_{\mathrm{p}}(q,k_1,k_3) =
+    \mathcal{S}_{\bs{q}}^{\omega,\nu_1,\nu_3} 
+    + f_d\left(\frac{\bs{q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{q}}{2}-\bs{k}_3\right) \mathcal{D}_{\bs{q}}^{\omega,\nu_1,\nu_3},
 \end{equation}
+with the shorthand notation $q=(\omega,\bs{Q})$ and $k_i=(\nu_i,\bs{k}_i)$.
 
-\item Comment: The channels are defined by the possibility to build an instability only for the exchange 
-   momentum $\bs{Q}$
-   
-\item Channel division:
+The instability in the channel $\mathcal{S}$ is associated to $s$-wave superconductivity, while $\mathcal{D}$ 
+is associated to $d$-wave superconductivity.
+
+For the charge and magnetic channels we restrict ourselves to $f_{s}(\bs{k})=1$ only:
+\begin{align}
+  \phi_{\mathrm{c}}(q,k_1,k_2) &= \mathcal{C}_{\bs{q}}^{\omega,\nu_1,\nu_2}, \\
+  \phi_{\mathrm{c}}(q,k_1,k_2) &= \mathcal{M}_{\bs{q}}^{\omega,\nu_1,\nu_2}
+\end{align}
+corresponding to instabilities in the charge and magnetic channels, respectively. For now on, for notation simplicity we omit 
+the $\Lambda$-dependences of channels $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$.
+
+Let us stress that for each channel we have used a different frequency notation.
+This consists of one frequency corresponding to the frequency transfered in the specific channel 
+and two remaining independent frequencies. At finite temperature the frequency transfer, beeing a sum or a difference of 
+two fermionic Matsubara frequencies, is a bosonic Matsubara frequency.
+
+\noindent
+The choice of the mixed notation is the most natural since the transferred momentum and 
+frequency plays a special role in the diagrammatics.
+Indeed, on the one hand, it is the only dependence generated in second order perturbation theory and the main dependence in finite 
+order perturbation theory. On the other hand, this notation is convenient in the Bethe-Salpeter equations (cite).
+
+In the fRG literature (cite), where the fermionic frequency dependence is neglected the channel functions above are often losely intepreted as 
+mediators of bosonic interactions. Such an interpretation is missing in the presence of all frequencies.
+
+Although one expects a leading dependence in the bosonic frequency, 
+in particular in the weak coupling regime, we will see that in some case the dependence on fermionic frequencies can become strong and not negligible.
+
+The flow equations for the channels $\mathcal{S}$,  $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$ can be derived from the projection into form factors of eq. (cite):
 
 \begin{equation}
-\phi_{sw} = \int \tau 
+\dot{\mathcal{S}}_{\bs{q}}^{\omega,\nu_1,\nu_3}  = - \int _{\bs{k}_1} \int_{\bs{k}_2} \mathcal{T}_{\mathrm{pp}}(k_1,q-k_1,k_3)
 \end{equation}
 
-\end{itemize}
+\begin{equation}
+\dot{\mathcal{D}}_{\bs{q}}^{\omega,\nu_1,\nu_3}  = -
+\int _{\bs{k}_1} \int_{\bs{k}_2} f_{\frac{\bs{q}}{2} - \bs{k}_1} \mathcal{T}_{\mathrm{pp}}(k_1,q-k_1,k_3) f_{\frac{\bs{q}}{2} - \bs{k}_3}
+\end{equation}
 
+\begin{equation}
+\dot{\mathcal{C}}_{\bs{q}}^{\omega,\nu_1,\nu_2}  = 
+\int _{\bs{k}_1} \int_{\bs{k}_2}  \mathcal{T}_{\mathrm{phc}}(k_1,k_2,q+k_1) -2\mathcal{T}_{\mathrm{ph}}(k_1,k_2,k_2-q) 
+\end{equation}
+
+\begin{equation}
+\dot{\mathcal{M}}_{\bs{q}}^{\omega,\nu_1,\nu_2}  = 
+\int _{\bs{k}_1} \int_{\bs{k}_2}  \mathcal{T}_{\mathrm{phc}}(k_1,k_2,q+k_1)
+\end{equation}

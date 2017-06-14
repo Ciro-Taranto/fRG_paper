@@ -1,21 +1,31 @@
+
+\subsection{Model}
+
+The Hubbard model describes spin-$\frac{1}{2}$ fermions with a density-density interaction:
+
+\begin{equation}
+\mathcal{H} = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma} + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow}
+\end{equation}
+
+where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators 
+for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$. The hopping amplitude is restricted to $t_{ij} = t$ for nearest neighbors, $t_{ij}=t'$ for next-to-nearest neighbors and $0$ otherwise.
+
+
+
+
 \subsection{Flow equations}
 
-\begin{itemize} 
-\item General consideration about functional renormalizaton group: 1PI, truncation, 
-\item vertex: notation, momentum and energy conservation, spin. Spin symmetry 
-
-\end{itemize}
 
 In the following paragraph we will introduce the functional renormalization group in the implementation that we used, and we will clarify some notational issue about the vertex. 
 
-Generally speaking, the fRG allows to use the renormalization group idea to approach functional integrals. 
+Generally speaking, the fRG allows to use the renormalization group idea in the functional integral formalism. 
 This is done by endowing the non-interacting propagator with an additional dependence on a scale parameter $\Lambda$, which generates an exact functional flow equation with known initial conditions. 
 
 We will apply this approach to the effective action, whose expansions into the fields generates the one-particle irreducible (1PI)  functions. By expanding the functional flow equation one obtains a hierarchy of flow equations for the 1PI functions, involving vertexes of arbitrarily  high orders. 
 We will restrict ourselves to the level-two truncation by retaining only the two lowest nonvanishing orders in the expansion, i.e., we consider the flow of the (scale dependent) self-energy $\Sigma^\Lambda$ and of the two-particle 1PI vertex $V^\Lambda$, neglecting the effects of higher order vertexes. 
 Hence our approach becomes perturbative, and sums up efficiently, although approximately, the so-called parquet-diagrams. 
 
-\subparagraph*{Symmetry considerations} We use the energy and momentum conservation to fix one of the arguments of the arguments of the self energy and of the vertex. 
+, given a cutoff choice with $G_0^{\Lambda_0}=0$We use the energy and momentum conservation to fix one of the arguments of the arguments of the self energy and of the vertex. 
 Furthermore we restrict ourselves to the spin-symmetric phase. 
 Hence for the self-energy  we only need to consider one function depending on one frequency-momentum argument: 
 \begin{equation}
@@ -70,6 +80,7 @@ Here we have defined the quantity:
 \begin{align}
 \fl{ {P }}{}(q,q') &= G^\Lambda(q)S^\Lambda(q') +G^\Lambda(q')S^\Lambda(q).
 \end{align} 
+For any cutoff choice with $G_0^{\Lambda_0}=0$ the initial condition for the self-and the vertex are, respectively, $\Sigma^{\Lambda_0}=0$ and $V^{\Lambda_0 }= U$. 
 
 
 
