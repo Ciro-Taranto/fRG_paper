@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  16 JUN 2017 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  19 JUN 2017 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,9 +71,6 @@ n)
 (/usr/share/texmf/tex/latex/revtex4/10pt.rtx
 File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
-)
-(/usr/share/texmf/tex/latex/preprint/figcaps.sty
-Package: figcaps 1999/02/23 4.7 (PWD)
 )
 (/usr/share/texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -283,103 +280,95 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-(./content/Introduction.tex) (./content/fRG.tex [1{/usr/share/texmf/fonts/map/p
-dftex/updmap/pdftex.map}]
+(./content/Introduction.tex) (./content/fRG.tex
+<images/VertexBox.png, id=1, 379.4175pt x 205.76875pt>
+File: images/VertexBox.png Graphic file (type png)
+
+<use images/VertexBox.png>
+Package pdftex.def Info: images/VertexBox.png used on input line 34.
+(pdftex.def)             Requested size: 76.49689pt x 41.48582pt.
+ [1{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/VertexBox.pn
+g (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+\T1/cmr/m/n/10 is the single-scale prop-a-ga-tor and $\OML/cmm/m/it/10 G[] \OT1
+/cmr/m/n/10 =
+ []
+
+
+Package natbib Warning: Citation `endnote19' on page 2 undefined on input line 
+72.
+
 \@endnoteout=\write3
 \openout3 = `paper.end'.
 
-) (./content/VertexApproximation.tex
-
-Package natbib Warning: Citation `Husemann2009' on page 2 undefined on input li
-ne 33.
+) (./content/VertexApproximation.tex [2] [3]
+LaTeX Font Info:    Try loading font information for U+bbold on input line 132.
 
 
-Package natbib Warning: Citation `Husemann2012' on page 2 undefined on input li
-ne 33.
-
-
-Package natbib Warning: Citation `Lichtenstein2017' on page 2 undefined on inpu
-t line 40.
-
-
-Package natbib Warning: Citation `Husemann2009' on page 2 undefined on input li
-ne 42.
-
-[2]
-
-Package natbib Warning: Citation `Wentzell2017' on page 3 undefined on input li
-ne 67.
-
-
-Package natbib Warning: Citation `Husemann2009' on page 3 undefined on input li
-ne 72.
-
-
-Package natbib Warning: Citation `Husemann2012' on page 3 undefined on input li
-ne 72.
-
-
-Package natbib Warning: Citation `Giering2012' on page 3 undefined on input lin
-e 72.
-
-) (./content/Results.tex
+(/usr/share/texmf/tex/latex/bbold/Ubbold.fd)) (./content/Results.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
- (/usr/share/texmf/tex/latex/base/omscmr.fd
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [3])
-(./content/Conclusions.tex) (./content/Appendices.tex) (./paper.bbl
-Underfull \hbox (badness 1132) in paragraph at lines 39--42
- []\T1/cmr/m/n/9 G. Rohringer, A. Valli, and A. Toschi.  Lo-cal elec-
+) (./content/Conclusions.tex)
+(./content/Appendices.tex) (./paper.bbl [4]
+Underfull \hbox (badness 5345) in paragraph at lines 58--62
+ []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
  []
 
-(./paper.end
 
-Package natbib Warning: Citation `Husemann2009' on page 4 undefined on input li
-ne 1.
+Underfull \hbox (badness 7116) in paragraph at lines 71--76
+ []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
+ []
 
-))
+(./paper.end))
 
 Package natbib Warning: There were undefined citations.
 
-[4] (./paper.aux) ) 
+[5] (./paper.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+) ) 
 Here is how much of TeX's memory you used:
- 4538 strings out of 493091
- 56737 string characters out of 6142993
- 161849 words of memory out of 5000000
- 7919 multiletter control sequences out of 15000+600000
- 19504 words of font info for 48 fonts, out of 8000000 for 9000
+ 4521 strings out of 493091
+ 57005 string characters out of 6142993
+ 160524 words of memory out of 5000000
+ 7895 multiletter control sequences out of 15000+600000
+ 19656 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,27p,614b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fo
-nts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/f
-onts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/public/am
-sfonts/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cmextra/cmm
-ib7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx0700.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfti0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (4 pages, 374588 bytes).
+ 38i,11n,27p,824b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf
+/fonts/type1/public/bbold-type1/bbold10.pfb></usr/share/texmf/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7
+.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/
+texmf/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sha
+re/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share
+/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0
+700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm07
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti060
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on paper.pdf (5 pages, 387692 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

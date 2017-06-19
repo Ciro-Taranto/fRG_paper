@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Hubbard1963}
 J.~{Hubbard}.
@@ -17,6 +17,14 @@ C.~Platt, W.~Hanke, and R.~Thomale.
 \newblock Functional renormalization group for multi-orbital fermi surface
   instabilities.
 \newblock {\em Advances in Physics}, 62(4-6):453--562, 2013.
+
+\bibitem{Wetterich1993}
+C.~{Wetterich}.
+\newblock {Exact evolution equation for the effective potential}.
+\newblock {\em Physics Letters B}, 301:90--94, February 1993.
+
+\bibitem{Salmhofer2001}
+
 
 \bibitem{Binz2002}
 {Binz, B.}, {Baeriswyl, D.}, and {Douçot, B.}
@@ -39,5 +47,61 @@ F.~B. {Kugler} and J.~{von Delft}.
 G.~{Rohringer}, A.~{Valli}, and A.~{Toschi}.
 \newblock {Local electronic correlation at the two-particle level}.
 \newblock {\em Phys. Rev. B}, 86(12):125114, September 2012.
+
+\bibitem{Husemann2009}
+C.~{Husemann} and M.~{Salmhofer}.
+\newblock {Efficient parametrization of the vertex function, {$\Omega$} scheme,
+  and the t,t$^{'}$ Hubbard model at van Hove filling}.
+\newblock {\em Phys. Rev. B}, 79(19):195125, May 2009.
+
+\bibitem{Husemann2012}
+C.~Husemann, K.-U. Giering, and M.~Salmhofer.
+\newblock Frequency-dependent vertex functions of the
+  ($t,{t}^{\ensuremath{'}}$) hubbard model at weak coupling.
+\newblock {\em Phys. Rev. B}, 85:075121, Feb 2012.
+
+\bibitem{Lichtenstein2017}
+J.~Lichtenstein, D.~Sánchez de~la Peña, D.~Rohe, E.~Di Napoli, C.~Honerkamp,
+  and S.A. Maier.
+\newblock High-performance functional renormalization group calculations for
+  interacting fermions.
+\newblock {\em Computer Physics Communications}, 213:100 -- 110, 2017.
+
+\bibitem{Wentzell2017}
+N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
+  K.~{Held}, A.~{Toschi}, and S.~{Andergassen}.
+\newblock {High-frequency asymptotics of the vertex function: diagrammatic
+  parametrization and algorithmic implementation}.
+\newblock {\em ArXiv e-prints}, October 2016.
+
+\bibitem{Giering2012}
+K.-U. {Giering} and M.~{Salmhofer}.
+\newblock {Self-energy flows in the two-dimensional repulsive Hubbard model}.
+\newblock {\em Phys. Rev. B}, 86(24):245122, December 2012.
+
+\bibitem{Karrasch2008a}
+C.~{Karrasch}, R.~{Hedden}, R.~{Peters}, T.~{Pruschke}, K.~{Sch{\"o}nhammer},
+  and V.~{Meden}.
+\newblock {A finite-frequency functional renormalization group approach to the
+  single impurity Anderson model}.
+\newblock {\em J. Phys.: Condens. Matter}, 20:H5205, August 2008.
+
+\bibitem{Honerkamp2004}
+C.~{Honerkamp}, D.~{Rohe}, S.~{Andergassen}, and T.~{Enss}.
+\newblock {Interaction flow method for many-fermion systems}.
+\newblock {\em Phys. Rev. B}, 70(23):235115, December 2004.
+
+\bibitem{Wentzell2016}
+Nils Wentzell, Serge Florens, Tobias Meng, Volker Meden, and Sabine
+  Andergassen.
+\newblock Magneto-electric spectroscopy of andreev bound states in josephson
+  quantum dots.
+\newblock May 2016.
+
+\bibitem{Eberlein2014}
+A.~{Eberlein}.
+\newblock {Fermionic two-loop functional renormalization group for correlated
+  fermions: Method and application to the attractive Hubbard model}.
+\newblock {\em Phys. Rev. B}, 90(11):115125, September 2014.
 
 \end{thebibliography}

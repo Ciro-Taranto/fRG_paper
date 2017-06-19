@@ -7,16 +7,16 @@
 %$\OmPH = \nu_2 - \nu_3$ and $\OmPHC = \nu_3 - \nu_1$.
 %If not specify otherwise, we use capital letters for bosonic frequency transfer opposite to fermionic ones.
 
-We start by decomposing the vertex as follows:
+In order to deal with the frequency and momentum dependence of the vertex, we start by decomposing the vertex as follows:
 
 
 \begin{align}
-\ve^{\Lambda}(k_1,k_2,k_3) = U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3) + \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_3)
+\ve^{\Lambda}(k_1,k_2,k_3) = U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3) + \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)
  + \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
  \label{eq:decomposition}
 \end{align}
 \end{widetext}
-where the physical meaning of each $\phi$ channel can be understood by its flow equations:
+where the physical meaning of each $\phi$ channel will be understood by the structure of its flow equations:
 \begin{align}
 \dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
 \nonumber
@@ -24,7 +24,6 @@ where the physical meaning of each $\phi$ channel can be understood by its flow 
  & \phantom{=} +\phantom{2}\mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1) , \\
 \dot{\phi}_{\mathrm{m}}^{\Lambda}(Q;k_1,k_2) &= \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1), 
 \end{align}
-\emph{controllare ph}
 where $Q=(\Omega,\bs{Q})$ is a frequency and momentum transfer. 
 %It should be emphasized that each channel can be associated with a possible instabily of the 
 %system. $\phi_{\mathrm{p}}$ is associated to pairing instabilities, $\phi_{\mathrm{m}}$ to magnetic instabilities and $\phi_{\mathrm{c}}$ to charge instabilities.
@@ -43,31 +42,32 @@ We can then project each channel on a subset of form factors, whose choice is ph
 Let us stress that the if one could keep all the  form factors the expansion would be exact.
 
 For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k_x} - \cos{k_y}$:
-\begin{eqnarray}
+\begin{align}
 \nonumber
-  \phi^{\Lambda}_{\mathrm{p}}(Q;k_1,k_3) &=&
-    \mathcal{S}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}  \\ 
-    &+& f_d\left(\frac{\bs{q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{q}}{2}-\bs{k}_3\right) \mathcal{D}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}.
-\end{eqnarray}
+  \phi^{\Lambda}_{\mathrm{p}}(Q;k_1,k_3) =&
+    \mathcal{S}_{\bs{Q}}^{\Omega;\nu_1,\nu_3} +   \\ 
+    & f_d\left(\frac{\bs{Q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{Q}}{2}-\bs{k}_3\right) \mathcal{D}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}.
+\end{align}
 The instability in the channel $\mathcal{S}$ is associated to $s$-wave superconductivity, while $\mathcal{D}$  to $d$-wave superconductivity.
 
 For the charge and magnetic channels we restrict ourselves to $f_{s}(\bs{k})=1$ only:
 \begin{align}
   \phi^\Lambda_{\mathrm{c}}(Q;k_1,k_2) &= \mathcal{C}_{\bs{Q}}^{\Omega;\nu_1,\nu_2}, \\
-  \phi^\Lambda_{\mathrm{m}}(Q;k_1,k_2) &= \mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2}
+  \phi^\Lambda_{\mathrm{m}}(Q;k_1,k_2) &= \mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2},
 \end{align}
 corresponding to instabilities in the charge and magnetic channels, respectively (for notation simplicity we omit 
 the $\Lambda$-dependences of the channel functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$).
 
-Let us stress that for each channel we have used its own frequency notation: we use one frequency corresponding to the frequency transferred in the specific channel 
-and two remaining independent frequencies.  At finite temperature the frequency transfer, being a sum or a difference of 
+Let us stress that for each channel we have defined \textit{its own} frequency notation, consisting of one frequency corresponding to the frequency transferred in the specific channel 
+and two remaining independent fermionic frequencies. 
+ At finite temperature the frequency transfer, being a sum or a difference of 
 two fermionic Matsubara frequencies, is a bosonic Matsubara frequency.
 
 \noindent
 The choice of the mixed notation is the most natural\cite{Wentzell2017} since the transferred momentum and 
 frequency play a special role in the diagrammatics.
 Indeed, on the one hand, it is the only dependence generated in second order perturbation theory and the main dependence in finite 
-order perturbation theory. On the other hand, this notation is convenient in the Bethe-Salpeter equations\cite{Rohringer2012}.
+order perturbation theory. On the other hand, this notation is convenient to express the Bethe-Salpeter equations\cite{Rohringer2012}, which are deeply related to parquet-approximations and fRG. 
 
 In the fRG literature\cite{Husemann2009,Husemann2012,Giering2012}, where the fermionic frequency dependence is neglected, the channel functions above are sometimes interpreted as bosonic exchange propagators. Such an interpretation is missing in the presence of all frequencies.
 
@@ -77,22 +77,22 @@ in particular in the weak coupling regime, we will see that in some cases the de
 The flow equations for the channels $\mathcal{S}$,  $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$ can be derived from the projection onto form factors of Eq. (\ref{eq:tpp})-(\ref{eq:tphc}):
 
 \begin{eqnarray}
-\dot{\mathcal{S}}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}  &=& - \int _{\bs{k}_1, \bs{k}_3 } \mathcal{T}_{\mathrm{pp}}(k_1,q-k_1,k_3); \\ 
+\dot{\mathcal{S}}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}  &=& - \int _{\bs{k}_1, \bs{k}_3 } \mathcal{T}_{\mathrm{pp}}(k_1,Q-k_1,k_3); \\ 
 \dot{\mathcal{D}}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}  &=& -
-\int _{\bs{k}_1,\bs{k}_3}  f_d\left( {\frac{\bs{q}}{2} - \bs{k}_1} \right ) f_d\left ({\frac{\bs{q}}{2} - \bs{k}_3} \right)  \nonumber \\ 
- &&\mathcal{T}_{\mathrm{pp}}(k_1,q-k_1,k_3) ; 
+\int _{\bs{k}_1,\bs{k}_3}  f_d\left( {\frac{\bs{Q}}{2} - \bs{k}_1} \right ) f_d\left ({\frac{\bs{Q}}{2} - \bs{k}_3} \right)  \nonumber \\ 
+ &&\mathcal{T}_{\mathrm{pp}}(k_1,Q-k_1,k_3) ; 
 \\
 \nonumber
 \dot{\mathcal{C}}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} &=& 
-\int _{\bs{k}_1,\bs{k}_2}   \mathcal{T}_{\mathrm{phc}}(k_1,k_2,q+k_1)\\ &-&2\mathcal{T}_{\mathrm{ph}}(k_1,k_2,k_2-q) ; 
+\int _{\bs{k}_1,\bs{k}_2}   \mathcal{T}_{\mathrm{phc}}(k_1,k_2,Q+k_1)\\ &-&2\mathcal{T}_{\mathrm{ph}}(k_1,k_2,k_2-Q) ; 
 \\ 
 \dot{\mathcal{M}}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} & =& 
-\int _{\bs{k}_1,\bs{k}_2}  \mathcal{T}_{\mathrm{phc}}(k_1,k_2,q+k_1). 
+\int _{\bs{k}_1,\bs{k}_2}  \mathcal{T}_{\mathrm{phc}}(k_1,k_2,Q+k_1). 
 \end{eqnarray}
 The final equations are then obtained by substituting the decomposition (\ref{eq:decomposition}) into the equations above, and using trigonometric eventualities.
 As an example we report here the equation for the magnetic channel, while the expression for the other channels are reported in the Appendix: 
 \begin{equation}
-\dot{\mathcal{M}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu} L^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\bs{Q}}^{\Omega,\nu} L^{\Omega; \nu,\Omega-\nu_2}_{\mathbf{Q}}, 
+\dot{\mathcal{M}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu} L^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\bs{Q}}^{\Omega,\nu} L^{\Omega; \nu,\nu_2-\Omega}_{\mathbf{Q}}, 
 \end{equation} 	   
 (the $\Lambda$-dependence is implicit), with: 
 \begin{equation}
@@ -103,19 +103,51 @@ S^\Lambda_{\bs{p}} (\nu),
 and: 
 \begin{eqnarray} 
 \nonumber
-L_{\bs{Q}^\Omega;\nu_1,nu_2}&=&U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} \\
+L^{\Omega;\nu_1,\nu_2}_{\bs{Q}}&=&U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} \\
 \nonumber 
-&+& \int_p \Big \{- \mathcal{S}_{\bs{p}}^{\Omega+\nu_1+\nu_2;\nu_1,\nu_1+\Omega}  
+&+& \int_{\bs{p}} \Big \{- \mathcal{S}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_1+\Omega}  
  \\
  \nonumber 
-&-& \mathcal{D}_{\bs{p}}^{\Omega+\nu_1+\nu_2;\nu_1,\nu_1+\Omega}[\cos(Q_x)+\cos(Q_y)]
+&-\frac{1}{2}& \mathcal{D}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_1+\Omega}
+[\cos(Q_x)+\cos(Q_y)]
  \\ 
-&+&\frac{1}{2}  \mathcal{M}_{\bs{p}}^{\nu_1-\nu_2; \nu_2+\Omega,\nu_2} 
+&+\frac{1}{2}& \Big[  \mathcal{M}_{\bs{p}}^{\nu_2-\nu_1-\Omega; \nu_1,\nu_2} 
+- \mathcal{C}_{\bs{p}}^{\nu_2-\nu_1-\Omega,\nu_1,\nu_2} \Big] 
 \Big \} 
-\end{eqnarray} 
+\end{eqnarray}	 
+Let us notice that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
 
-Let us notice that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters. 
+After this decomposition, the evaluation of vertex-flow equation, depending on three momenta and three momenta is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{S}$, $\mathcal{C}$, $\mathcal{M}$ each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we needed to discretize the momentum dependence on patches covering the Brillouin zone and to truncate the frequency dependence to some maximal frequency value. More details about this are given in the Appendix. Here let us stress, however, that an approximation on the momentum space using a form factor decomposition gave us results much more controllable than a similar approximation\cite{Karrasch2008a} in frequency space. 
+In fact the results obtained with this latter approximation turned out to depend sensitively on the way the projection was performed, and hence we discarded it, as we will discuss later. 
 
 \subsection{Cutoff choice}
+To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator, often referred to as \textit{cutoff}, in connection to the scale-separation of the renormalization group. 
+In the rest of the paper we have used two different cutoffs. 
+ 
+ For most our calculations we have used the \textit{Interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}: 
+ \begin{equation}
+ G_0^\Lambda(k) = \Lambda G_0(k)=\frac{\Lambda}{i\nu-\mu-\varepsilon_{\mathbf{k}} } , 
+ \end{equation}
+  Where the scale-parameter $\Lambda$ flows from $0$ to $1$, and  
+ with $\varepsilon_{\bs{k}} = -2 t [\cos(k_x)+\cos(k_y)] - 4 t' \cos(k_x)\cos(k_y)$. $\mu$ is the chemical potential needed to fix the occupation at a given value $n$. $\nu$ is a fermionic Matsubara-frequency: $\nu = \frac{\pi}{\beta} (2m+1)$, $m\in \mathbb{Z}$. $\beta=1/T$ is the inverse temperature.       
+Correspondingly the interacting Green's function reads: 
+\begin{equation}
+G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} -\mu^\Lambda-\Lambda\Sigma^\Lambda(k)} 
+\end{equation} 
+We have introduced a $\Lambda$-dependent chemical potential to maintain the occupation fixed during the flow:  the chemical potential becomes a functional of the flowing self-energy: $\mu^\Lambda=\mu[\Sigma^\Lambda]$, whose value is found by solving the equation:  
+\begin{equation}
+n = \int_p e^{i\omega 0^{+}} \frac{G^\Lambda(p)}{\Lambda}. 
+\end{equation}  
 
-We have used the cutoff blablbla. 
+The main advantage of the interaction cutoff is that  the $\Lambda$-dependent action can be interpreted\cite{Honerkamp2004} as the physical action of the system with rescaled interaction $\tilde{U}^\Lambda = \Lambda^2 U$.
+For our purposes, we do not need to worry about the fact  that this cutoff is not scale-selective, and hence does not regularize possible divergences in the bubbles. Indeed, in the finite-temperature case, $T$ acts itself as an infrared cutoff.
+Furthermore it has been shown in Ref. \onlinecite{Wentzell2016} that, in the context of the single-impurity Anderson model, the vertex-structures do not depend qualitatively on the cutoff-choice, and, at weak-coupling, depend on it only very little quantitatively. 
+
+As a benchmark for the robustness of our results on the cutoff-choice, we have used a soft version of the\textit{frequency selective cutoff} defined\cite{Eberlein2014} by:
+\begin{equation}
+G_0^\Lambda(k) = \frac{1}{i\mathrm{sign}\sqrt{\nu^2+\Lambda^2 }-\mu- \varepsilon_{\bs{k}}},  
+\end{equation}  
+with $\Lambda_0=\infty$ and $\Lambda_{\mathrm{f}}=0$. Also in this case we have performed our calculations at fixed occupation. 
+
+
+   
