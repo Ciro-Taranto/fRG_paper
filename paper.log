@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  14 JUN 2017 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  16 JUN 2017 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,24 +200,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf/tex/latex/bbold/bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
 ) (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-Class revtex4 Info: Patching LaTeX tabular. on input line 17.
-Class revtex4 Info: cite was not loaded (OK!) on input line 17.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+Class revtex4 Info: Patching LaTeX tabular. on input line 19.
+Class revtex4 Info: cite was not loaded (OK!) on input line 19.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 19.
 
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -286,66 +289,97 @@ dftex/updmap/pdftex.map}]
 \openout3 = `paper.end'.
 
 ) (./content/VertexApproximation.tex
-Overfull \hbox (7.88132pt too wide) in paragraph at lines 25--25
-[] 
- []
+
+Package natbib Warning: Citation `Husemann2009' on page 2 undefined on input li
+ne 33.
 
 
-Overfull \hbox (10.38385pt too wide) detected at line 49
-\OML/cmm/m/it/10 ^^^[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q; k[]; k[]\OT1/cmr/m/n
-/10 ) = \OMS/cmsy/m/n/10 S[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 f[] [] f[] [] \
-OMS/cmsy/m/n/10 D[]\OML/cmm/m/it/10 ;
- []
+Package natbib Warning: Citation `Husemann2012' on page 2 undefined on input li
+ne 33.
 
-[2]) (./content/Results.tex
+
+Package natbib Warning: Citation `Lichtenstein2017' on page 2 undefined on inpu
+t line 40.
+
+
+Package natbib Warning: Citation `Husemann2009' on page 2 undefined on input li
+ne 42.
+
+[2]
+
+Package natbib Warning: Citation `Wentzell2017' on page 3 undefined on input li
+ne 67.
+
+
+Package natbib Warning: Citation `Husemann2009' on page 3 undefined on input li
+ne 72.
+
+
+Package natbib Warning: Citation `Husemann2012' on page 3 undefined on input li
+ne 72.
+
+
+Package natbib Warning: Citation `Giering2012' on page 3 undefined on input lin
+e 72.
+
+) (./content/Results.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
  (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-)
-(./content/Conclusions.tex) (./content/Appendices.tex) (./paper.end) [3]
-(./paper.aux)
+ [3])
+(./content/Conclusions.tex) (./content/Appendices.tex) (./paper.bbl
+Underfull \hbox (badness 1132) in paragraph at lines 39--42
+ []\T1/cmr/m/n/9 G. Rohringer, A. Valli, and A. Toschi.  Lo-cal elec-
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+(./paper.end
 
+Package natbib Warning: Citation `Husemann2009' on page 4 undefined on input li
+ne 1.
 
- ) 
+))
+
+Package natbib Warning: There were undefined citations.
+
+[4] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4486 strings out of 493091
- 55935 string characters out of 6142993
- 162569 words of memory out of 5000000
- 7877 multiletter control sequences out of 15000+600000
- 17261 words of font info for 45 fonts, out of 8000000 for 9000
+ 4538 strings out of 493091
+ 56737 string characters out of 6142993
+ 161849 words of memory out of 5000000
+ 7919 multiletter control sequences out of 15000+600000
+ 19504 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,25p,533b,177s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmbx5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.pf
-b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/tex
-mf/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/
-cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/te
-xmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfti0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.p
-fb>
-Output written on paper.pdf (3 pages, 314188 bytes).
+ 38i,11n,27p,614b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fo
+nts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/f
+onts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/public/am
+sfonts/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cmextra/cmm
+ib7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx0700.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfti0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on paper.pdf (4 pages, 374588 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

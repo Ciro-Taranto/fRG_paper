@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/TeX Live for SUSE Linux)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "endnote8"
+You've used 7 entries,
+            1791 wiz_defined-function locations,
+            502 strings with 4679 characters,
+and the built_in function-call counts, 1598 in all, are:
+= -- 136
+> -- 73
+< -- 0
++ -- 27
+- -- 20
+* -- 132
+:= -- 268
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 62
+empty$ -- 154
+format.name$ -- 20
+if$ -- 345
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 7
+pop$ -- 9
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 121
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 14
+width$ -- 8
+write$ -- 78
+(There was 1 warning)

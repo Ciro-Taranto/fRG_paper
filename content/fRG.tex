@@ -1,14 +1,14 @@
 
 \subsection{Model}
 
-The Hubbard model describes spin-$\frac{1}{2}$ fermions with a density-density interaction:
+The Hubbard model\cite{Hubbard1963} describes spin-$\frac{1}{2}$ fermions with a density-density interaction:
 
 \begin{equation}
 \mathcal{H} = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma} + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow}
 \end{equation}
 
 where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators 
-for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$. The hopping amplitude is restricted to $t_{ij} = t$ for nearest neighbors, $t_{ij}=t'$ for next-to-nearest neighbors and $0$ otherwise.
+for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$. The hopping amplitude is restricted to $t_{ij} = t$ for nearest neighbors, $t_{ij}=t'$ for next-to-nearest neighbors.
 
 
 
@@ -16,17 +16,17 @@ for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensi
 \subsection{Flow equations}
 
 
-In the following paragraph we will introduce the functional renormalization group in the implementation that we used, and we will clarify some notational issue about the vertex. 
+In the following paragraph we will introduce the functional renormalization group\cite{Metzner2012,Platt2013} in the implementation that we used, and we will clarify some notation issue about the vertex. 
 
 Generally speaking, the fRG allows to use the renormalization group idea in the functional integral formalism. 
 This is done by endowing the non-interacting propagator with an additional dependence on a scale parameter $\Lambda$, which generates an exact functional flow equation with known initial conditions. 
 
 We will apply this approach to the effective action, whose expansions into the fields generates the one-particle irreducible (1PI)  functions. By expanding the functional flow equation one obtains a hierarchy of flow equations for the 1PI functions, involving vertexes of arbitrarily  high orders. 
 We will restrict ourselves to the level-two truncation by retaining only the two lowest nonvanishing orders in the expansion, i.e., we consider the flow of the (scale dependent) self-energy $\Sigma^\Lambda$ and of the two-particle 1PI vertex $V^\Lambda$, neglecting the effects of higher order vertexes. 
-Hence our approach becomes perturbative, and sums up efficiently, although approximately, the so-called parquet-diagrams. 
+Hence our approach becomes perturbative, and sums up efficiently, although approximately, the so-called parquet-diagrams\cite{Binz2002,Binz2003,Kugler2017}. 
 
-, given a cutoff choice with $G_0^{\Lambda_0}=0$We use the energy and momentum conservation to fix one of the arguments of the arguments of the self energy and of the vertex. 
-Furthermore we restrict ourselves to the spin-symmetric phase. 
+We use the energy and momentum conservation to fix one of the arguments of the self energy and of the vertex. 
+Furthermore we restrict ourselves to the spin-symmetric phase, at finite temperature using discrete Matsubara frequencies. 
 Hence for the self-energy  we only need to consider one function depending on one frequency-momentum argument: 
 \begin{equation}
 \Sigma^\Lambda_{\sigma\sigma'}(k)=\Sigma(k)\delta_{\sigma,\sigma'}, 
@@ -34,8 +34,8 @@ Hence for the self-energy  we only need to consider one function depending on on
 where $\sigma = \{\uparrow, \downarrow\} $, and $k=(\nu,\mathbf{k})$, $\nu$ being a Matsubara frequency and $\mathbf{k}$ a momentum in the first Brillouin zone. 
 
 For the notation of the two-particle vertex we refer to Fig. (fig), where $k_i=(\nu_i,\mathbf{k_i})$,
-and $k_4=(\nu_1+\nu_2-\nu_3,\mathbf{k_1+k_2-k_3})$ can be omitted. 
-Furthermore  SU(2)-symmetry guarantees that the vertex does not vanish only for six spin combinations, pairwaise equal under spin inversion:
+and $k_4=k_1+k_2-k_3$. 
+Furthermore  SU(2)-symmetry guarantees that the vertex does not vanish only for six spin combinations\cite{Rohringer2012}:
 $
  V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} = V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
 $  V^\Lambda_{\uparrow\downarrow\uparrow\downarrow} = V^\Lambda_{\downarrow\uparrow\downarrow\uparrow}  $, and
@@ -46,13 +46,13 @@ Finally, due to SU(2) symmetry and crossing relation one has:
 V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)\\&-& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3), \\ 
 V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \end{eqnarray}
-This allows us to consider for the vertex only one function of three arguments:  $V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)=V^\Lambda(k_1,k_2,k_3)$, all the others spin components being obtained by symmetry. 
+This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)=V^\Lambda(k_1,k_2,k_3)$, all the others spin components being obtained by symmetry. 
 
 With these considerations the flow equation for the self energy reads: 
 \begin{equation}
-\frac{d}{d \Lambda} \Sigma^\Lambda(k)= -\int_q  S^\Lambda(q)\left[2V^\Lambda(k,q,q) -V^\Lambda(k,q,k)\right], 
+\frac{d}{d \Lambda} \Sigma^\Lambda(k)= -\int_p  S^\Lambda(p)\left[2V^\Lambda(k,p,p) -V^\Lambda(k,p,k)\right], 
 \end{equation}
-with $q=(\omega,\mathbf{q})$ and $k = (\nu,\mathbf{k})$ and we use the notation  $\int_{q} =T\sum_\omega \int_{\mathbf{q}}$, and $\int_{\mathbf{q}}=\int  \frac{d\mathbf{q}}{4\pi^2}$ is the normalized integral over the first Brillouin zone. 
+with $p=(\omega,\mathbf{p})$ and $k = (\nu,\mathbf{k})$. We use the notation  $\int_{p} =T\sum_\omega \int_{\mathbf{p}}$, $\int_{\mathbf{q}}=\int  \frac{d\mathbf{q}}{4\pi^2}$ being the normalized integral over the first Brillouin zone. 
 \begin{equation}
  S^\Lambda=\frac{dG^\Lambda}{d\Lambda}\Bigg|_{\Sigma=\mathrm{const}} 
 \end{equation}
@@ -64,25 +64,28 @@ The vertex flow equation can be written as:
  \frac{d}{d\Lambda}V(k1,k2,k3) =  \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
   \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + \fl{\mathcal{T}}{phc}(k_1,k_2,k_3),
 \end{align} 
-where:\footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.  }
+where:\footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref. \onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.  }
 \begin{eqnarray} 
-\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_q \fl{{P}}{}(q,k_1+k_2-q) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-q)\fl{V}{}(k_1+k_2-q,q,k_3)   \\ 
+\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{}(p,k_1+k_2-p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
+\label{eq:tpp} 
+   \\ 
 \nonumber
-&&+  \fl{V}{}(k_1,k_2,q)\fl{V}{}(q,k_1+k_2-q,k_3) \Big\} ; \\  
-\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_q \fl{P}{}(q,k_3-k_1+q)
-\Big\{ 2 \fl{V}{}( k_1,k_3-k_1+q,k_3)  \fl{V}{}(q,k_2,k_3-k_1+q) \\
+&&+  \fl{V}{}(k_1,k_2,p)\fl{V}{}(p,k_1+k_2-p,k_3) \Big\} ; \\  
+\label{eq:tph} 
+\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_p \fl{\mathcal{P}}{}(p,k_3-k_1+p)
+\Big\{ 2 \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(p,k_2,k_3-k_1+p) \\
 \nonumber
-&&- \fl{V}{}( k_1,k_3-k_1+q,q)  \fl{V}{}(q,k_2,k_3-k_1+q) - \fl{V}{}( k_1,k_3-k_1+q,k_3)  \fl{V}{}(k_2,q,k_3-k_1+q) \Big\}; \\
-\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_q \fl{P}{}(q,k_2-k_3+q) \fl{V}{}(k_1,k_2-k_3+q,q)
-\fl{V}{}(q,k_2,k_3).
+&&- \fl{V}{}( k_1,k_3-k_1+p,p)  \fl{V}{}(p,k_2,k_3-k_1+p) - \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(k_2,p,k_3-k_1+p) \Big\}; \\
+\label{eq:tphc}
+\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{}(p,k_2-k_3+p) \fl{V}{}(k_1,k_2-k_3+p,p)
+\fl{V}{}(p,k_2,k_3).
 \end{eqnarray} 
 Here we have defined the quantity:
 \begin{align}
-\fl{ {P }}{}(q,q') &= G^\Lambda(q)S^\Lambda(q') +G^\Lambda(q')S^\Lambda(q).
+\fl{ \mathcal{P }}{}(p,p') &= G^\Lambda(p)S^\Lambda(p') +G^\Lambda(p')S^\Lambda(p).
 \end{align} 
 For any cutoff choice with $G_0^{\Lambda_0}=0$ the initial condition for the self-and the vertex are, respectively, $\Sigma^{\Lambda_0}=0$ and $V^{\Lambda_0 }= U$. 
 
 
 
 
-\end{widetext} 

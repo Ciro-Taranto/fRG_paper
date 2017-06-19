@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{Hubbard1963}
+J.~{Hubbard}.
+\newblock {Electron Correlations in Narrow Energy Bands}.
+\newblock {\em Proc. R. Soc. A}, 276:238--257, November 1963.
+
+\bibitem{Metzner2012}
+W.~{Metzner}, M.~{Salmhofer}, C.~{Honerkamp}, V.~{Meden}, and
+  K.~{Sch{\"o}nhammer}.
+\newblock {Functional renormalization group approach to correlated fermion
+  systems}.
+\newblock {\em Rev. Mod. Phys.}, 84:299--352, January 2012.
+
+\bibitem{Platt2013}
+C.~Platt, W.~Hanke, and R.~Thomale.
+\newblock Functional renormalization group for multi-orbital fermi surface
+  instabilities.
+\newblock {\em Advances in Physics}, 62(4-6):453--562, 2013.
+
+\bibitem{Binz2002}
+{Binz, B.}, {Baeriswyl, D.}, and {Douçot, B.}
+\newblock Wilson's renormalization group applied to 2d lattice electrons in the
+  presence of van hove singularities.
+\newblock {\em Eur. Phys. J. B}, 25(1):69--87, 2002.
+
+\bibitem{Binz2003}
+B.~Binz, D.~Baeriswyl, and B.~Douçot.
+\newblock Weakly interacting electrons and the renormalization group.
+\newblock {\em Annalen der Physik}, 12(11-12):704--736, 2003.
+
+\bibitem{Kugler2017}
+F.~B. {Kugler} and J.~{von Delft}.
+\newblock {Multiloop functional renormalization group that sums up all parquet
+  diagrams}.
+\newblock {\em ArXiv e-prints}, March 2017.
+
+\bibitem{Rohringer2012}
+G.~{Rohringer}, A.~{Valli}, and A.~{Toschi}.
+\newblock {Local electronic correlation at the two-particle level}.
+\newblock {\em Phys. Rev. B}, 86(12):125114, September 2012.
+
+\end{thebibliography}
