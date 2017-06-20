@@ -8,7 +8,7 @@ The Hubbard model\cite{Hubbard1963} describes spin-$\frac{1}{2}$ fermions with a
 \end{equation}
 
 where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators 
-for fermions with spin $\sigma=\{\uparrow,\downarrow\}$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$. The hopping amplitude is restricted to $t_{ij} = t$ for nearest neighbors, $t_{ij}=t'$ for next-to-nearest neighbors.
+for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$ at finite temperature $T$ and in the SU(2) spin-symmetric phase. The hopping amplitude is restricted to $t_{ij} = t$ for nearest neighbors, $t_{ij}=t'$ for next-to-nearest neighbors.
 
 
 \subsection{Flow equations}
@@ -24,12 +24,12 @@ We will restrict ourselves to the two-particle level truncation by retaining onl
 This truncation restricts the applicability of the approach to the weak-to-moderate coupling regime\cite{Salmhofer2001}. 
 It can be furhter shown that, at the two-particle level trunctaion, the fRG sums up efficiently, although approximately, the so-called parquet-diagrams\cite{Binz2002,Binz2003,Kugler2017}. 
 
-Due to translational invariance, we use the energy and momentum conservation to fix one of the arguments of the self energy and of the vertex.  
+Due to translational invariance, we use the energy and momentum conservation to fix one of the arguments of the self-energy and of the vertex.  
 Due to SU(2) symmetry, for the self-energy  we only need to consider one function depending on one frequency-momentum argument: 
 \begin{equation}
 \Sigma^\Lambda_{\sigma\sigma'}(k)=\Sigma(k)\delta_{\sigma,\sigma'}, 
 \end{equation}
-where $\sigma = \{\uparrow, \downarrow\} $, and $k=(\nu,\mathbf{k})$, $\nu$ being a fermionic Matsubara frequency and $\mathbf{k}$ a momentum in the first Brillouin zone. 
+where $k=(\nu,\mathbf{k})$, $\nu$ is a fermionic Matsubara frequency and $\mathbf{k}$ a momentum in the first Brillouin zone. 
 \begin{figure}
 \includegraphics[width=0.15\textwidth]{images/VertexBox.png}
 \caption{Notation of the two-particle vertex.
@@ -37,9 +37,9 @@ where $\sigma = \{\uparrow, \downarrow\} $, and $k=(\nu,\mathbf{k})$, $\nu$ bein
 \label{fig:notvert} 
 \end{figure}
 
-For the notation of the two-particle vertex we refer to Fig. \ref{fig:notvert}, where $k_i=(\nu_i,\mathbf{k_i})$,
+For the notation of the two-particle vertex function $V_{\sigma_1,\sigma_2,\sigma_3,\sigma_4}(k_1,k_2,k_3)$ we refer to Fig.~\ref{fig:notvert}, where $k_i=(\nu_i,\mathbf{k_i})$.
 % with $i\in\{1,2,3,4\}$,
- and $k_4=k_1+k_2-k_3$. 
+ The momentum $k_4=k_1+k_2-k_3$ is fixed by the other three and does not need to be specified.  
 Furthermore  SU(2)-symmetry guarantees that the vertex does not vanish only for six spin combinations\cite{Rohringer2012}:
 $
  V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} = V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
@@ -51,7 +51,7 @@ Finally, due to SU(2) symmetry and crossing relation one has:
 V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)\\&-& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3), \\ 
 V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \end{eqnarray}
-This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)=V^\Lambda(k_1,k_2,k_3)$, all the others spin components being obtained by symmetry. 
+This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by symmetry. 
 
 With these considerations the flow equation for the self energy\cite{Metzner2012} reads: 
 \begin{equation}
@@ -66,7 +66,7 @@ with $p=(\omega,\mathbf{p})$ and $k = (\nu,\mathbf{k})$. We use the notation  $\
  \begin{widetext} 
 The vertex flow equation\cite{Metzner2012, Husemann2009} can be written as: 
 \begin{align}
- \frac{d}{d\Lambda}V(k_1,k_2,k_3) =  \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
+ \frac{d}{d\Lambda}V^\Lambda(k_1,k_2,k_3) =  \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
   \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + \fl{\mathcal{T}}{phc}(k_1,k_2,k_3),
 \end{align} 
 where:\footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref. \onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.  }

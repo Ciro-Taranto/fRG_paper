@@ -24,7 +24,9 @@ C.~{Wetterich}.
 \newblock {\em Physics Letters B}, 301:90--94, February 1993.
 
 \bibitem{Salmhofer2001}
-
+M.~{Salmhofer} and C.~{Honerkamp}.
+\newblock {Fermionic Renormalization Group Flows ---Technique and Theory---}.
+\newblock {\em Prog. Theor. Phys.}, 105:1--35, January 2001.
 
 \bibitem{Binz2002}
 {Binz, B.}, {Baeriswyl, D.}, and {Douçot, B.}
@@ -78,13 +80,6 @@ N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
 K.-U. {Giering} and M.~{Salmhofer}.
 \newblock {Self-energy flows in the two-dimensional repulsive Hubbard model}.
 \newblock {\em Phys. Rev. B}, 86(24):245122, December 2012.
-
-\bibitem{Karrasch2008a}
-C.~{Karrasch}, R.~{Hedden}, R.~{Peters}, T.~{Pruschke}, K.~{Sch{\"o}nhammer},
-  and V.~{Meden}.
-\newblock {A finite-frequency functional renormalization group approach to the
-  single impurity Anderson model}.
-\newblock {\em J. Phys.: Condens. Matter}, 20:H5205, August 2008.
 
 \bibitem{Honerkamp2004}
 C.~{Honerkamp}, D.~{Rohe}, S.~{Andergassen}, and T.~{Enss}.

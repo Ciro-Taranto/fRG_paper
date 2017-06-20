@@ -3,156 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 1472 of file refs.bib
- : 
- : //}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 2917 of file refs.bib
- : @article{Eberlein2014
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 6343 of file refs.bib
- : @article{Salmhofer2001
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7617 of file refs.bib
- : @article{Giering2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7665 of file refs.bib
- : @article{Husemann2012
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7680 of file refs.bib
- : @article{Husemann2009
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8114 of file refs.bib
- : @article{Giering2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8650 of file refs.bib
- : @article{Honerkamp2004
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8714 of file refs.bib
- : @article{Hubbard1963
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8739 of file refs.bib
- : @article{Husemann2009
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8761 of file refs.bib
- : @article{Husemann2012
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 9241 of file refs.bib
- : @article{Karrasch2008a
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 10370 of file refs.bib
- : @article{Metzner2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 10955 of file refs.bib
- : @article{Rohringer2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11243 of file refs.bib
- : @article{Salmhofer2001
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12167 of file refs.bib
- : @article{Wentzell2016
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12204 of file refs.bib
- : @article{Wetterich1993
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12517 of file refs.bib
- : @article{Giering2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12532 of file refs.bib
- : @article{Wentzell2017
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12548 of file refs.bib
- : @article{Lichtenstein2017
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12565 of file refs.bib
- : @article{Husemann2012
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12580 of file refs.bib
- : @article{Husemann2009
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12595 of file refs.bib
- : @article{Kugler2017
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12610 of file refs.bib
- : @article{ Binz2002
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12624 of file refs.bib
- : @article {Binz2003
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12641 of file refs.bib
- : @article{Platt2013
- :                   ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "endnote17"
-Warning--empty author in Salmhofer2001
-Warning--empty title in Salmhofer2001
-Warning--empty journal in Salmhofer2001
-Warning--empty year in Salmhofer2001
+Warning--I didn't find a database entry for "endnote19"
 Warning--empty journal in Wentzell2016
-You've used 18 entries,
+You've used 17 entries,
             1791 wiz_defined-function locations,
-            574 strings with 6715 characters,
-and the built_in function-call counts, 3974 in all, are:
-= -- 315
-> -- 206
+            572 strings with 6574 characters,
+and the built_in function-call counts, 3816 in all, are:
+= -- 312
+> -- 193
 < -- 0
-+ -- 76
-- -- 58
-* -- 339
-:= -- 665
-add.period$ -- 52
-call.type$ -- 18
++ -- 71
+- -- 54
+* -- 317
+:= -- 645
+add.period$ -- 51
+call.type$ -- 17
 change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 158
-empty$ -- 377
-format.name$ -- 58
-if$ -- 845
+cite$ -- 18
+duplicate$ -- 150
+empty$ -- 362
+format.name$ -- 54
+if$ -- 818
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 18
-newline$ -- 91
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 88
 num.names$ -- 17
-pop$ -- 33
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 59
+skip$ -- 54
 stack$ -- 0
-substring$ -- 268
+substring$ -- 265
 swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
+warning$ -- 1
 while$ -- 32
-width$ -- 20
-write$ -- 189
-(There were 26 error messages)
+width$ -- 19
+write$ -- 185
+(There were 2 warnings)

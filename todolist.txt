@@ -1,0 +1,1 @@
+- decidere se specificare meglio a riguardo componenti density e magnetica, e singlet triplet, Bethe-Salpeter in appendice; (perpendicular ladder)- Check that the equations coincide with the equations of Husemann after a spin change; 
