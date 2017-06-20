@@ -8,8 +8,6 @@
 %If not specify otherwise, we use capital letters for bosonic frequency transfer opposite to fermionic ones.
 
 In order to deal with the frequency and momentum dependence of the vertex, we start by decomposing the vertex as follows:
-
-
 \begin{align}
 \ve^{\Lambda}(k_1,k_2,k_3) = U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3) + \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)
  + \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
@@ -25,14 +23,10 @@ where the physical meaning of each $\phi$ channel will be understood by the stru
 \dot{\phi}_{\mathrm{m}}^{\Lambda}(Q;k_1,k_2) &= \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1), 
 \end{align}
 where $Q=(\Omega,\bs{Q})$ is a frequency and momentum transfer. 
-%It should be emphasized that each channel can be associated with a possible instabily of the 
-%system. $\phi_{\mathrm{p}}$ is associated to pairing instabilities, $\phi_{\mathrm{m}}$ to magnetic instabilities and $\phi_{\mathrm{c}}$ to charge instabilities.
 
-%We project each channel into a form factor decomposition, starting from the pairing channel:
 Following Refs. \onlinecite{Husemann2009,Husemann2012}, we address first the momentum dependence. To this end, we introduce a decomposition of the 
 unity by means of a set of orthonormal form factors for the two fermionic momenta $\{f_{l}(\bs{k})\}$ obeying 
 the completeness relation:
-
 \begin{equation}
  \int_{\bs{k}}  f_{l}(\bs{k}) f_{m}(\bs{k}) = \delta_{l,m}.
 \end{equation}
@@ -116,11 +110,17 @@ L^{\Omega;\nu_1,\nu_2}_{\bs{Q}}&=&U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} \\
 \end{eqnarray}	 
 Let us notice that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
 
-After this decomposition, the evaluation of vertex-flow equation, depending on three momenta and three momenta is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{S}$, $\mathcal{C}$, $\mathcal{M}$ each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we needed to discretize the momentum dependence on patches covering the Brillouin zone and to truncate the frequency dependence to some maximal frequency value. More details about this are given in the Appendix. Here let us stress, however, that an approximation on the momentum space using a form factor decomposition gave us results much more controllable than a similar approximation\cite{Karrasch2008a} in frequency space. 
-In fact the results obtained with this latter approximation turned out to depend sensitively on the way the projection was performed, and hence we discarded it, as we will discuss later. 
+After this decomposition, the evaluation of vertex-flow equation, depending on six arguments, is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$, $\mathcal{M}$ 
+each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we needed to discretize the momentum 
+dependence on patches covering the Brillouin zone and to truncate the frequency dependence to some maximal frequency value. More details about this are given in the Appendix. 
 
-\subsection{Cutoff choice}
-To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator, often referred to as \textit{cutoff}, in connection to the scale-separation of the renormalization group. 
+Here let us stress, however, that an other approximation for the vertex function can be choosen, for instance approximating the frequency space with a single exchange bosonic frequency 
+while keeping the dependence of all three momenta. We noted that, while the truncation of form factor expansion is well defined, in the case of single frequency approximation, the 
+flow still depends on the two remaining frequencies, whose choice affects quantitatively and qualitatively the results.
+
+
+\subsection{Cutoff scheme}
+To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator, often referred to as \textit{cutoff scheme}, in connection to the scale-separation of the renormalization group. 
 In the rest of the paper we have used two different cutoffs. 
  
  For most our calculations we have used the \textit{Interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}: 
@@ -135,7 +135,7 @@ G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} -\mu^\Lambda-\Lambda\
 \end{equation} 
 We have introduced a $\Lambda$-dependent chemical potential to maintain the occupation fixed during the flow:  the chemical potential becomes a functional of the flowing self-energy: $\mu^\Lambda=\mu[\Sigma^\Lambda]$, whose value is found by solving the equation:  
 \begin{equation}
-n = \int_p e^{i\omega 0^{+}} \frac{G^\Lambda(p)}{\Lambda}. 
+n = n^{\Lambda} \equiv \int_k \frac{e^{i\nu 0^{+}}} {i\nu - \varepsilon_{\bs{k}} -\mu^\Lambda-\Lambda\Sigma^\Lambda(k)}. 
 \end{equation}  
 
 The main advantage of the interaction cutoff is that  the $\Lambda$-dependent action can be interpreted\cite{Honerkamp2004} as the physical action of the system with rescaled interaction $\tilde{U}^\Lambda = \Lambda^2 U$.
