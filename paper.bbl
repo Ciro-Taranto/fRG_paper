@@ -76,10 +76,19 @@ N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
   parametrization and algorithmic implementation}.
 \newblock {\em ArXiv e-prints}, October 2016.
 
-\bibitem{Giering2012}
-K.-U. {Giering} and M.~{Salmhofer}.
-\newblock {Self-energy flows in the two-dimensional repulsive Hubbard model}.
-\newblock {\em Phys. Rev. B}, 86(24):245122, December 2012.
+\bibitem{Karrasch2008a}
+C.~{Karrasch}, R.~{Hedden}, R.~{Peters}, T.~{Pruschke}, K.~{Sch{\"o}nhammer},
+  and V.~{Meden}.
+\newblock {A finite-frequency functional renormalization group approach to the
+  single impurity Anderson model}.
+\newblock {\em J. Phys.: Condens. Matter}, 20:H5205, August 2008.
+
+\bibitem{Taranto2014}
+C.~{Taranto}, S.~{Andergassen}, J.~{Bauer}, K.~{Held}, A.~{Katanin},
+  W.~{Metzner}, G.~{Rohringer}, and A.~{Toschi}.
+\newblock {From Infinite to Two Dimensions through the Functional
+  Renormalization Group}.
+\newblock {\em Phys. Rev. Lett.}, 112(19):196402, May 2014.
 
 \bibitem{Honerkamp2004}
 C.~{Honerkamp}, D.~{Rohe}, S.~{Andergassen}, and T.~{Enss}.
