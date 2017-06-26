@@ -23,11 +23,11 @@ Substituting Eq.~(\ref{eq:decomposition}) in Eq.~(\ref{eq:vertflow}) we obtain:
 \end{eqnarray} 
 \end{widetext}
 We associate the momentum transfer argument of $\mathcal{P}^\Lambda$ in Eqns.~(\ref{eq:tpp}-\ref{eq:tphc}) to the momentum transfer argument of the $\phi_{\mathrm{x}}$ on the right hand side of Eq. \ref{eq:decomposition}.
-This way, it is easy to attribute $\fl{\mathcal{T}}{pp}$ to the flow equation of the only function in Eq. (\ref{eq:decot}) that depends explicitly on $k_1+k_2$, $\dot\phi_{\mathrm{p}}^\Lambda$. 
-The same is true for the particle hole crossed channel $\fl{\mathcal{T}}{phc}$ with $\dot\phi_{\mathrm{m}}^\Lambda$, while the particle-hole $\fl{\mathcal{T}}{ph}$ is associated to the third and fourth term on the left hand side of Eq.~(\ref{eq:decot}), $\frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) $.  
+This way, it is easy to attribute $\fl{\mathcal{T}}{pp}$ to the flow equation of the only function in Eq. (\ref{eq:decot}) that depends explicitly on $k_1+k_2$: $-\dot\phi_{\mathrm{p}}^\Lambda=\fl{\mathcal{T}}{pp}$. 
+The same is true for the particle hole crossed channel: $\fl{\mathcal{T}}{phc}=\dot\phi_{\mathrm{m}}^\Lambda$.  We associate to the particle-hole diagram the third and fourth term on the left hand side of Eq.~(\ref{eq:decot}): $\fl{\mathcal{T}}{ph}(k_1,k_2,k_3)=\frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) $.  
 %The flow equation of the full vertex is then distributed to the $\phi$-channels. 
 %$\phi$ channels are defined by their respictive flow equations:
-The flow equations for $\phi$ then read: 
+Hence the flow equations for $\phi$ then read: 
 \begin{align}
 \dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
 \nonumber 
@@ -100,18 +100,17 @@ The flow equations for the channels $\mathcal{S}$,  $\mathcal{D}$, $\mathcal{C}$
 The final equations are then obtained by substituting the decomposition (\ref{eq:decomposition}) into the equations above, and using trigonometric equalities.
 As an example we report here the equation for the magnetic channel, while the expression for the other channels are reported in the Appendix: 
 \begin{equation}
-\dot{\mathcal{M}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu} L^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\bs{Q}}^{\Omega,\nu} L^{\Omega; \nu,\nu_2-\Omega}_{\mathbf{Q}}, 
+\dot{\mathcal{M}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu}{L_\mathrm{m}}^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\bs{Q}}^{\Omega,\nu} {L_\mathrm{m}}^{\Omega; \nu,\nu_2-\Omega}_{\mathbf{Q}}, 
 \end{equation} 	   
 with: 
 \begin{equation}
-P_{\bs{Q}}^{\Omega;\nu} = \int_{\bs{p}}  G^\Lambda_{\bs{p}}(\omega)S^\Lambda_{\bs{Q}+\bs{p}}
-(\Omega+\omega) +G^\Lambda_{\bs{Q}+\bs{p}}(\Omega+\omega)
-S^\Lambda_{\bs{p}} (\omega), 
+P_{\bs{Q}}^{\Omega;\omega} = \int_{\bs{p}}  G^\Lambda_{\bs{p},\omega}S^\Lambda_{\bs{Q}+\bs{p},\Omega+\omega} +G^\Lambda_{\bs{Q}+\bs{p},\Omega+\omega}
+S^\Lambda_{\bs{p},\omega}, 
 \end{equation} 
 and: 
 \begin{eqnarray} 
 \nonumber
-L^{\Omega;\nu_1,\nu_2}_{\bs{Q}}&=&U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} \\
+{L_\mathrm{m}}^{\Omega;\nu_1,\nu_2}_{\bs{Q}}&=&U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} \\
 \nonumber 
 &+& \int_{\bs{p}} \Big \{- \mathcal{S}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_1+\Omega}  
  \\
