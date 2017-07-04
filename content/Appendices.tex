@@ -1,1 +1,77 @@
-Appendices...
+\subsection{Flow equations}
+
+For practical reason, from now on, we omit the esplicit $\Lambda$ dependencies.
+The flow equation for the $\mathcal{S}$ channel read:
+\begin{equation}
+\dot{\mathcal{S}}_\bs{Q}^{\Omega;\nu_1,\nu_3} = 
+  \frac{1}{2} \sum_{\nu}{L_\mathrm{s}}^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{s},\bs{Q}}^{\Omega,\nu} {L_\mathrm{s}}^{\Omega; \nu,\Omega-\nu_3}_{\mathbf{Q}} 
++ \frac{1}{2} \sum_{\nu}{L_\mathrm{s}}^{\Omega; \Omega-\nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{s},\bs{Q}}^{\Omega,\nu} {L_\mathrm{s}}^{\Omega; \nu,\nu_3}_{\mathbf{Q}},
+\end{equation} 	   
+with: 
+\begin{equation}
+P_{\bs{Q}}^{\Omega;\omega} = \int_{\bs{p}}  G_{\bs{p},\omega}S_{\bs{Q}-\bs{p},\Omega-\omega} +G_{\bs{Q}-\bs{p},\Omega-\omega}
+S_{\bs{p},\omega}, 
+\label{eq:app:P_pp}
+\end{equation} 
+and: 
+\begin{align} 
+{L_\mathrm{s}}^{\Omega;\nu_1,\nu_3}_{\bs{Q}}=U-\mathcal{S}_{\bs{Q}}^{\Omega;\nu_1,\nu_3}
++ \int_{\bs{p}}  \Big[ \mathcal{M}_{\bs{p}}^{\nu_3-\nu_1;\nu_1,\Omega-\nu_1} + \frac{1}{2} \mathcal{M}_{\bs{p}}^{\Omega-\nu_1-\nu_3;\nu_1,\Omega-\nu_1} - \frac{1}{2} \mathcal{C}_{\bs{p}}^{\Omega-\nu_1-\nu_3;\nu_1,\Omega-\nu_1} \Big]. 
+\end{align}	 
+
+The flow for the $\mathcal{D}$ channel read:
+\begin{equation}
+\dot{\mathcal{D}}_\bs{Q}^{\Omega;\nu_1,\nu_3} = 
+  \frac{1}{2} \sum_{\nu}{L_\mathrm{d}}^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{d},\bs{Q}}^{\Omega,\nu} {L_\mathrm{d}}^{\Omega; \nu,\Omega-\nu_3}_{\mathbf{Q}} 
++ \frac{1}{2} \sum_{\nu}{L_\mathrm{d}}^{\Omega; \Omega-\nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{d},\bs{Q}}^{\Omega,\nu} {L_\mathrm{d}}^{\Omega; \nu,\nu_3}_{\mathbf{Q}},
+\end{equation}
+with: 
+\begin{equation}
+P_{\mathrm{d},\bs{Q}}^{\Omega;\omega} = \int_{\bs{p}}  f_{\mathrm{d}}\left(\frac{\bs{Q}}{2}-\bs{p}\right)^2 \left[ G_{\bs{p},\omega}S_{\bs{Q}-\bs{p},\Omega-\omega} +G_{\bs{Q}-\bs{p},\Omega-\omega}
+S_{\bs{p},\omega} \right], 
+\label{eq:app:P_pp}
+\end{equation} 
+and: 
+\begin{align} 
+{L_\mathrm{d}}^{\Omega;\nu_1,\nu_3}_{\bs{Q}}=-\mathcal{D}_{\bs{Q}}^{\Omega;\nu_1,\nu_3} 
++ \frac{1}{2}\int_{\bs{p}} \left(\cos{p_x}+\cos{p_y}\right) \Big[ \mathcal{M}_{\bs{p}}^{\nu_3-\nu_1;\nu_1,\Omega-\nu_1} + \frac{1}{2} \mathcal{M}_{\bs{p}}^{\Omega-\nu_1-\nu_3;\nu_1,\Omega-\nu_1} - \frac{1}{2} \mathcal{C}_{\bs{p}}^{\Omega-\nu_1-\nu_3;\nu_1,\Omega-\nu_1} \Big].
+\end{align}	 
+
+The flow for the $\mathcal{C}$ channel read:
+\begin{equation}
+\dot{\mathcal{C}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu}{L_\mathrm{c}}^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{c},\bs{Q}}^{\Omega,\nu} {L_\mathrm{c}}^{\Omega; \nu,\nu_2-\Omega}_{\mathbf{Q}}, 
+\end{equation} 	   
+with: 
+\begin{equation}
+P_{\mathrm{c},\bs{Q}}^{\Omega;\omega} = \int_{\bs{p}}  G_{\bs{p},\omega}S_{\bs{Q}+\bs{p},\Omega+\omega} +G_{\bs{Q}+\bs{p},\Omega+\omega}
+S_{\bs{p},\omega},
+\end{equation} 
+and: 
+\begin{align} 
+{L_\mathrm{c}}^{\Omega;\nu_1,\nu_2}_{\bs{Q}}=U-&\mathcal{C}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} 
++ \int_{\bs{p}} \Big [
+- 2 \mathcal{S}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_2-\Omega} + \mathcal{S}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\Omega+\nu_1}
+\\ &+ \left( \mathcal{D}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_2-\Omega} -\frac{1}{2} \mathcal{D}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\Omega+\nu_1} \right) [\cos(Q_x)+\cos(Q_y)]
+\\ &+ \frac{3}{2} \mathcal{M}_{\bs{p}}^{\nu_2-\nu_1-\Omega;\nu_1,\nu_2} 
++ \frac{1}{2} \mathcal{C}_{\bs{p}}^{\nu_2-\nu_1-\Omega;\nu_1,\nu_2} \Big].
+\end{align}	 
+
+The flow for the $\mathcal{M}$ channel read:
+\begin{equation}
+\dot{\mathcal{M}}_\bs{Q}^{\Omega;\nu_1,\nu_2} = \sum_{\nu}{L_\mathrm{m}}^{\Omega; \nu_1,\nu}_{\mathbf{Q}} P_{\mathrm{m},\bs{Q}}^{\Omega,\nu} {L_\mathrm{m}}^{\Omega; \nu,\nu_2-\Omega}_{\mathbf{Q}}, 
+\end{equation} 	   
+with: 
+\begin{equation}
+P_{\mathrm{m},\bs{Q}}^{\Omega;\omega} = \int_{\bs{p}}  G_{\bs{p},\omega}S_{\bs{Q}+\bs{p},\Omega+\omega} +G_{\bs{Q}+\bs{p},\Omega+\omega}
+S_{\bs{p},\omega},
+\end{equation} 
+and: 
+\begin{align} 
+{L_\mathrm{m}}^{\Omega;\nu_1,\nu_2}_{\bs{Q}}=U+\mathcal{M}_{\bs{Q}}^{\Omega;\nu_1,\nu_2} 
++ \int_{\bs{p}} \Big \{& - \mathcal{S}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_1+\Omega}  
+-\frac{1}{2} \mathcal{D}_{\bs{p}}^{\nu_1+\nu_2;\nu_1,\nu_1+\Omega}
+[\cos(Q_x)+\cos(Q_y)] + \\
+&\frac{1}{2} \Big[  \mathcal{M}_{\bs{p}}^{\nu_2-\nu_1-\Omega; \nu_1,\nu_2} 
+- \mathcal{C}_{\bs{p}}^{\nu_2-\nu_1-\Omega,\nu_1,\nu_2} \Big] 
+\Big \} 
+\end{align}	 
