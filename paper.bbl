@@ -108,4 +108,16 @@ A.~{Eberlein}.
   fermions: Method and application to the attractive Hubbard model}.
 \newblock {\em Phys. Rev. B}, 90(11):115125, September 2014.
 
+\bibitem{Mermin1966}
+N.~D. Mermin and H.~Wagner.
+\newblock Absence of ferromagnetism or antiferromagnetism in one- or
+  two-dimensional isotropic heisenberg models.
+\newblock {\em Phys. Rev. Lett.}, 17:1133--1136, Nov 1966.
+
+\bibitem{Baier2004}
+Tobias Baier, Eike Bick, and Christof Wetterich.
+\newblock Temperature dependence of antiferromagnetic order in the hubbard
+  model.
+\newblock {\em Phys. Rev. B}, 70:125111, Sep 2004.
+
 \end{thebibliography}
