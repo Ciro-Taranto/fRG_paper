@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  5 JUL 2017 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  5 JUL 2017 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,34 +517,58 @@ Package natbib Warning: Citation `Husemann2009' on page 5 undefined on input li
 ne 62.
 
 
-LaTeX Warning: Reference `fig:freqplot' on page 5 undefined on input line 63.
+LaTeX Warning: Reference `fig:freqplot' on page 5 undefined on input line 64.
 
-<images/Phi_color.png, id=39, 433.62pt x 289.08pt>
+
+LaTeX Warning: Reference `fig:criscale' on page 5 undefined on input line 66.
+
+
+LaTeX Warning: Reference `fig:chargeproblem' on page 5 undefined on input line 
+70.
+
+[5 <./images/criscale.png>] <images/Phi_color.png, id=48, 433.62pt x 289.08pt>
 File: images/Phi_color.png Graphic file (type png)
- <use images/Phi_color.png>
-Package pdftex.def Info: images/Phi_color.png used on input line 66.
-(pdftex.def)             Requested size: 433.50311pt x 289.01752pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 73.
 
-(/usr/share/texmf/tex/latex/base/omscmr.fd
+<use images/Phi_color.png>
+Package pdftex.def Info: images/Phi_color.png used on input line 78.
+(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
+
+
+LaTeX Warning: Reference `fig:criscale' on page 6 undefined on input line 82.
+
+
+LaTeX Warning: Reference `fig:criscale' on page 6 undefined on input line 82.
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 82--82
+[]\T1/cmr/m/n/9 Figure 3: Fre-quency struc-ture of the charge chan-nel
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 82--82
+\OMS/cmsy/m/n/9 C[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 ^^W[]; ^^W[]\OT1/cmr/m/n/9 )
+$ \T1/cmr/m/n/9 (on the left) and of the mag-netic chan-nel
+ []
+
+<images/chargeproblem.png, id=49, 433.62pt x 289.08pt>
+File: images/chargeproblem.png Graphic file (type png)
+
+<use images/chargeproblem.png>
+Package pdftex.def Info: images/chargeproblem.png used on input line 86.
+(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+ (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
- [5 <./images/criscale.png>])
-(./content/Conclusions.tex) (./content/Appendices.tex [6 <./images/Phi_color.pn
-g>]) (./paper.bbl
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+)
+(./content/Conclusions.tex) [6 <./images/Phi_color.png> <./images/chargeproblem
+.png>] (./content/Appendices.tex [7]) (./paper.bbl
 
-LaTeX Warning: Reference `LastBibItem' on page 7 undefined on input line 1.
-
-
-Overfull \vbox (60.48167pt too high) has occurred while \output is active []
+LaTeX Warning: Reference `LastBibItem' on page 8 undefined on input line 1.
 
 
-Overfull \vbox (60.48167pt too high) has occurred while \output is active []
-
-
-[7]
 Underfull \hbox (badness 5119) in paragraph at lines 60--64
  []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
  []
@@ -586,40 +610,42 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 4547 strings out of 493091
- 57409 string characters out of 6142993
- 153995 words of memory out of 5000000
- 7919 multiletter control sequences out of 15000+600000
+ 4550 strings out of 493091
+ 57528 string characters out of 6142993
+ 157995 words of memory out of 5000000
+ 7921 multiletter control sequences out of 15000+600000
  20526 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,26p,614b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,26p,754b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/bbold-type1/bbold10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.
-pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-mf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9
-.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/t
-exmf/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texmf/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/c
-m/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
-e/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/
-texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0700.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx120
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (8 pages, 566571 bytes).
+/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx6.
+pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6
+.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+mf/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/publi
+c/amsfonts/cm/cmmib10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cmextra
+/cmmib7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
+are/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx090
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.
+pfb>
+Output written on paper.pdf (8 pages, 602772 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

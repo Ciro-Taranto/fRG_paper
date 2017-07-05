@@ -60,7 +60,7 @@ The region of commensurate antiferromagnetism for $1-n$ between $0.125$ and $0.1
 Under these conditions the details of the commensurabilty vector might depdend sensitively on the choice of the patching.
 The most striking feature is the presence of a divergence of the charge channel $\mathcal{C}^\Lambda$ for larger values of doping. 
 This feature was already observed by Husemmann et al \onlinecite{Husemann2009}, and was named \textit{forward scattering instability}. 
-However the charge channel $\mathcal{C}^\Lambda$ diverges for a finite frequency transfer $\Omega=2\pi/\beta$, which makes the interpetation of the divergence in terms of a physical instability not trivial, and is not clear if this feature is an artefact of the method. 
+However the charge channel $\mathcal{C}^\Lamdba$ diverges for a finite frequency transfer $\Omega=2\pi/\beta$, which makes the interpetation of the divergence in terms of a physical instability not trivial, and is not clear if this feature is an artefact of the method. 
 The frequency structure of the divergent charge channel $\mathcal{C}^\Lambda$, together with the one of the magnetic channel $\mathcal{M}^\Lambda$ is shown in Fig. \ref{fig:freqplot}, and will be discussed further in paragraph \textbf{addpara}.
 
 Including the self-energy feedback results in three effects, as can be seen from Fig. \ref{fig:criscale}. 
