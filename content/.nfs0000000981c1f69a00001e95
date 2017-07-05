@@ -62,11 +62,13 @@ The most striking feature is the presence of a divergence of the charge channel 
 This feature was already observed by Husemmann et al \onlinecite{Husemann2009}, and was named \textit{forward scattering instability}. 
 The frequency of the divergent charge channel $\mathcal{C}^\Lambda$, together with the more standard frquency structure of the magnetic channel $\mathcal{M}^\Lambda$ is shown in Fig. \ref{fig:freqplot}. 
 
+\begin{widetext}
 \begin{figure*}
-\includegraphics[width=0.65\textwidth]{images/Phi_color.png}
+\includegraphics[width=0.85\textwidth]{images/Phi_color.png}
 \caption{Placeholder  }  
 \label{fig:freqplot} 
-\end{figure*}
+\end{figure}
+\end{widetext}
 
 
 \begin{itemize}
