@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  4 JUL 2017 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  4 JUL 2017 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,6 +301,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 \T1/cmr/m/n/10 is the single-scale prop-a-ga-tor and $[][] \OT1/cmr/m/n/10 =
  []
 
+
+Package natbib Warning: Citation `endnote19' on page 2 undefined on input line 
+84.
+
 \@endnoteout=\write3
 \openout3 = `paper.end'.
 
@@ -308,16 +312,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 LaTeX Font Info:    Try loading font information for U+bbold on input line 144.
 
 
-(/usr/share/texmf/tex/latex/bbold/Ubbold.fd)) (./content/Results.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+(/usr/share/texmf/tex/latex/bbold/Ubbold.fd)) (./content/Results.tex [4]
+<images/criscale.png, id=37, 433.62pt x 289.08pt>
+File: images/criscale.png Graphic file (type png)
+ <use images/criscale.png>
+Package pdftex.def Info: images/criscale.png used on input line 39.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
+Overfull \hbox (9.0pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:phasediagram' on page 5 undefined on input line 4
+3.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [4]) (./content/Conclusions.tex)
-(./content/Appendices.tex [5]) (./paper.bbl [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+) (./content/Conclusions.tex)
+(./content/Appendices.tex [5 <./images/criscale.png>]) (./paper.bbl [6]
 Underfull \hbox (badness 5345) in paragraph at lines 60--64
  []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
  []
@@ -327,17 +344,29 @@ Underfull \hbox (badness 7116) in paragraph at lines 73--78
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-(./paper.end)) [7] (./paper.aux)
+(./paper.end))
+
+Package natbib Warning: There were undefined citations.
+
+[7] (./paper.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4524 strings out of 493091
- 57047 string characters out of 6142993
- 151612 words of memory out of 5000000
- 7901 multiletter control sequences out of 15000+600000
- 18188 words of font info for 50 fonts, out of 8000000 for 9000
+ 4535 strings out of 493091
+ 57229 string characters out of 6142993
+ 158626 words of memory out of 5000000
+ 7909 multiletter control sequences out of 15000+600000
+ 19745 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,27p,616b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
@@ -354,18 +383,19 @@ e/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/p
 ublic/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/
 texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx09
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000
-.pfb>
-Output written on paper.pdf (7 pages, 389220 bytes).
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx07
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm060
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on paper.pdf (7 pages, 508181 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 150 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

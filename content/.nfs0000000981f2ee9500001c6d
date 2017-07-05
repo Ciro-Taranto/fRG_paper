@@ -36,42 +36,12 @@ The fRG flow equations are often to used to perform an instability analysis of t
 for some value of the cutoff $\Lambda$ some of the channels show a divergence. 
 The cutoff scale $\Lambda_{\mathrm{c}} $ for which this happens is called \textit{critical scale}, and the channel that diverges one can evince the leading instability of the system. 
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{images/criscale.png}
-\caption{Critical scale $1-\Lambda_{\mathrm{c}}$ as a function of the doping $1-n$, for $T = 0.08t$, $t'=-0.32t$ and $U=4t$. 
-Square symbols and circles refer to incommensurate antiferromagnetism (iAF), respectively without and with self-energy feedback.
-The black stars refer to a divergence in the charge channel (forward scattering). 
-The color of squares and circles encodes distance of the incommensurability vector from $(\pi,\pi)$: darker color corresponds to higher incommensurability. }  
-\label{fig:criscale} 
+\includegraphics[width=0.2\textwidth]{images/criscale.png}
+\caption{\textbf{placeholder}}  
+\label{fig:criscalet} 
 \end{figure}
-In Fig. \ref{fig:criscale} we show the critical scale $\Lambda_{\mathrm{c}}$ as a function of the doping $1-n$ with and without self-energy feedback,  for $T=0.08t$, $t'=-0.32t$ and  $U=4t$.
-The critical value has been defined as the scale for which the value of  the larger channels exceeds $200t$. 
-We have checked that for these stopping values the flow of the largest channel becomes to increase stronger than exponentially. These results are also consistent with an instability analysis based on the susceptibilities.        
-
-The presence of the divergence signals a symmetry breaking at finite temperature, not compatible with the Mermin-Wagner theorem\cite{Mermin1966} since in our truncation-scheme we do not include the bosonic-fluctuations of the order parameter\cite{Baier2004}, essetial to obtain a vanishing critical temperature. 
-The presence of a finite critical scale in the pure fermionic fRG signals the appearance of strong bosonic fluctuations that cannot be treated within the framework we are using. 
-Even though the flow cannot be continued beyond the critical scale, from the analysis of vertex and self-energy at this scale we can identify the fluctuations that dominate the physics at low temperature.
-
-In the specific case of the interaction cutoff we can interprete the rescaled interaction $\tilde U^{\Lambda_\mathrm{c}}$ as the critical interaction at a given temperature.
-
-For the parameter set shown in Fig. \ref{fig:criscale} and without self-energy feedback, there are two possible instabies. 
-For a doping smaller than $0.35$ the leading fluctations of the system are either commensurate antiferromagnetic or incommensurate antiferromagnetic. 
-The incommensurability vector defined as $\mathbf{Q}=(\pi,\pi-\delta)$ corresponds to the momentum value for which the magnetic channel $\mathcal{M}^\Lambda$ has its maximum. The value of $\delta$ is encoded in the color of the symbols, where a darker color corresponds to a larger $\delta$, reaching the value of $\delta=1.13$ betwen $1-n=0.25$ and $1-n=0.35$. 
-The region of commensurate antiferromagnetism for $1-n$ between $0.125$ and $0.150$ has to be attributed to the presence of a large plateu around $(\pi,\pi)$ in the bare bubble, which is reflected in a plateau of $\mathcal{M}^\Lambda$. 
-Under these conditions the details of the commensurabilty vector might depdend sensitively on the choice of the patching.
-The most striking feature is the presence of a divergence of the charge channel $\mathcal{C}^\Lambda$ for larger values of doping. 
-This feature was already observed by Husemmann et al \onlinecite{Husemann2009}, and was named \textit{forward scattering instability}. 
-The frequency of the divergent charge channel $\mathcal{C}^\Lambda$, together with the more standard frquency structure of the magnetic channel $\mathcal{M}^\Lambda$ is shown in Fig. \ref{fig:freqplot}. 
-
-
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{images/}
-\caption{Critical scale $1-\Lambda_{\mathrm{c}}$ as a function of the doping $1-n$, for $T = 0.08t$, $t'=-0.32t$ and $U=4t$. 
-Square symbols and circles refer to incommensurate antiferromagnetism (iAF), respectively without and with self-energy feedback.
-The black stars refer to a divergence in the charge channel (forward scattering). 
-The color of squares and circles encodes distance of the incommensurability vector from $(\pi,\pi)$: darker color corresponds to higher incommensurability. }  
-\label{fig:criscale} 
-\end{figure}
-
+In Fig. \ref{fig:phasediagram} we show the critical scale $\Lambda_\mathrm{c}}$ as a function of the doping $\delta=1-n$ with and without self-energy feedback,  for $T=0.08t$, $t'=-0.32t$ and  $U=4t$.
+The critical value has been defined as the scale for which the value of  the larger channels exceeds $400t$. This choice is motivated by the      
 
 \begin{itemize}
 \item interpretazione scala divergenza
