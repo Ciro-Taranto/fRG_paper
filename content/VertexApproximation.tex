@@ -13,6 +13,7 @@ In order to deal with the frequency and momentum dependence of the vertex, we st
  + \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
  \label{eq:decomposition}
 \end{align}
+where we introduced the pairing channel $\phi_{\mathrm{p}}$, the magnetic channel $\phi_{\mathrm{m}}$ and the charge channel $\phi_{\mathrm{c}}$.
 Substituting Eq.~(\ref{eq:decomposition}) in Eq.~(\ref{eq:vertflow}) we obtain: 
 \begin{eqnarray}
 \nonumber
@@ -32,7 +33,7 @@ Hence the flow equations for $\phi$ then read:
 \dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
 \nonumber 
 \dot{\phi}_{\mathrm{c}}^{\Lambda}(Q;k_1,k_2) &= 
- -2\mathcal{T}^{\Lambda}_{\mathrm{ph}}(k_1,k_2,Q+k_1) +\\
+ -2\mathcal{T}^{\Lambda}_{\mathrm{ph}}(k_1,k_2,k_2-Q) +\\
 &\phantom{=}
 \phantom{2}\mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1) , \\
 \dot{\phi}_{\mathrm{m}}^{\Lambda}(Q;k_1,k_2) &= \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1), 
@@ -41,16 +42,16 @@ where $Q=(\Omega,\bs{Q})$ is a frequency and momentum transfer.
  
 %\end{widetext}
 
-Following Refs. \onlinecite{Husemann2009,Husemann2012}, we address first the momentum dependence. To this end, we introduce a decomposition of the 
+Following Refs. \onlinecite{Husemann2009,Husemann2012}, we address first the momentum dependence. To this end, we introduce a decomposition of 
 unity by means of a set of orthonormal form factors for the two fermionic momenta $\{f_{l}(\bs{k})\}$ obeying 
-the completeness relation:
+the completeness relation\cite{Lichtenstein2017}:
 \begin{equation}
  \int_{\bs{k}}  f_{l}(\bs{k}) f_{m}(\bs{k}) = \delta_{l,m}.
 \end{equation}
 The procedure outlined here is described in detail, e.g., in Ref. \onlinecite{Lichtenstein2017}.
 
 We can then project each channel on a subset of form factors, whose choice is physically motivated\cite{Husemann2009}. 
-Let us stress that the if one could keep all the  form factors the expansion would be exact.
+Let us stress that if one could keep all the  form factors the expansion would be exact.
 
 For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k_x} - \cos{k_y}$:
 \begin{align}
@@ -71,7 +72,7 @@ the $\Lambda$-dependencies of the channel functions $\mathcal{S}$, $\mathcal{D}$
 
 Let us stress that for each channel in Eq.~(\ref{eq:decomposition}) we have defined \textit{its own} frequency notation, consisting of one transfer frequency in the specific channel 
 and two remaining independent fermionic frequencies. 
- At finite temperature these frequency transfer is a bosonic Matsubara frequency.
+ At finite temperature the frequency transfer is a bosonic Matsubara frequency.
  
  The choice of the mixed notation is the most natural\cite{Wentzell2017} since the transferred momentum and 
 frequency play a special role in the diagrammatics.
@@ -122,11 +123,11 @@ and:
 - \mathcal{C}_{\bs{p}}^{\nu_2-\nu_1-\Omega,\nu_1,\nu_2} \Big] 
 \Big \} 
 \end{eqnarray}	 
-Let us notice that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
+Note that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
 
-After this decomposition, the evaluation of vertex-flow equation, depending on six arguments, is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$, $\mathcal{M}$ 
-each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we needed to discretize the momentum 
-dependence on patches covering the Brillouin zone and to truncate the frequency dependence to some maximal frequency value. More details about this are given in the Appendix. 
+After this decomposition, the evaluation of the vertex-flow equation, depending on six arguments, is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$, $\mathcal{M}$ 
+each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we discretize the momentum 
+dependence on patches covering the Brillouin zone and truncate the frequency dependence to some maximal frequency value. More details about this are given in the Appendix. 
 
 Let us stress that, while the form-factor projection procedure is well defined in momentum space, a similar approximation for the frequency, i.e., reducing the vertex frequency dependence to a frequency transfer only\cite{Karrasch2008a,Husemann2012,Taranto2014}, is more problematic.
 Indeed this projection in frequency space requires that the two remaining frequencies are chosen arbitrarily. 
@@ -134,21 +135,21 @@ This choice affects quantitatively and qualitatively the results, for reasons th
 
 \subsection{Cutoff scheme}
 To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator $G_0^\Lambda$, often referred to as \textit{cutoff scheme}, in connection to the scale-separation of the renormalization group. 
-In the rest of the paper we have used two different cutoffs. 
+We have used two different cutoffs. 
 
-For most our calculations we have used the \textit{Interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}: 
+For most our calculations we have used the \textit{interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}: 
  \begin{equation}
- G_0^\Lambda(k) = \Lambda G_0(k)=\frac{\Lambda}{i\nu-\mu-\varepsilon_{\mathbf{k}} } , 
+ G_0^\Lambda(k) = \Lambda G_0(k)=\frac{\Lambda}{i\nu+\mu-\varepsilon_{\mathbf{k}} } , 
  \end{equation}
-  Where the scale-parameter $\Lambda$ flows from $0$ to $1$, and  
- with $\varepsilon_{\bs{k}} = -2 t [\cos(k_x)+\cos(k_y)] - 4 t' \cos(k_x)\cos(k_y)$. $\mu$ is the chemical potential needed to fix the occupation at the desired value $n$. $\nu$ is a fermionic Matsubara-frequency: $\nu = \frac{\pi}{\beta} (2m+1)$, $m\in \mathbb{Z}$. $\beta=1/T$ is the inverse temperature.       
-Correspondingly the interacting Green's function reads: 
+  Where the scale-parameter $\Lambda$ flows from $0$ to $1$%, and  
+% with $\varepsilon_{\bs{k}} = -2 t [\cos(k_x)+\cos(k_y)] - 4 t' \cos(k_x)\cos(k_y)$
+. $\mu$ is the chemical potential needed to fix the occupation at the desired value $n$. Correspondingly the interacting Green's function reads: 
 \begin{equation}
-G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} -\mu-\Lambda\Sigma^\Lambda(k)} 
+G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)} 
 \end{equation} 
 We have introduced a $\Lambda$-dependent chemical potential to maintain the occupation fixed during the flow. The chemical potential becomes a functional of the flowing self-energy, $\mu=\mu[\Sigma^\Lambda]$, whose value is found by solving the equation:  
 \begin{equation}
-n = n^{\Lambda}(\mu) \equiv \int_k \frac{e^{i\nu 0^{+}}} {i\nu - \varepsilon_{\bs{k}} -\mu-\Lambda\Sigma^\Lambda(k)}. 
+n = n^{\Lambda}(\mu) \equiv \int_k \frac{e^{i\nu 0^{+}}} {i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)}. 
 \end{equation} 
 for $\mu$.  
 
@@ -157,7 +158,7 @@ The main advantage of the interaction cutoff is that  the $\Lambda$-dependent ac
 Since $T$ acts as an infrared cutoff, for our purposes we do not need to worry about the fact that this cutoff is not scale-selective, and hence does not regularize possible divergences in the bubbles. 
 Furthermore it has been shown in Ref.~\onlinecite{Wentzell2016} that, in the context of the single-impurity Anderson model, the vertex-structures do not depend qualitatively on the cutoff-choice, and the specific effect of the interaction-cutoff on the vertex frequency structure has been studied in detail.  
 
-As a benchmark for the robustness of our results on the cutoff-choice, we have used a soft version of the\textit{frequency selective cutoff} defined\cite{Eberlein2014} by:
+As a benchmark for the robustness of our results on the cutoff-choice, we have used a soft version of the \textit{frequency selective cutoff} defined\cite{Eberlein2014} by:
 \begin{equation}
 G_0^\Lambda(k) = \frac{1}{i\mathrm{sign}\sqrt{\nu^2+\Lambda^2 }-\mu- \varepsilon_{\bs{k}}},  
 \end{equation}  
