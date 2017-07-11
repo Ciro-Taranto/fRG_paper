@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  11 JUL 2017 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  11 JUL 2017 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,10 +304,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 \T1/cmr/m/n/10 is the single-scale prop-a-ga-tor and $[][] \OT1/cmr/m/n/10 =
  []
 
-
-Package natbib Warning: Citation `endnote21' on page 2 undefined on input line 
-84.
-
 \@endnoteout=\write3
 \openout3 = `paper.end'.
 
@@ -316,7 +312,7 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 144.
 
 
 (/usr/share/texmf/tex/latex/bbold/Ubbold.fd)) (./content/Results.tex [4]
-<images/phasediag.png, id=37, 433.62pt x 289.08pt>
+<images/phasediag.png, id=36, 433.62pt x 289.08pt>
 File: images/phasediag.png Graphic file (type png)
  <use images/phasediag.png>
 Package pdftex.def Info: images/phasediag.png used on input line 39.
@@ -326,73 +322,92 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 39--40
  [][] 
  []
 
-<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=39, 433.62pt x 289.08pt>
+<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=38, 433.62pt x 289.08pt>
 File: images/chargeproblem_MC_vs_Lambda_fix_occ.png Graphic file (type png)
 
 <use images/chargeproblem_MC_vs_Lambda_fix_occ.png>
 Package pdftex.def Info: images/chargeproblem_MC_vs_Lambda_fix_occ.png used on 
 input line 65.
-(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
- [5 <./images/phasediag.png>]
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+[5 <./images/phasediag.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 74.
 
-<images/chargeproblem_M_vs_Lambda_diff_occ.png, id=49, 433.62pt x 289.08pt>
+<images/chargeproblem_M_vs_Lambda_diff_occ.png, id=48, 433.62pt x 289.08pt>
 File: images/chargeproblem_M_vs_Lambda_diff_occ.png Graphic file (type png)
 
 <use images/chargeproblem_M_vs_Lambda_diff_occ.png>
 Package pdftex.def Info: images/chargeproblem_M_vs_Lambda_diff_occ.png used on 
 input line 76.
-(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
 
 
 LaTeX Warning: Reference `fig:amoredidemetrio' on page 6 undefined on input lin
 e 89.
 
-<images/Self_Im_occ0600.png, id=50, 433.62pt x 289.08pt>
+<images/Self_Im_occ0600.png, id=49, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0600.png Graphic file (type png)
 
 <use images/Self_Im_occ0600.png>
 Package pdftex.def Info: images/Self_Im_occ0600.png used on input line 92.
-(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
-<images/Self_Im_occ0975.png, id=51, 433.62pt x 289.08pt>
+Overfull \hbox (9.0pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
+
+<images/Self_Im_occ0975.png, id=50, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0975.png Graphic file (type png)
 
 <use images/Self_Im_occ0975.png>
 Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 100.
-(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
-<images/Phi_color_all.png, id=52, 505.89pt x 505.89pt>
+Overfull \hbox (9.0pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+[6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <./images/chargeproblem_M_
+vs_Lambda_diff_occ.png> <./images/Self_Im_occ0600.png> <./images/Self_Im_occ097
+5.png>] <images/Phi_color_all.png, id=62, 505.89pt x 505.89pt>
 File: images/Phi_color_all.png Graphic file (type png)
 
 <use images/Phi_color_all.png>
-Package pdftex.def Info: images/Phi_color_all.png used on input line 113.
-(pdftex.def)             Requested size: 229.49844pt x 229.501pt.
+Package pdftex.def Info: images/Phi_color_all.png used on input line 114.
+(pdftex.def)             Requested size: 265.20218pt x 265.20253pt.
 
-Underfull \hbox (badness 2368) in paragraph at lines 117--117
+Underfull \hbox (badness 2368) in paragraph at lines 118--118
 []\T1/cmr/m/n/9 Figure 7: Fre-quency struc-ture of the charge chan-nel
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 117--117
+Underfull \hbox (badness 1210) in paragraph at lines 118--118
 \OMS/cmsy/m/n/9 C[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 ^^W[]; ^^W[]\OT1/cmr/m/n/9 )
 $ \T1/cmr/m/n/9 (on the left) and of the mag-netic chan-nel
  []
 
-<images/occupations_0975.png, id=53, 722.7pt x 722.7pt>
+<images/occupations_0975.png, id=63, 722.7pt x 722.7pt>
 File: images/occupations_0975.png Graphic file (type png)
 
 <use images/occupations_0975.png>
-Package pdftex.def Info: images/occupations_0975.png used on input line 124.
+Package pdftex.def Info: images/occupations_0975.png used on input line 125.
 (pdftex.def)             Requested size: 255.0pt x 254.9999pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 124--125
+Overfull \hbox (9.0pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
-<images/occupations_0600.png, id=54, 722.7pt x 722.7pt>
+<images/occupations_0600.png, id=64, 722.7pt x 722.7pt>
 File: images/occupations_0600.png Graphic file (type png)
 
 <use images/occupations_0600.png>
@@ -410,29 +425,27 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
- [6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <./images/chargeproblem_M
-_vs_Lambda_diff_occ.png> <./images/Self_Im_occ0600.png> <./images/Self_Im_occ09
-75.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 143.
-
-<images/PL_all.png, id=66, 1084.05pt x 433.62pt>
+<images/PL_all.png, id=65, 1084.05pt x 476.982pt>
 File: images/PL_all.png Graphic file (type png)
  <use images/PL_all.png>
 Package pdftex.def Info: images/PL_all.png used on input line 151.
-(pdftex.def)             Requested size: 510.0pt x 203.99992pt.
+(pdftex.def)             Requested size: 510.0pt x 224.3999pt.
 
-<images/z_and_gamma975.png, id=67, 433.62pt x 289.08pt>
+<images/z_and_gamma975.png, id=66, 433.62pt x 289.08pt>
 File: images/z_and_gamma975.png Graphic file (type png)
 
 <use images/z_and_gamma975.png>
-Package pdftex.def Info: images/z_and_gamma975.png used on input line 170.
-(pdftex.def)             Requested size: 203.99689pt x 135.99994pt.
-) (./content/Conclusions.tex) [7 <./images/Phi_color_all.png> <./images/occupat
-ions_0975.png> <./images/occupations_0600.png>]
-(./content/Appendices.tex [8 <./images/PL_all.png> <./images/z_and_gamma975.png
->]) (./paper.bbl [9]
+Package pdftex.def Info: images/z_and_gamma975.png used on input line 171.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
+[7 <./images/Phi_color_all.png> <./images/occupations_0975.png> <./images/occup
+ations_0600.png>]) (./content/Conclusions.tex) (./content/Appendices.tex
+[8 <./images/PL_all.png> <./images/z_and_gamma975.png>]) (./paper.bbl [9]
 Underfull \hbox (badness 5345) in paragraph at lines 60--64
  []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
  []
@@ -442,16 +455,7 @@ Underfull \hbox (badness 7116) in paragraph at lines 73--78
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-(./paper.end))
-
-Package natbib Warning: There were undefined citations.
-
-[10] (./paper.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+(./paper.end)) [10] (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -460,11 +464,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4598 strings out of 493091
- 58939 string characters out of 6142993
- 151773 words of memory out of 5000000
- 7963 multiletter control sequences out of 15000+600000
- 19745 words of font info for 52 fonts, out of 8000000 for 9000
+ 4596 strings out of 493091
+ 58918 string characters out of 6142993
+ 154773 words of memory out of 5000000
+ 7962 multiletter control sequences out of 15000+600000
+ 18964 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,27p,752b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
@@ -484,19 +488,18 @@ texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
 y5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
 exmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx070
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (10 pages, 2038978 bytes).
+lic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx090
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on paper.pdf (10 pages, 2434264 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
