@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  11 JUL 2017 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  11 JUL 2017 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,34 +287,26 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./content/Introduction.tex) (./content/fRG.tex
+<images/VertexBox.png, id=1, 379.4175pt x 205.76875pt>
+File: images/VertexBox.png Graphic file (type png)
 
-LaTeX Warning: File `images/VertexBox.png' not found on input line 42.
+<use images/VertexBox.png>
+Package pdftex.def Info: images/VertexBox.png used on input line 42.
+(pdftex.def)             Requested size: 76.49689pt x 41.48582pt.
 
-
-! Package pdftex.def Error: File `images/VertexBox.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...idth=0.15\textwidth]{images/VertexBox.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
-(/usr/share/texmf/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 Underfull \hbox (badness 1701) in paragraph at lines 64--66
 \T1/cmr/m/n/10 all the oth-ers spin com-po-nents be-ing ob-tained by
  []
 
-[1{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/VertexBox.png
+ (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--76
 \T1/cmr/m/n/10 is the single-scale prop-a-ga-tor and $[][] \OT1/cmr/m/n/10 =
  []
+
+
+Package natbib Warning: Citation `endnote21' on page 2 undefined on input line 
+84.
 
 \@endnoteout=\write3
 \openout3 = `paper.end'.
@@ -324,7 +316,7 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 144.
 
 
 (/usr/share/texmf/tex/latex/bbold/Ubbold.fd)) (./content/Results.tex [4]
-<images/phasediag.png, id=36, 433.62pt x 289.08pt>
+<images/phasediag.png, id=37, 433.62pt x 289.08pt>
 File: images/phasediag.png Graphic file (type png)
  <use images/phasediag.png>
 Package pdftex.def Info: images/phasediag.png used on input line 39.
@@ -334,131 +326,113 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 39--40
  [][] 
  []
 
-<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=38, 433.62pt x 289.08pt>
+<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=39, 433.62pt x 289.08pt>
 File: images/chargeproblem_MC_vs_Lambda_fix_occ.png Graphic file (type png)
 
 <use images/chargeproblem_MC_vs_Lambda_fix_occ.png>
 Package pdftex.def Info: images/chargeproblem_MC_vs_Lambda_fix_occ.png used on 
-input line 66.
+input line 65.
 (pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
  [5 <./images/phasediag.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 75.
+ on input line 74.
 
+<images/chargeproblem_M_vs_Lambda_diff_occ.png, id=49, 433.62pt x 289.08pt>
+File: images/chargeproblem_M_vs_Lambda_diff_occ.png Graphic file (type png)
 
-LaTeX Warning: File `images/self_energy_effect.png' not found on input line 80.
-
-
-
-! Package pdftex.def Error: File `images/self_energy_effect.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...\textwidth]{images/self_energy_effect.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use images/chargeproblem_M_vs_Lambda_diff_occ.png>
+Package pdftex.def Info: images/chargeproblem_M_vs_Lambda_diff_occ.png used on 
+input line 76.
+(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
 
 
 LaTeX Warning: Reference `fig:amoredidemetrio' on page 6 undefined on input lin
-e 93.
+e 89.
 
+<images/Self_Im_occ0600.png, id=50, 433.62pt x 289.08pt>
+File: images/Self_Im_occ0600.png Graphic file (type png)
 
-LaTeX Warning: File `images/Phi_color_NOSE_fill0600.png' not found on input lin
-e 101.
+<use images/Self_Im_occ0600.png>
+Package pdftex.def Info: images/Self_Im_occ0600.png used on input line 92.
+(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
 
+<images/Self_Im_occ0975.png, id=51, 433.62pt x 289.08pt>
+File: images/Self_Im_occ0975.png Graphic file (type png)
 
-! Package pdftex.def Error: File `images/Phi_color_NOSE_fill0600.png' not found
-.
+<use images/Self_Im_occ0975.png>
+Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 100.
+(pdftex.def)             Requested size: 229.49844pt x 152.99994pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...idth]{images/Phi_color_NOSE_fill0600.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<images/Phi_color_all.png, id=52, 505.89pt x 505.89pt>
+File: images/Phi_color_all.png Graphic file (type png)
 
+<use images/Phi_color_all.png>
+Package pdftex.def Info: images/Phi_color_all.png used on input line 113.
+(pdftex.def)             Requested size: 229.49844pt x 229.501pt.
 
-Underfull \hbox (badness 2368) in paragraph at lines 105--105
-[]\T1/cmr/m/n/9 Figure 5: Fre-quency struc-ture of the charge chan-nel
+Underfull \hbox (badness 2368) in paragraph at lines 117--117
+[]\T1/cmr/m/n/9 Figure 7: Fre-quency struc-ture of the charge chan-nel
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 105--105
+Underfull \hbox (badness 1210) in paragraph at lines 117--117
 \OMS/cmsy/m/n/9 C[]\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 ^^W[]; ^^W[]\OT1/cmr/m/n/9 )
 $ \T1/cmr/m/n/9 (on the left) and of the mag-netic chan-nel
  []
 
+<images/occupations_0975.png, id=53, 722.7pt x 722.7pt>
+File: images/occupations_0975.png Graphic file (type png)
 
-LaTeX Warning: File `images/occupations_0975.png' not found on input line 112.
+<use images/occupations_0975.png>
+Package pdftex.def Info: images/occupations_0975.png used on input line 124.
+(pdftex.def)             Requested size: 255.0pt x 254.9999pt.
 
+Overfull \hbox (9.0pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
 
-! Package pdftex.def Error: File `images/occupations_0975.png' not found.
+<images/occupations_0600.png, id=54, 722.7pt x 722.7pt>
+File: images/occupations_0600.png Graphic file (type png)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...6\textwidth]{images/occupations_0975.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use images/occupations_0600.png>
+Package pdftex.def Info: images/occupations_0600.png used on input line 131.
+(pdftex.def)             Requested size: 255.0pt x 254.9999pt.
 
+Overfull \hbox (9.0pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
 
-LaTeX Warning: File `images/occupations_0600.png' not found on input line 119.
-
-
-! Package pdftex.def Error: File `images/occupations_0600.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119 ...6\textwidth]{images/occupations_0600.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `images/Self_energy_from_ciro_script.png' not found on inpu
-t line 125.
-
-
-! Package pdftex.def Error: File `images/Self_energy_from_ciro_script.png' not 
-found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...{images/Self_energy_from_ciro_script.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 141.
 
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
- [6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+ [6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <./images/chargeproblem_M
+_vs_Lambda_diff_occ.png> <./images/Self_Im_occ0600.png> <./images/Self_Im_occ09
+75.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 135.
+ on input line 143.
 
-) (./content/Conclusions.tex) [7] (./content/Appendices.tex [8]) (./paper.bbl
+<images/PL_all.png, id=66, 1084.05pt x 433.62pt>
+File: images/PL_all.png Graphic file (type png)
+ <use images/PL_all.png>
+Package pdftex.def Info: images/PL_all.png used on input line 151.
+(pdftex.def)             Requested size: 510.0pt x 203.99992pt.
+
+<images/z_and_gamma975.png, id=67, 433.62pt x 289.08pt>
+File: images/z_and_gamma975.png Graphic file (type png)
+
+<use images/z_and_gamma975.png>
+Package pdftex.def Info: images/z_and_gamma975.png used on input line 170.
+(pdftex.def)             Requested size: 203.99689pt x 135.99994pt.
+) (./content/Conclusions.tex) [7 <./images/Phi_color_all.png> <./images/occupat
+ions_0975.png> <./images/occupations_0600.png>]
+(./content/Appendices.tex [8 <./images/PL_all.png> <./images/z_and_gamma975.png
+>]) (./paper.bbl [9]
 Underfull \hbox (badness 5345) in paragraph at lines 60--64
  []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
  []
@@ -468,7 +442,16 @@ Underfull \hbox (badness 7116) in paragraph at lines 73--78
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-(./paper.end)) [9] (./paper.aux)
+(./paper.end))
+
+Package natbib Warning: There were undefined citations.
+
+[10] (./paper.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 
 LaTeX Warning: There were undefined references.
 
@@ -477,11 +460,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4567 strings out of 493091
- 58189 string characters out of 6142993
- 161750 words of memory out of 5000000
- 7932 multiletter control sequences out of 15000+600000
- 19277 words of font info for 52 fonts, out of 8000000 for 9000
+ 4598 strings out of 493091
+ 58939 string characters out of 6142993
+ 151773 words of memory out of 5000000
+ 7963 multiletter control sequences out of 15000+600000
+ 19745 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,27p,752b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
@@ -501,19 +484,19 @@ texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cms
 y5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
 exmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx090
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on paper.pdf (9 pages, 674266 bytes).
+lic/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx070
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on paper.pdf (10 pages, 2038978 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
