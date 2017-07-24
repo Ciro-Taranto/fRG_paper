@@ -1,1 +1,8 @@
-- decidere se specificare meglio a riguardo componenti density e magnetica, e singlet triplet, Bethe-Salpeter in appendice; (perpendicular ladder)- Check that the equations coincide with the equations of Husemann after a spin change; 
+
+-Cite the paper of Stepanov and by Hafermann 2014! Decide where to cite it and understand what did they say!  
+commentare a proposito di questa cosa dove vengono mostrati i vertici!
+
+-richiamare la divergenza della suscettivita' charge oltre alla divergenza del canale charge
+
+-aggiungere t in tutti i grafici
+

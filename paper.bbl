@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Husemann2012}
+C.~Husemann, K.-U. Giering, and M.~Salmhofer.
+\newblock Frequency-dependent vertex functions of the
+  ($t,{t}^{\ensuremath{'}}$) hubbard model at weak coupling.
+\newblock {\em Phys. Rev. B}, 85:075121, Feb 2012.
+
 \bibitem{Hubbard1963}
 J.~{Hubbard}.
 \newblock {Electron Correlations in Narrow Energy Bands}.
@@ -56,12 +62,6 @@ C.~{Husemann} and M.~{Salmhofer}.
   and the t,t$^{'}$ Hubbard model at van Hove filling}.
 \newblock {\em Phys. Rev. B}, 79(19):195125, May 2009.
 
-\bibitem{Husemann2012}
-C.~Husemann, K.-U. Giering, and M.~Salmhofer.
-\newblock Frequency-dependent vertex functions of the
-  ($t,{t}^{\ensuremath{'}}$) hubbard model at weak coupling.
-\newblock {\em Phys. Rev. B}, 85:075121, Feb 2012.
-
 \bibitem{Lichtenstein2017}
 J.~Lichtenstein, D.~Sánchez de~la Peña, D.~Rohe, E.~Di Napoli, C.~Honerkamp,
   and S.A. Maier.
@@ -69,7 +69,7 @@ J.~Lichtenstein, D.~Sánchez de~la Peña, D.~Rohe, E.~Di Napoli, C.~Honerkamp,
   interacting fermions.
 \newblock {\em Computer Physics Communications}, 213:100 -- 110, 2017.
 
-\bibitem{Wentzell2017}
+\bibitem{Wentzell2016a}
 N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
   K.~{Held}, A.~{Toschi}, and S.~{Andergassen}.
 \newblock {High-frequency asymptotics of the vertex function: diagrammatic
@@ -114,10 +114,22 @@ N.~D. Mermin and H.~Wagner.
   two-dimensional isotropic heisenberg models.
 \newblock {\em Phys. Rev. Lett.}, 17:1133--1136, Nov 1966.
 
-\bibitem{Baier2004}
-Tobias Baier, Eike Bick, and Christof Wetterich.
-\newblock Temperature dependence of antiferromagnetic order in the hubbard
-  model.
-\newblock {\em Phys. Rev. B}, 70:125111, Sep 2004.
+\bibitem{Stepanov2016}
+E.~A. Stepanov, E.~G. C.~P. van Loon, A.~A. Katanin, A.~I. Lichtenstein, M.~I.
+  Katsnelson, and A.~N. Rubtsov.
+\newblock Self-consistent dual boson approach to single-particle and collective
+  excitations in correlated systems.
+\newblock {\em Phys. Rev. B}, 93:045107, Jan 2016.
+
+\bibitem{Abrikosov1963}
+A.A. {Abrikosov}, L.P. {Gorkov}, and {Dzyaloshinski} I.E.
+\newblock {\em Methods of quantum field theory in statistical physics}.
+\newblock 1963.
+
+\bibitem{Rohe2005}
+Daniel Rohe and Walter Metzner.
+\newblock Pseudogap at hot spots in the two-dimensional hubbard model at weak
+  coupling.
+\newblock {\em Phys. Rev. B}, 71:115116, Mar 2005.
 
 \end{thebibliography}
