@@ -69,50 +69,23 @@ J.~Lichtenstein, D.~Sánchez de~la Peña, D.~Rohe, E.~Di Napoli, C.~Honerkamp,
   interacting fermions.
 \newblock {\em Computer Physics Communications}, 213:100 -- 110, 2017.
 
-\bibitem{Wentzell2016a}
-N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
-  K.~{Held}, A.~{Toschi}, and S.~{Andergassen}.
-\newblock {High-frequency asymptotics of the vertex function: diagrammatic
-  parametrization and algorithmic implementation}.
-\newblock {\em ArXiv e-prints}, October 2016.
-
-\bibitem{Karrasch2008a}
-C.~{Karrasch}, R.~{Hedden}, R.~{Peters}, T.~{Pruschke}, K.~{Sch{\"o}nhammer},
-  and V.~{Meden}.
-\newblock {A finite-frequency functional renormalization group approach to the
-  single impurity Anderson model}.
-\newblock {\em J. Phys.: Condens. Matter}, 20:H5205, August 2008.
-
-\bibitem{Taranto2014}
-C.~{Taranto}, S.~{Andergassen}, J.~{Bauer}, K.~{Held}, A.~{Katanin},
-  W.~{Metzner}, G.~{Rohringer}, and A.~{Toschi}.
-\newblock {From Infinite to Two Dimensions through the Functional
-  Renormalization Group}.
-\newblock {\em Phys. Rev. Lett.}, 112(19):196402, May 2014.
-
 \bibitem{Honerkamp2004}
 C.~{Honerkamp}, D.~{Rohe}, S.~{Andergassen}, and T.~{Enss}.
 \newblock {Interaction flow method for many-fermion systems}.
 \newblock {\em Phys. Rev. B}, 70(23):235115, December 2004.
-
-\bibitem{Wentzell2016}
-Nils Wentzell, Serge Florens, Tobias Meng, Volker Meden, and Sabine
-  Andergassen.
-\newblock Magneto-electric spectroscopy of andreev bound states in josephson
-  quantum dots.
-\newblock May 2016.
-
-\bibitem{Eberlein2014}
-A.~{Eberlein}.
-\newblock {Fermionic two-loop functional renormalization group for correlated
-  fermions: Method and application to the attractive Hubbard model}.
-\newblock {\em Phys. Rev. B}, 90(11):115125, September 2014.
 
 \bibitem{Mermin1966}
 N.~D. Mermin and H.~Wagner.
 \newblock Absence of ferromagnetism or antiferromagnetism in one- or
   two-dimensional isotropic heisenberg models.
 \newblock {\em Phys. Rev. Lett.}, 17:1133--1136, Nov 1966.
+
+\bibitem{Wentzell2016a}
+N.~{Wentzell}, G.~{Li}, A.~{Tagliavini}, C.~{Taranto}, G.~{Rohringer},
+  K.~{Held}, A.~{Toschi}, and S.~{Andergassen}.
+\newblock {High-frequency asymptotics of the vertex function: diagrammatic
+  parametrization and algorithmic implementation}.
+\newblock {\em ArXiv e-prints}, October 2016.
 
 \bibitem{Stepanov2016}
 E.~A. Stepanov, E.~G. C.~P. van Loon, A.~A. Katanin, A.~I. Lichtenstein, M.~I.
@@ -131,5 +104,12 @@ Daniel Rohe and Walter Metzner.
 \newblock Pseudogap at hot spots in the two-dimensional hubbard model at weak
   coupling.
 \newblock {\em Phys. Rev. B}, 71:115116, Mar 2005.
+
+\bibitem{Wentzell2016}
+Nils Wentzell, Serge Florens, Tobias Meng, Volker Meden, and Sabine
+  Andergassen.
+\newblock Magneto-electric spectroscopy of andreev bound states in josephson
+  quantum dots.
+\newblock May 2016.
 
 \end{thebibliography}

@@ -33,8 +33,7 @@ We will apply this approach to the effective action, whose expansions in the fie
 We will restrict ourselves to the two-particle level truncation by retaining only the two lowest nonvanishing orders in the expansion, i.e., we consider the flow of the self-energy $\Sigma^\Lambda$ and of the two-particle vertex $V^\Lambda$, neglecting the effects of higher order vertices. 
 This truncation restricts the applicability of the approach to the weak-to-moderate coupling regime\cite{Salmhofer2001}. 
 It can be further shown that, at the two-particle level trunctaion, the fRG sums up efficiently, although approximately, the so-called parquet-diagrams\cite{Binz2002,Binz2003,Kugler2017}. 
-
-Due to translational invariance, we can use the energy and momentum conservation to fix one of the arguments of the self-energy and of the vertex.  
+  
 Due to SU(2) symmetry, the self-energy is diagonal in spin-space: 
 \begin{equation}
 \Sigma^\Lambda_{\sigma\sigma'}(k)=\Sigma(k)\delta_{\sigma,\sigma'}, 
@@ -64,7 +63,7 @@ V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparro
 V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \label{eq:spinsym2}
 \end{eqnarray}
-This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2})\cite{Husemann2009}. 
+This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2}).\cite{Husemann2009}
 
 With these considerations the flow equation for the self energy\cite{Metzner2012} reads: 
 \begin{equation}
@@ -100,12 +99,12 @@ where:\footnote{The equation for the particle-particle channel is slightly diffe
 \fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{}(p,k_2-k_3+p) \fl{V}{}(k_1,k_2-k_3+p,p)
 \fl{V}{}(p,k_2,k_3).
 \end{eqnarray} 
+The subscripts $\mathrm{pp}$, $\mathrm{ph}$ and $\mathrm{phc}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed}.
 Here we have defined the quantity:
 \begin{align}
 \fl{ \mathcal{P }}{}(p,Q+p) &= G^\Lambda(p)S^\Lambda(Q+p) +G^\Lambda(p+Q)S^\Lambda(p),
 \end{align} 
-which is the scale-derivative, at fixed self energy, of a Green's function bubble with frequency and momentum transfer $Q$. 
-
+which is the scale-derivative, at fixed self energy, of the product of two Green's functions. $Q$ is the frequency and momentum transfer.
 
 
 

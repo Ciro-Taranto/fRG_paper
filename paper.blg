@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "endnote22"
-Warning--empty journal in Wentzell2016
+Warning--I didn't find a database entry for "endnote23"
+Warning--I didn't find a database entry for "Wentzell2017"
 Warning--empty publisher in Abrikosov1963
-You've used 22 entries,
+Warning--empty journal in Wentzell2016
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            608 strings with 7690 characters,
-and the built_in function-call counts, 5067 in all, are:
-= -- 406
-> -- 278
+            588 strings with 7010 characters,
+and the built_in function-call counts, 4309 in all, are:
+= -- 351
+> -- 228
 < -- 0
-+ -- 101
-- -- 79
-* -- 425
-:= -- 858
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 21
++ -- 83
+- -- 64
+* -- 352
+:= -- 727
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 196
-empty$ -- 471
-format.name$ -- 79
-if$ -- 1080
+cite$ -- 21
+duplicate$ -- 169
+empty$ -- 404
+format.name$ -- 64
+if$ -- 923
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 23
-newline$ -- 113
-num.names$ -- 22
-pop$ -- 37
+int.to.str$ -- 19
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 69
+skip$ -- 60
 stack$ -- 0
-substring$ -- 347
-swap$ -- 21
+substring$ -- 296
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 42
-width$ -- 24
-write$ -- 238
-(There were 3 warnings)
+while$ -- 36
+width$ -- 21
+write$ -- 205
+(There were 4 warnings)
