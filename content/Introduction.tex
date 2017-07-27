@@ -1,15 +1,48 @@
-\begin{itemize}
-\item Much of the weak coupling momentum structure of the vertex (for the fermionic Hubbard model) is know by means of fRG,its frequency structure has been investigated much less. 
-\item In recent years several results have been obtained for the single impurity Anderson model vertex, both on its own and as essential ingredient for diagrammatic extensions of DMFT. 
-Citare: Rohringer, Kinza, Hafermann, Karrasch, Wentzell (and references therein) for the SIAM. Extensions of DMFT: DGA, DF, DMF2RG, Trilex, Quadrilex. 
-\item A systematic study keeping into account the full frequency dependence and a physically motivated approximation for the momentum dependence, and including fluctuations in all channels is still lacking.
+%The two-particle vertex is an essential building block for the microscopical foundation of the Landau's Fermi-liquid theory \cite{landau1957theory,Landau1958,Pomeranchuk1958} and guarantees the possibility of connecting Fermi-liquid and Renormalization
 
-\item Our results show the feasibility, and, in some respects, the necessity  of a complete treatment of the frequency dependence of the vertex, whose impact is particularly large in methods that aim at strong coupling.
-\item We will confirm some results already foreseen by \onlinecite{Husemann2012}, who has shown a "forward scattering instability" already with a simpler frequency parametrization.
-\item With the study of the frequency dependence of the vertex we understand the appearance of a \textit{scattering instability}.
-\item The $d$-wave superconductivity is reduced.  
+The formulation of the Wetterich equation\cite{Wetterich1993} laid the basis for a class of powerful new methods that generally go under the name of functional Renormalization Group (fRG).\cite{Metzner2012,Berges2002}
+ Given the generality of the Wetterich equation, different conjugations of the fRG are more or less suited to treat different classes of systems. 
+For example, while the derivative expansion is most suited for bosonic systems, for fermionic systems on a lattice an expansion into the fields is likely the most sensible choice.
+\emph{Is it correct to write this?Are derivative and field expansion mutually exclusive?} 
 
-\item The frequency dependent vertex allows to compute a frequency dependent self energy, often neglected in static fRG.   
-\item We will show that the self-energy feedback in the flow equations is essential to guarantee the consistency between vertex and propagators in the flow equations.
-\item even a Fermi-liquid self-energy can qualitatively change the physical results. 
-\end{itemize}
+In the field expansion implementation of the fRG, the two-particle vertex is the core object %in the flow equations and the object%
+ to study in order to understand the physical properties of the system. 
+However due to its dependence on three frequency and three momentum arguments the two-particle vertex is an extremely difficult object to deal with, unless drastic approximation are made. 
+ For fermions on a lattice the momentum-structure of the vertex has been understood while mostly neglecting the vertex frequency-dependence.
+%Understanding the momentum structure and its connection with the physical instabilities of a system can be considered a great achievement of  the fRG. 
+In particular, the first results have been obtained using the $N$-patch scheme,\cite{Zanchi1996,Halboth2000,Halboth2000b,Honerkamp2001} in which all momenta are treated on the same footing.
+Once an understanding was obtained this way, it was possible to tailor more refined treatments of the momentum dependence, like the form factor decomposition, which focuses on the most relevant physics.\cite{Husemann2009,Eberlein2016}
+\emph{is there some older reference?}
+
+A comparable understanding is lacking when considering both momentum and frequency dependencies of the vertex.
+The very high computational cost and the conceptual difficulty of interpreting data on the imaginary frequency axis did not allow for a frequency treatment comparable to the momentum one.
+Indeed in fRG (for lattice models), frequency has been either completely neglected, by assuming a static vertex, or treated in approximate schemes\cite{Husemann2012} which capture part of the physics only.
+
+In the present paper we start filling in this gap, by presenting fully-fledged fRG results with frequency and momentum dependent vertex.
+The vertex frequency dependence plays an increasingly important role when the strong coupling regime is approached, as it has been confirmed mostly for impurity models,\cite{Kinza2013,Wentzell2016} or in the dynamical mean field theory\cite{Metzner1989,Georges1992,Georges1996} (and its diagrammatic extensions)\cite{Rohringer2017} framework.\cite{Rohringer2012}
+%\cite{Schaefer2013}
+Hence a proper treatment of the vertex frequency-dependence is mandatory for methods that aim at the study of the interplay between fluctuations in all the channels in the presence of strong coupling, like DMF$^2$RG.\cite{Taranto2014} 
+
+Our results show the feasibility, and in some respects, the necessity for an improved frequency treatment of the vertex, also at moderate coupling.
+A simpler treatment of the frequency dependence was already pursued by Husemann \emph{et al}.~in Ref.~\onlinecite{Husemann2012}, where they have found the emergence of regions in the parameters space characterized by an unusual divergence in the charge channel for finite frequency transfer, which cannot be connected with a phase transition.
+ An analysis of the vertex structure in this region will allow us to explain this feature in terms of simple diagrammatic elements. 
+
+Another drawback of a static vertex approximation is that the difficulty in obtaining a frequency dependent self-energy as well its feedback in the flow, unless some further approximation is employed.\cite{Honerkamp2001}
+On the contrary, in this work, we have evaluated also the flow equation of the self-energy. 
+We will show that the self-energy feedback  affects the results also qualitatively: by preventing the charge channel from diverging. 
+This is in contrast with the common belief that the self-energy feedback plays a minor role in the flow.
+
+The paper is structured as follows. In Sec.~\ref{sec:formalism} we will briefly introduce the model under consideration and the basic equations of the fRG in its expansion in the fields.
+After discussing in some more detail our treatment for the two-particle vertex  in Sec.~\ref{sec:vertex}, we will move on to the discussion of the main results in Sec.~\ref{sec:results}. Here we start by a stability analysis, then we show the flow evolution and frequency dependence of the vertex. We then consider the charge divergence with a digrammatic explanation, before turning to the analysis of the obtained self-energy. We draw our conclusions in Sec.~\ref{sec:conclusions}. In the Appendix \ref{sec:FlowEquations} we report all the final expression for the vertex flow equations, while in the Appendix \ref{sec:appPairingChannel} we show the frequency dependence also in the pairing channel.
+
+%\begin{itemize}
+%\item Much of the weak coupling momentum structure of the vertex (for the fermionic Hubbard model) is know by means of fRG, its frequency structure has been investigated much less. 
+%	\item A systematic study keeping into account the full frequency dependence and a physically motivated approximation for the momentum dependence, and including fluctuations in all channels is still lacking.
+%\item Our results show the feasibility, and, in some respects, the necessity  of a complete treatment of the frequency dependence of the vertex, whose impact is particularly large in methods that aim at strong coupling.
+%\item We will confirm some results already foreseen by \onlinecite{Husemann2012}, who has shown a "forward scattering instability" already with a simpler frequency parametrization.
+%\item With the study of the frequency dependence of the vertex we understand the appearance of a \textit{scattering instability}.
+
+%\item The frequency dependent vertex allows to compute a frequency dependent self energy, often neglected in static fRG.   
+%\item We will show that the self-energy feedback in the flow equations is essential to guarantee the consistency between vertex and propagators in the flow equations.
+%\item even a Fermi-liquid self-energy can qualitatively change the physical results. 
+%\end{itemize}

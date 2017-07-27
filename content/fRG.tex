@@ -2,37 +2,36 @@
 \subsection{Model}
 
 The Hubbard model\cite{Hubbard1963} describes spin-$\frac{1}{2}$ fermions with a local interaction:
-
 \begin{equation}
-\mathcal{H} = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma} + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow}
+ \mathcal{H} = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma}
+ + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow} ,
 \end{equation}
-where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators 
-for fermions with spin $\sigma=\uparrow,\downarrow$. We consider the two-dimensional case with square lattice and repulsive interaction $U>0$ at finite temperature $T$ and in the SU(2) spin-symmetric phase. The hopping amplitude is restricted to $t_{ij} = -t$ for nearest neighbors, $t_{ij}=-t'$ for next-to-nearest neighbors. We take $t\equiv1$ as energy unit. 
-The Fourier transform allow us to write the bare dispersion of the Hubbard hamiltonian:
+where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators for fermions on site $i$ with spin orientation $\sigma$ ($\uparrow$ or $\downarrow$). We consider the two-dimensional case on a square lattice and repulsive interaction $U>0$ at finite temperature $T$. The hopping amplitude is restricted to $t_{ij} = -t$ for nearest neighbors, $t_{ij}=-t'$ for next-to-nearest neighbors. Fourier transforming the hopping matrix yields the bare dispersion relation
 \begin{equation}
-\varepsilon_{\mathbf{k}} = -2t \left( \cos{k_x} + \cos{k_y} \right) -4 t' \cos{k_x} \cos{k_y}.
+ \varepsilon_{\mathbf{k}} =
+ -2t \left( \cos{k_x} + \cos{k_y} \right) -4 t' \cos{k_x} \cos{k_y} .
 \end{equation}
 
 
 \subsection{Flow equations}
 
-
-In the following paragraph we will give some details about the functional renormalization group,\cite{Metzner2012,Platt2013} clarifying the notation used for the vertex. 
+In the following paragraph we will provide some details about the functional renormalization group,\cite{Metzner2012,Platt2013} defining in particular the notation used for the vertex. 
 
 Generally speaking, the fRG implements the renormalization group idea in the functional integral formalism. 
-This is done by endowing the action with an additional dependence on a scale-parameter $\Lambda$:\cite{Metzner2012,Platt2013} 
+This is done by endowing the bare action with an additional dependence on a scale-parameter $\Lambda$,\cite{Metzner2012,Platt2013} 
 \begin{equation}
- \mathcal{S}^\Lambda[\overline\psi,\psi]=
--(\overline\psi,{G_0^\Lambda}^{-1}\psi)+\mathcal{S}_{\mathrm{int}},  
+ \mathcal{S}^\Lambda[\overline\psi,\psi] =
+ -(\overline\psi,{G_0^\Lambda}^{-1}\psi)+\mathcal{S}_{\mathrm{int}},  
 \end{equation} 
 where $\mathcal{S}_{\mathrm{int}}$ is the interaction part, and $(\overline\psi,\psi)$ summarizes the summation over all the quantum numbers of the fermionic fields  $\overline \psi$ and $\psi$. 
-The scale dependence, acquired through the non-interacting propagator $G_0^\Lambda$, generates flow equations (with known initial conditions) for functional integrals,\cite{Wetterich1993} like the effective action, the effective interaction, or the generating functional for the connected Green's function. 
-The final result is recovered for some final $\Lambda$-value so that: $G_0^{\Lambda_\mathrm{f}} = G_0$, and the original action is restored.  
+The scale dependence, acquired through the non-interacting propagator $G_0^\Lambda$, generates flow equations (with known initial conditions) for generating functionals defined via functional integrals with the action $\mathcal{S}^\Lambda$, such as the generating functional for the connected Green's function and its Legendre transform, the socalled average effective action.\cite{Wetterich1993}
+The final result is recovered for some final $\Lambda$-value restoring the original bare propagator, $G_0^{\Lambda_\mathrm{f}} = G_0$, so that the physical action of interest is recoved.  
 
-We will apply this approach to the effective action, whose expansions in the fields generates the one-particle irreducible (1PI)  functions. By expanding the functional flow equation, one obtains a hierarchy of flow equations for the 1PI functions, involving vertices of arbitrarily  high orders. 
-We will restrict ourselves to the two-particle level truncation by retaining only the two lowest nonvanishing orders in the expansion, i.e., we consider the flow of the self-energy $\Sigma^\Lambda$ and of the two-particle vertex $V^\Lambda$, neglecting the effects of higher order vertices. 
-This truncation restricts the applicability of the approach to the weak-to-moderate coupling regime\cite{Salmhofer2001}. 
-It can be further shown that, at the two-particle level trunctaion, the fRG sums up efficiently, although approximately, the so-called parquet-diagrams\cite{Binz2002,Binz2003,Kugler2017}. 
+We will apply this approach to the effective action, whose expansions in the fields generates the one-particle irreducible (1PI) vertex functions. By expanding the functional flow equation,\cite{Wetterich1993} one obtains a hierarchy of flow equations for the 1PI functions, involving vertices of arbitrarily  high orders. 
+We will restrict ourselves to the two-particle level truncation by retaining only the two lowest nonvanishing orders in the expansion, that is, we consider the flow of the self-energy $\Sigma^\Lambda$ and of the two-particle vertex $V^\Lambda$, neglecting the effects of higher order vertices. 
+This truncation restricts the applicability of the approach to the weak-to-moderate coupling regime.\cite{Salmhofer2001} 
+It can be further shown that, at the two-particle level trunctaion, the fRG sums up efficiently, although approximately, the so-called parquet-diagrams.\cite{Kugler2017}
+%\cite{Binz2002,Binz2003,Kugler2017}
   
 Due to SU(2) symmetry, the self-energy is diagonal in spin-space: 
 \begin{equation}
@@ -46,15 +45,16 @@ where $k=(\nu,\mathbf{k})$, $\nu$ is a fermionic Matsubara frequency and $\mathb
 \label{fig:notvert} 
 \end{figure}
 
-For the notation of the two-particle vertex function $V_{\sigma_1\sigma_2\sigma_3\sigma_4}(k_1,k_2,k_3)$ we refer to Fig.~\ref{fig:notvert}, where $k_i=(\nu_i,\mathbf{k_i})$.
-% with $i\in\{1,2,3,4\}$,
- The momentum $k_4=k_1+k_2-k_3$ is fixed by conservation.%the other three and does not need to be specified.  
-Furthermore  SU(2)-symmetry guarantees that the vertex does not vanish only for six spin combinations:
-$
- V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} = V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
-$  V^\Lambda_{\uparrow\downarrow\uparrow\downarrow} = V^\Lambda_{\downarrow\uparrow\downarrow\uparrow}  $, and
-$  V^\Lambda_{\uparrow\downarrow\downarrow\uparrow } = V^\Lambda_{\downarrow\uparrow\uparrow\downarrow}$.   
-Finally, due to SU(2) symmetry and crossing relation one has:\cite{Rohringer2012} 
+For the notation of the two-particle vertex function $V_{\sigma_1\sigma_2\sigma_3\sigma_4}(k_1,k_2,k_3)$ we refer to Fig.~\ref{fig:notvert}, where $k_i=(\mathbf{k_i},\nu_i)$.
+The momentum $k_4=k_1+k_2-k_3$ is fixed by momentum conservation.
+The SU(2) spin-rotation symmetry guarantees that the vertex does not vanish only for six spin combinations:
+$V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} =
+ V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
+$V^\Lambda_{\uparrow\downarrow\uparrow\downarrow} =
+ V^\Lambda_{\downarrow\uparrow\downarrow\uparrow}$, and
+$V^\Lambda_{\uparrow\downarrow\downarrow\uparrow } =
+ V^\Lambda_{\downarrow\uparrow\uparrow\downarrow}$.   
+Finally, due to the SU(2) symmetry and crossing relation one has \cite{Rohringer2012} 
 \begin{eqnarray}
 \nonumber
 V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)\\&-& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3),
@@ -63,26 +63,28 @@ V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparro
 V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \label{eq:spinsym2}
 \end{eqnarray}
-This allows us to consider only one function of three arguments for the vertex:  $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2}).\cite{Husemann2009}
+This allows us to express the vertex by only one function of three frequency-momentum arguments: $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2}).\cite{Husemann2009}
 
-With these considerations the flow equation for the self energy\cite{Metzner2012} reads: 
+The flow equation for the self energy can then be written as \cite{Metzner2012} 
 \begin{equation}
 \frac{d}{d \Lambda} \Sigma^\Lambda(k)= -\int_p  S^\Lambda(p)\left[2V^\Lambda(k,p,p) -V^\Lambda(k,p,k)\right], 
 \end{equation}
-with $p=(\omega,\mathbf{p})$ and $k = (\nu,\mathbf{k})$. We use the notation  $\int_{p} =T\sum_\omega \int_{\mathbf{p}}$ with $\int_{\mathbf{q}}=\int  \frac{d\mathbf{q}}{4\pi^2}$ being the normalized integral over the first Brillouin zone. 
+with $p=(\mathbf{p},\omega)$ and $k = (\mathbf{k},\nu)$.
+We use the notation  $\int_{p} = T \sum_\omega \int_{\mathbf{p}}$, where $\sum_\omega$ is the Matsubara frequency sum, and $\int_{\mathbf{p}}=\int  \frac{d\mathbf{p}}{(2\pi)^2}$ is the normalized integration over the first Brillouin zone. 
 \begin{equation}
- S^\Lambda=\frac{dG^\Lambda}{d\Lambda}\Bigg|_{\Sigma^{\Lambda}=\mathrm{const}} 
+ S^\Lambda = \left. \frac{dG^\Lambda}{d\Lambda}\right|_{\Sigma^{\Lambda}=\mathrm{const}} 
 \end{equation}
-  is the single-scale propagator and ${G^\Lambda}=\left[(G_0^\Lambda)^{-1}-\Sigma^\Lambda\right]^{-1}$ is the full propagator. 
+is the socalled single-scale propagator, and ${G^\Lambda}$ is the full propagator, which is related to the bare propagator and the self-energy by the Dyson equation
+$(G^\Lambda)^{-1} = (G_0^\Lambda)^{-1} - \Sigma^\Lambda$. 
   
- \begin{widetext} 
-The vertex flow equation\cite{Metzner2012, Husemann2009} can be written as: 
+\begin{widetext} 
+The flow equation for the vertex can be written as \cite{Metzner2012, Husemann2009}
 \begin{align}
 \label{eq:vertflow}
- \frac{d}{d\Lambda}V^\Lambda(k_1,k_2,k_3) =  \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
+ \frac{d}{d\Lambda}V^\Lambda(k_1,k_2,k_3) = \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
   \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + \fl{\mathcal{T}}{phc}(k_1,k_2,k_3),
 \end{align} 
-where:\footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref. \onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.  }
+where \footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref.~\onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.}
 \begin{eqnarray}
 \label{eq:ppT} 
 \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{}(p,k_1+k_2-p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
@@ -100,11 +102,12 @@ where:\footnote{The equation for the particle-particle channel is slightly diffe
 \fl{V}{}(p,k_2,k_3).
 \end{eqnarray} 
 The subscripts $\mathrm{pp}$, $\mathrm{ph}$ and $\mathrm{phc}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed}.
-Here we have defined the quantity:
+Here we have defined the quantity
 \begin{align}
-\fl{ \mathcal{P }}{}(p,Q+p) &= G^\Lambda(p)S^\Lambda(Q+p) +G^\Lambda(p+Q)S^\Lambda(p),
+ \mathcal{P}^\Lambda(p,p') &= G^\Lambda(p)S^\Lambda(p') + S^\Lambda(p) G^\Lambda(p'),
+%\fl{ \mathcal{P}}{}(p,Q+p) &= G^\Lambda(p)S^\Lambda(Q+p) +G^\Lambda(p+Q)S^\Lambda(p),
 \end{align} 
-which is the scale-derivative, at fixed self energy, of the product of two Green's functions. $Q$ is the frequency and momentum transfer.
+which is the scale-derivative, at fixed self energy, of the product of two Green's functions. %$Q$ is the frequency and momentum transfer.
 
 
 

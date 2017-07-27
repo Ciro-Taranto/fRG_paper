@@ -1,15 +1,9 @@
 \begin{thebibliography}{10}
 
-\bibitem{Husemann2012}
-C.~Husemann, K.-U. Giering, and M.~Salmhofer.
-\newblock Frequency-dependent vertex functions of the
-  ($t,{t}^{\ensuremath{'}}$) hubbard model at weak coupling.
-\newblock {\em Phys. Rev. B}, 85:075121, Feb 2012.
-
-\bibitem{Hubbard1963}
-J.~{Hubbard}.
-\newblock {Electron Correlations in Narrow Energy Bands}.
-\newblock {\em Proc. R. Soc. A}, 276:238--257, November 1963.
+\bibitem{Wetterich1993}
+C.~{Wetterich}.
+\newblock {Exact evolution equation for the effective potential}.
+\newblock {\em Physics Letters B}, 301:90--94, February 1993.
 
 \bibitem{Metzner2012}
 W.~{Metzner}, M.~{Salmhofer}, C.~{Honerkamp}, V.~{Meden}, and
@@ -18,16 +12,107 @@ W.~{Metzner}, M.~{Salmhofer}, C.~{Honerkamp}, V.~{Meden}, and
   systems}.
 \newblock {\em Rev. Mod. Phys.}, 84:299--352, January 2012.
 
+\bibitem{Berges2002}
+J.~{Berges}, N.~{Tetradis}, and C.~{Wetterich}.
+\newblock {Non-perturbative renormalization flow in quantum field theory and
+  statistical physics}.
+\newblock {\em Phys. Rep.}, 363:223--386, June 2002.
+
+\bibitem{Zanchi1996}
+Dra{\v{z}}en Zanchi and Heinz~J. Schulz.
+\newblock Instabilities of weakly correlated electronic gas on a two
+  dimensional lattice.
+\newblock {\em Zeitschrift f{\"u}r Physik B Condensed Matter}, 103(2):339--342,
+  Jun 1996.
+
+\bibitem{Halboth2000}
+Christoph~J. Halboth and Walter Metzner.
+\newblock $\mathit{d}$.
+\newblock {\em Phys. Rev. Lett.}, 85:5162--5165, Dec 2000.
+
+\bibitem{Halboth2000b}
+Christoph~J. Halboth and Walter Metzner.
+\newblock Renormalization-group analysis of the two-dimensional hubbard model.
+\newblock {\em Phys. Rev. B}, 61:7364--7377, Mar 2000.
+
+\bibitem{Honerkamp2001}
+C.~{Honerkamp} and M.~{Salmhofer}.
+\newblock {Temperature-flow renormalization group and the competition between
+  superconductivity and ferromagnetism}.
+\newblock {\em Phys. Rev. B}, 64(18):184516, November 2001.
+
+\bibitem{Husemann2009}
+C.~{Husemann} and M.~{Salmhofer}.
+\newblock {Efficient parametrization of the vertex function, {$\Omega$} scheme,
+  and the t,t$^{'}$ Hubbard model at van Hove filling}.
+\newblock {\em Phys. Rev. B}, 79(19):195125, May 2009.
+
+\bibitem{Eberlein2016}
+Hiroyuki Yamase, Andreas Eberlein, and Walter Metzner.
+\newblock Coexistence of incommensurate magnetism and superconductivity in the
+  two-dimensional hubbard model.
+\newblock {\em Phys. Rev. Lett.}, 116:096402, Mar 2016.
+
+\bibitem{Husemann2012}
+C.~Husemann, K.-U. Giering, and M.~Salmhofer.
+\newblock Frequency-dependent vertex functions of the
+  ($t,{t}^{\ensuremath{'}}$) hubbard model at weak coupling.
+\newblock {\em Phys. Rev. B}, 85:075121, Feb 2012.
+
+\bibitem{Kinza2013}
+M.~{Kinza}, J.~{Ortloff}, J.~{Bauer}, and C.~{Honerkamp}.
+\newblock {Alternative functional renormalization group approach to the single
+  impurity Anderson model}.
+\newblock {\em Phys. Rev. B}, 87(3):035111, January 2013.
+
+\bibitem{Wentzell2016}
+Nils Wentzell, Serge Florens, Tobias Meng, Volker Meden, and Sabine
+  Andergassen.
+\newblock Magneto-electric spectroscopy of andreev bound states in josephson
+  quantum dots.
+\newblock May 2016.
+
+\bibitem{Metzner1989}
+W.~{Metzner} and D.~{Vollhardt}.
+\newblock {Correlated lattice fermions in $d={\infty}$ dimensions}.
+\newblock {\em Phys. Rev. Lett.}, 62:324--327, January 1989.
+
+\bibitem{Georges1992}
+A.~{Georges} and G.~{Kotliar}.
+\newblock {Hubbard model in infinite dimensions}.
+\newblock {\em Phys. Rev. B}, 45:6479--6483, March 1992.
+
+\bibitem{Georges1996}
+A.~{Georges}, G.~{Kotliar}, W.~{Krauth}, and M.~J. {Rozenberg}.
+\newblock {Dynamical mean-field theory of strongly correlated fermion systems
+  and the limit of infinite dimensions}.
+\newblock {\em Rev. Mod. Phys.}, 68:13--125, January 1996.
+
+\bibitem{Rohringer2017}
+Rohringer.
+
+\bibitem{Rohringer2012}
+G.~{Rohringer}, A.~{Valli}, and A.~{Toschi}.
+\newblock {Local electronic correlation at the two-particle level}.
+\newblock {\em Phys. Rev. B}, 86(12):125114, September 2012.
+
+\bibitem{Taranto2014}
+C.~{Taranto}, S.~{Andergassen}, J.~{Bauer}, K.~{Held}, A.~{Katanin},
+  W.~{Metzner}, G.~{Rohringer}, and A.~{Toschi}.
+\newblock {From Infinite to Two Dimensions through the Functional
+  Renormalization Group}.
+\newblock {\em Phys. Rev. Lett.}, 112(19):196402, May 2014.
+
+\bibitem{Hubbard1963}
+J.~{Hubbard}.
+\newblock {Electron Correlations in Narrow Energy Bands}.
+\newblock {\em Proc. R. Soc. A}, 276:238--257, November 1963.
+
 \bibitem{Platt2013}
 C.~Platt, W.~Hanke, and R.~Thomale.
 \newblock Functional renormalization group for multi-orbital fermi surface
   instabilities.
 \newblock {\em Advances in Physics}, 62(4-6):453--562, 2013.
-
-\bibitem{Wetterich1993}
-C.~{Wetterich}.
-\newblock {Exact evolution equation for the effective potential}.
-\newblock {\em Physics Letters B}, 301:90--94, February 1993.
 
 \bibitem{Salmhofer2001}
 M.~{Salmhofer} and C.~{Honerkamp}.
@@ -50,17 +135,6 @@ F.~B. {Kugler} and J.~{von Delft}.
 \newblock {Multiloop functional renormalization group that sums up all parquet
   diagrams}.
 \newblock {\em ArXiv e-prints}, March 2017.
-
-\bibitem{Rohringer2012}
-G.~{Rohringer}, A.~{Valli}, and A.~{Toschi}.
-\newblock {Local electronic correlation at the two-particle level}.
-\newblock {\em Phys. Rev. B}, 86(12):125114, September 2012.
-
-\bibitem{Husemann2009}
-C.~{Husemann} and M.~{Salmhofer}.
-\newblock {Efficient parametrization of the vertex function, {$\Omega$} scheme,
-  and the t,t$^{'}$ Hubbard model at van Hove filling}.
-\newblock {\em Phys. Rev. B}, 79(19):195125, May 2009.
 
 \bibitem{Lichtenstein2017}
 J.~Lichtenstein, D.~Sánchez de~la Peña, D.~Rohe, E.~Di Napoli, C.~Honerkamp,
@@ -104,12 +178,5 @@ Daniel Rohe and Walter Metzner.
 \newblock Pseudogap at hot spots in the two-dimensional hubbard model at weak
   coupling.
 \newblock {\em Phys. Rev. B}, 71:115116, Mar 2005.
-
-\bibitem{Wentzell2016}
-Nils Wentzell, Serge Florens, Tobias Meng, Volker Meden, and Sabine
-  Andergassen.
-\newblock Magneto-electric spectroscopy of andreev bound states in josephson
-  quantum dots.
-\newblock May 2016.
 
 \end{thebibliography}

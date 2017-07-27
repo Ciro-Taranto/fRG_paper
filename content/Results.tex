@@ -31,7 +31,7 @@ The vertical light blue line marks van Hove filling.}
 %
 In Fig.~\ref{fig:criscale} we show the critical scale $1-\Lambda_{\mathrm{c}}$ as a function of the doping $x=1-n$ with and without self-energy feedback.
 %We show our result in terms of $1-\Lambda$, which vanishes at the end of the flow. 
-For the physical interpretation of $\Lambda_c$ in the interaction flow, we refer to the rescaled interaction\cite{Honerkamp2004} $\tilde U ^\Lambda$ discussed in Sec.~\ref{sec:IntFlow}.  
+For the physical interpretation of $\Lambda_c$ in the interaction flow, we refer to the rescaled interaction\cite{Honerkamp2004} $\tilde U ^\Lambda$ discussed in Sec.~\ref{sec:cutoff}.  
 
 We defined the critical scale as the flow parameter for which the value of the largest channel exceeds $200t$. We checked that these results are also consistent with a stability analysis based on the susceptibilities.        
 
@@ -57,7 +57,7 @@ The region of commensurate antiferromagnetism for $0.125\le x \le 0.150$ has to 
 The most striking feature in Fig.~\ref{fig:criscale} is the presence of a divergence in the charge channel $\mathcal{C}^\Lambda$ at $\mathbf{Q}=(0,0)$ for the largest values of doping, marked by black stars. 
 This feature was already observed in a fRG calculation with a simplified frequency parametrization by Husemann \textit{et al.} in Ref.~\onlinecite{Husemann2009}, and named \textit{scattering instability}. 
 The charge channel $\mathcal{C}^\Lambda$ diverges for finite frequency transfer $\Omega=2\pi T$, which does not allow for a natural interpretation in terms of a physical instability. 
-The frequency structure of the charge channel $\mathcal{C}^\Lambda$ together with its origin will be discussed further in paragraph \ref{sec:OrOfChSi}.
+The frequency structure of the charge channel $\mathcal{C}^\Lambda$ together with its origin will be discussed further in paragraph \ref{sec:per_ladder}.
 
 \begin{figure}
 \includegraphics[width=0.50\textwidth]{images/chargeproblem_M_vs_Lambda_diff_occ.png}
@@ -95,7 +95,7 @@ Bottom row: cut of the occupation along the Brillouin zone paths reported as arr
 To better understand these effects we looked for possible changes in the Fermi surface structure, analyzing the momentum distribution
 %
 \begin{equation}
- n^{\Lambda}(\mathbf{k})  = \frac{2}{\beta} \sum_{\nu}\frac{e^{i\nu 0^+}}{i\nu-\varepsilon_\bs{k}+\mu^\Lambda-\Lambda\Sigma^\Lambda(\bs{k},i\nu)}.
+ n^{\Lambda}(\mathbf{k})  = 2T \sum_{\nu}\frac{e^{i\nu 0^+}}{i\nu-\varepsilon_\bs{k}+\mu^\Lambda-\Lambda\Sigma^\Lambda(\bs{k},\nu)}.
  \label{eq:occ} 
 \end{equation}
 %
@@ -145,8 +145,15 @@ This structure cannot be explained in terms of standard ladder diagrams. It migh
 
 In the two right panels of Fig.~\ref{fig:freqplot} we show the same quantities but for $x=0.4$ and without self-energy feedback. In this case, the localized peak in the charge channel is the leading interaction. The position and shape of the frequency structures are similar to the one described above.
 
+\begin{figure*}
+\includegraphics[width=\textwidth]{images/PL_all.png}
+\vspace*{-2.0cm}
+\caption{In the first three panels from the left, the charge channel $\mathcal{C}_{\bs{Q}=(0,0),\Omega}(\nu_1,\nu_2-\Omega)$ computed from Eq.~(\ref{pl:charge}) is shown as a function of $\nu_1$ and $\nu_2$ for transfer frequencies $\Omega=0$, $\Omega=2\pi T$ and $\Omega=4\pi T$, respectively. In the right panel, the bubble $\Pi_{\bs{Q}=(0,0),\Omega}(\nu)$ is shown as a function of $\nu$ for $\Omega=0$, $\Omega=2\pi T$ and $\Omega=4\pi T$. The model parameters are $t'=-0.32$ and $U=4$, the doping $x=0.375$, and the temperature $T=t$.} 
+\label{fig:perpladder}
+\end{figure*}
+
 \subsection{Origin of charge singularity} 
-\label{sec:OrOfChSi}
+
 To gain insight in the origin of the singular frequency structures observed in the charge channel, we identify a simple set of diagrams reproducing the same features.   
 The main idea is that the magnetic channel, which is generated first, is responsible for the singular structure in the charge channel. 
 
@@ -161,7 +168,7 @@ We start by introducing an effective interaction that includes the magnetic fluc
 Since the bare interaction $U$ is local, $U^{\mathrm{eff}}$ depends only on the transfer momentum $\bs{Q}$ and frequency $\Omega$ of the particle-hole bubble
 \begin{equation}
  \Pi_{\bs{Q},\Omega} =
- T \sum_{\nu} \int_{\bs{p}} G_0(\bs{p},\nu) G_0(\bs{p}+\bs{Q},\nu+\Omega).
+ - T \sum_{\nu} \int_{\bs{p}} G_0(\bs{p},\nu) G_0(\bs{p}+\bs{Q},\nu+\Omega).
 \end{equation}
 The magnetic effective interaction in Eq.~(\ref{pl:ueff}) will be now used to compute the RPA equation for the charge channel. Adopting the simplified momentum dependences of the effective interactions used in the fRG calculation, only the momentum integrated, that is, local part of the magnetic interaction
 $U^{\mathrm{eff}}_{\Omega} = \int_{\bs{Q}} U^{\mathrm{eff}}_{\bs{Q},\Omega}$
@@ -173,21 +180,13 @@ contributes to the charge channel. We thus obtain
 where
 \begin{equation}
  \Pi_{\bs{Q},\Omega}(\nu) =
- \int_{\bs{p}} G_0(\bs{p},\nu) G_0(\bs{p}+\bs{Q},\nu+\Omega) .
+ - \int_{\bs{p}} G_0(\bs{p},\nu) G_0(\bs{p}+\bs{Q},\nu+\Omega) .
 \end{equation}
 Here the charge channel is expressed in terms of $\nu_1$ and $\nu_3=\nu_2-\Omega$ rather than in terms of $\nu_1$ and $\nu_2$. Note that the fermion frequencies $\nu$ are not summed in $\Pi_{\bs{Q},\Omega}(\nu)$.
 Eq.~(\ref{pl:charge}) is nothing more than an RPA equation with a frequency dependent interaction in the particle-hole channel.\cite{Rohringer2012} $U^{\mathrm{eff}}$ depends on $\nu_1-\nu_3$ due to the frequency exchange from particle-hole crossed to particle-hole notation.
 We note that, in the case of a frequency independent effective interaction $U_{\mathrm{eff}}$, Eq.~(\ref{pl:charge}) becomes $\nu_1$ and $\nu_3$ independent 
 and only the summed bubble $\Pi_{\bs{Q},\Omega}$ appears.
 The frequency dependence of $U_{\mathrm{eff}}$ qualitatively affects the results. 
-
-\begin{figure*}
-\includegraphics[width=\textwidth]{images/PL_all.png}
-\vspace*{-2.0cm}
-\caption{In the first three panels from the left, the charge channel $\mathcal{C}_{\bs{Q}=(0,0),\Omega}$ computed from Eq.~\ref{pl:charge} is shown as 
-a function of $\nu_1$ and $\nu_2$ for transfer frequencies $\Omega=0$, $\Omega=2\pi T$ and $\Omega=4\pi T$, respectively. In the right panel, the bubble $\Pi_{\bs{Q}=(0,0),\Omega}(\nu)$ is shown as a function of $\nu$ for $\Omega=0$, $\Omega=2\pi T$ and $\Omega=4\pi T$. The model parameters are $t'=-0.32$ and $U=4$, the doping $x=0.375$, and the temperature $T=t$.} 
-\label{fig:perpladder}
-\end{figure*}
 
 In Fig.~\ref{fig:perpladder}, we show the charge channel as computed from Eq.~(\ref{pl:charge}) for $\bs{Q}=(0,0)$  and different $\Omega$ as a function of $\nu_1$ and $\nu_2$, for $T=t$ and $x=0.375$.
 We have to choose such a high temperature to stay in a stable paramagnetic phase, due to the above-mentioned overestimation of the fluctuations within the RPA. In the more accurate fRG calculation the magnetic instability occurs at lower temperatures.
@@ -217,58 +216,50 @@ This is probably the reason why the inclusion of the self-energy feedback preven
 
 %All these considerations suggest that the divergence of the charge channel is rather an artefact of fRG without self-energy, arising from a lack of consistence between the vertex and the Green's function in the flow equations. 
 %In the next section we further substanciate this conclusion, by explaining the mathematical origin of the feature. 
-%The self-energy has qualitative and quantitive effects on the flow equations: quantitively 
-\subsection{Self energy analysis}
-We discuss here the frequency and momentum dependence of the self energy. 
-In Fig.~\ref{fig:selffermi0975}  we show the frequency dependence of the imaginary part of the self-energy for $U=4t$, $T=0.08t$,  $t'=-0.32t$ and doping $x=0.025$. 
+%The self-energy has qualitative and quantitive effects on the flow equations: quantitively
 
-This spread between the maximal and minimal self-energy at each frequency is rather small, indicating that the self-energy did not develop a large momentum dependence even when the vertex reached the critical scale. 
-For all the momenta, the self-energy shows a Fermi-liquid like behavior (at finite temperature). 
-In this situation one would expect the antinodal region to be more affected by correlation effects. 
-However, we can only see a slight increase of the (absolute value of) self energy in this region. 
-At the temperature that we are considering, we do not observe a tendency towards the opening of a momentum selective gap. 
+\subsection{Self energy}
 
-In Fig.~\ref{fig:selffermi0600} we show the imaginary part of the self-energy for a larger doping $x=0.400$. For these parameters the incommensurability reaches its maximal value  $\delta=1.13$. 
-As in the previous case, we do not see much momentum differentiation.
+We now discuss the frequency and momentum dependence of the self energy. 
+In Fig.~\ref{fig:selffermi0975}  we show the frequency dependence of the imaginary part of the self-energy at $T=0.08t$ and low doping $x=0.025$. 
+The spread between the maximal and minimal self-energy at each frequency is rather small, indicating that the self-energy did not develop a large momentum dependence even when the flow parameter reached the critical scale. 
+For all momenta, $|\mathrm{Im}\Sigma(\bs{k},\nu)|$ decreases as a function of decreasing frequency, as in a Fermi liquid. 
+One would generally expect the antinodal region to be more affected by correlation effects. However, there is only a slight increase of $|\mathrm{Im}\Sigma(\bs{k},\nu)|$ in this region. At the temperature we are considering, we do not observe a tendency towards the opening of a momentum selective gap. 
 
-The self-energy enters directly in the calculation of the momentum resolved occupation through the Green's function, already discussed above, and shown in  Figs.~\ref{fig:occ975} and~\ref{fig:occ600}.
-In the bottom panels of these figures,  we show how the occupation evolves along two different cuts in the Brillouin zone.
-The two cuts are shown by arrows in the inset, and cross, respectively,  the \textit{nodal} and \textit{antinodal} regions.
-The occupation drop is sharper along the main diagonal, and the self-energy affects more the occupation along the nodal cut.
+In Fig.~\ref{fig:selffermi0600} we show the imaginary part of the self-energy for a larger doping $x=0.4$. As in the previous case, we do not see much momentum differentiation.
+
+The self-energy enters directly in the calculation of the momentum distribution through the Green's function, already discussed above, and shown in Figs.~\ref{fig:occ975} and~\ref{fig:occ600}.
+In the bottom panels of these figures, we show how the momentum distribution evolves along two different cuts in the Brillouin zone, crossing the \textit{nodal} and \textit{antinodal} regions, respectively.
+The drop in the momentum distribution is sharper along the diagonal, and the self-energy effects are stronger along the antinodal cut.
 For doping $x=0.4$ the broadening of the Fermi surface, already larger at the non interacting level, is further enhanced by the self-energy.
 
 To study further the difference between nodal and antinodal regions in the iAF case, we studied the quasiparticle weight\cite{Abrikosov1963,Metzner2012} $\mathcal{Z}_{\bs{k}}$, and the decay rate $\gamma_{\bs{k}}$.
 Instead of relying on analytical continuation, we have extracted the parameters directly from the imaginary axis data.
-To do so we have fitted the first few frequencies of the imaginary part of the self-energy with a polynomial of degree $l$: $\mathrm{Im}\Sigma(\bs{k},i\nu)\approx a_0(\bs{k})+a_1(\bs{k})\nu+...+a_l(\bs{k})\nu^l$ and we identified $\gamma_{\mathbf{k}}=a_0(\bs{k})$, $\mathcal{Z}_{\bs{k}}= \frac{1}{1-a_1(\bs{k})}$.
+To do so we have fitted the first few frequencies of the imaginary part of the self-energy with a polynomial of degree $l$: $\mathrm{Im}\Sigma(\bs{k},i\nu)\approx a_0(\bs{k})+a_1(\bs{k})\nu+...+a_l(\bs{k})\nu^l$ and we identified $\gamma_{\mathbf{k}}=a_0(\bs{k})$ and $\mathcal{Z}_{\bs{k}}= \frac{1}{1-a_1(\bs{k})}$.
 The procedure only works if the temperature is small enough, and if the frequencies used for the fitting are not too high. We checked that the results were stable by changing the number of frequencies and the order of the polynomial used for the fit. 
-The results are shown in Fig.~\ref{fig:zetaandgamma}, where the value of $\mathcal{Z}_{\bs{k}}$ and $\gamma_{\bs{k}}$ is plotted against the angle $\theta$ along the Fermi surface, $\theta=0$ corresponding to the antinodal point and $\theta=\pi/4$ to the nodal one. 
+In Fig.~\ref{fig:zetaandgamma} we plot $\mathcal{Z}_{\bs{k}}$ and $\gamma_{\bs{k}}$ against the angle $\theta$ along the Fermi surface, $\theta=0$ corresponding to the antinodal point and $\theta=\pi/4$ to the nodal one. 
 The variation of the quasiparticle weight along the Fermi surface is extremely small with $\mathcal{Z}$ assuming values between $0.754$ and $0.760$. 
-On the other hand the relative variation of the decay rate $\gamma$ along the Fermi surface is larger, varying from $\gamma\approx 0.056t$ and $\gamma \approx 0.082t$. These values are comparable with the temperature $T=0.08t$. 
-We conclude that at the critical scale, the system still has coherent quasiparticles along all the Fermi surface, with a higher decay rate in the antinodal region. This is consistent with the observations of Ref.~\cite{Rohe2005}, where it is shown that non Fermi liquid behavior of the self-energy is observed only very close to the critical temperature and in the immediate vicinity of the hot spots. \emph{I did not really know where to add the citation, we can expand commenting that it is Wick-ordered?}  
+On the other hand, the relative variation of the decay rate $\gamma$ along the Fermi surface is sizable, varying from $\gamma\approx 0.056t$ and $\gamma \approx 0.082t$. These values are comparable with the temperature $T=0.08t$. 
+We conclude that at the critical scale, the system still has coherent quasiparticles along the Fermi surface, with a higher decay rate in the antinodal region. This is consistent with the observations of Ref.~\cite{Rohe2005}, where non-Fermi liquid behavior of the self-energy was observed only very close to the critical temperature and in the immediate vicinity of the hot spots. \emph{Honerkamp}  
 \begin{figure}
 \includegraphics[width=0.50\textwidth]{images/Self_Im_occ0975.png}
-\caption{Frequency dependent self-energy for $U=4t$, $T=0.08t$, $t'=-0.32t$, $x=0.025$.
-Red symbols refer to the Fermi surface momentum in the antinodal direction,  blue symbols to the Fermi surface momentum on the diagonal, while  green symbols refer to a momentum on the Fermi-surface between these two extremes. 
-The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset.  
-The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and ~\ref{fig:occ600}, and does not change during the flow.
+\caption{Self-energy as a function of frequency for $U=4t$, $t'=-0.32t$ and low doping $x=0.025$ at a temperature $T=0.08t$.
+The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset. The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and \ref{fig:occ600}, and does not change during the flow.
 The shaded area highlights the region between the maximal and minimal value of the self-energy for each frequency. }
 \label{fig:selffermi0975}
 \end{figure}
 
-
 \begin{figure}
 \includegraphics[width=0.50\textwidth]{images/Self_Im_occ0600.png}
-\caption{Frequency dependent self-energy for $U=4t$, $T=0.08t$, $t'=-0.32t$, $x=0.4$.
-Red symbols refer to the Fermi surface momentum in the antinodal direction,  blue symbols to the Fermi surface momentum on the diagonal, while  green symbols refer to a momentum on the Fermi-surface between these two extremes. 
-The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset.  
-The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and ~\ref{fig:occ600}, and does not change during the flow.
+\caption{Self-energy as a function of frequency for $U=4t$, $t'=-0.32t$ and high doping $x=0.4$ at a temperature $T=0.08$.
+The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset. The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and ~\ref{fig:occ600}, and does not change during the flow.
 The shaded area is the region between the maximal and minimal value of the self-energy for each frequency.}
 \label{fig:selffermi0600}
 \end{figure}
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{images/z_and_gamma975.png}
-\caption{Quasiparticle weight $\mathcal{Z}_{\bs{k} }$ and decay rate $\gamma_{\bf{k}}$ as function of the angle $\theta$. 
-The values on the left axis refer to the quasiparticle weight. The values on the right axis refer to the decay rate.}
+\caption{Quasiparticle weight $\mathcal{Z}_{\bs{k} }$ and decay rate $\gamma_{\bf{k}}$ as function of the angle $\theta$ for the same parameters as in Fig.~???. 
+The values on the left axis refer to the quasiparticle weight, the values on the right axis refer to the decay rate.}
 \label{fig:zetaandgamma}
 \end{figure}

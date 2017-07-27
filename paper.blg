@@ -3,49 +3,87 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
 Database file #1: refs.bib
-Warning--I didn't find a database entry for "endnote23"
-Warning--I didn't find a database entry for "Wentzell2017"
-Warning--empty publisher in Abrikosov1963
+Repeated entry---line 2084 of file refs.bib
+ : @article{Berges2002
+ :                    ,
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 5920 of file refs.bib
+ :    author = {Rohringer}, g. 
+ :                             and {Hafermann}, H. and {Toschi}, A. and {Katanin},
+I'm skipping whatever remains of this entry
+Repeated entry---line 7857 of file refs.bib
+ : @article{Georges1992
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7876 of file refs.bib
+ : @article{Georges1996
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8468 of file refs.bib
+ : @article{Honerkamp2001
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9258 of file refs.bib
+ : @article{Kinza2013
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10112 of file refs.bib
+ : @article{Metzner1989
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12342 of file refs.bib
+ : @article{Berges2002
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12401 of file refs.bib
+ : @article{Honerkamp2001
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "endnote31"
 Warning--empty journal in Wentzell2016
-You've used 19 entries,
+Warning--empty title in Rohringer2017
+Warning--empty journal in Rohringer2017
+Warning--empty year in Rohringer2017
+Warning--empty publisher in Abrikosov1963
+You've used 31 entries,
             1791 wiz_defined-function locations,
-            588 strings with 7010 characters,
-and the built_in function-call counts, 4309 in all, are:
-= -- 351
-> -- 228
+            662 strings with 8831 characters,
+and the built_in function-call counts, 7128 in all, are:
+= -- 594
+> -- 356
 < -- 0
-+ -- 83
-- -- 64
-* -- 352
-:= -- 727
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 18
++ -- 130
+- -- 99
+* -- 593
+:= -- 1182
+add.period$ -- 91
+call.type$ -- 31
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 169
-empty$ -- 404
-format.name$ -- 64
-if$ -- 923
+cite$ -- 36
+duplicate$ -- 276
+empty$ -- 676
+format.name$ -- 99
+if$ -- 1529
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 20
-newline$ -- 98
-num.names$ -- 19
-pop$ -- 34
+int.to.str$ -- 31
+missing$ -- 32
+newline$ -- 156
+num.names$ -- 31
+pop$ -- 52
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 60
+skip$ -- 102
 stack$ -- 0
-substring$ -- 296
-swap$ -- 18
+substring$ -- 542
+swap$ -- 29
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 36
-width$ -- 21
-write$ -- 205
-(There were 4 warnings)
+warning$ -- 5
+while$ -- 62
+width$ -- 33
+write$ -- 331
+(There were 9 error messages)
