@@ -1,89 +1,70 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/TeX Live for SUSE Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
-The style file: unsrt.bst
-Database file #1: refs.bib
-Repeated entry---line 2084 of file refs.bib
- : @article{Berges2002
- :                    ,
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: paperNotes.bib
+Database file #2: refs.bib
+I was expecting a `,' or a `}'---line 457 of file refs.bib
+ :   
+ :   Publisher={Dover Publications, Inc.}
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting an "="---line 5920 of file refs.bib
- :    author = {Rohringer}, g. 
- :                             and {Hafermann}, H. and {Toschi}, A. and {Katanin},
-I'm skipping whatever remains of this entry
-Repeated entry---line 7857 of file refs.bib
- : @article{Georges1992
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7876 of file refs.bib
- : @article{Georges1996
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8468 of file refs.bib
- : @article{Honerkamp2001
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 9258 of file refs.bib
- : @article{Kinza2013
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 10112 of file refs.bib
- : @article{Metzner1989
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12342 of file refs.bib
- : @article{Berges2002
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12401 of file refs.bib
- : @article{Honerkamp2001
- :                       ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "endnote31"
-Warning--empty journal in Wentzell2016
-Warning--empty title in Rohringer2017
-Warning--empty journal in Rohringer2017
-Warning--empty year in Rohringer2017
-Warning--empty publisher in Abrikosov1963
-You've used 31 entries,
-            1791 wiz_defined-function locations,
-            662 strings with 8831 characters,
-and the built_in function-call counts, 7128 in all, are:
-= -- 594
-> -- 356
-< -- 0
-+ -- 130
-- -- 99
-* -- 593
-:= -- 1182
-add.period$ -- 91
-call.type$ -- 31
-change.case$ -- 29
-chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 276
-empty$ -- 676
-format.name$ -- 99
-if$ -- 1529
-int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 32
-newline$ -- 156
-num.names$ -- 31
-pop$ -- 52
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing publisher in Abrikosov1963
+You've used 29 entries,
+            5847 wiz_defined-function locations,
+            1831 strings with 21291 characters,
+and the built_in function-call counts, 28833 in all, are:
+= -- 1797
+> -- 817
+< -- 189
++ -- 257
+- -- 196
+* -- 4614
+:= -- 2812
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 117
+chr.to.int$ -- 28
+cite$ -- 30
+duplicate$ -- 2677
+empty$ -- 2104
+format.name$ -- 492
+if$ -- 5693
+int.to.chr$ -- 2
+int.to.str$ -- 37
+missing$ -- 342
+newline$ -- 139
+num.names$ -- 84
+pop$ -- 1112
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 144
 quote$ -- 0
-skip$ -- 102
+skip$ -- 1003
 stack$ -- 0
-substring$ -- 542
-swap$ -- 29
-text.length$ -- 0
+substring$ -- 616
+swap$ -- 2596
+text.length$ -- 98
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 5
-while$ -- 62
-width$ -- 33
-write$ -- 331
-(There were 9 error messages)
+top$ -- 8
+type$ -- 416
+warning$ -- 1
+while$ -- 75
+width$ -- 0
+write$ -- 278
+(There was 1 error message)

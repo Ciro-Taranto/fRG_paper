@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  27 JUL 2017 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  27 JUL 2017 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,72 +6,103 @@ entering extended mode
 (./paper.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
-(/usr/share/texmf/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
-cumentation)
- Copyright (c) 2001 The American Physical Society.
+(/home/taranto/texmf/tex/latex/mypackages/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
- Arthur Ogawa <ogawa@teleport.com>
- Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
-ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
-Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip41
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
 \intertabularlinepenalty=\count79
 \@tbpen=\count80
 \@arstrutbox@hline=\box26
-Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
-ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
-\c@linecount=\count81
-\output=\toks14
-\@protection@box=\box27
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
 \@topmark@saved=\toks15
-\footins@saved=\box28
-\pagesofar=\box29
-\footbox=\box30
-\pagegrid@col=\count82
-Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
-ly upper/lower case changing (DPC)]. on input line 3682.
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+Class revtex4-1 Info: Selecting society aps on input line 7542.
+(/home/taranto/texmf/tex/latex/mypackages/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal prb on input line 7544.
+Class revtex4-1 Info: APS journal PRB selected on input line 7545.
+
+
+Class revtex4-1 Warning: No type size specified, using default 10.
+
+(/home/taranto/texmf/tex/latex/mypackages/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/usr/share/texmf/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
 (/usr/share/texmf/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@affil=\count83
-\absbox=\box31
-\c@part=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\c@figure=\count90
-\c@table=\count91
-
 (/usr/share/texmf/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip43
-\bibsep=\skip44
+\bibhang=\skip44
+\bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count92
+\c@NAT@ctr=\count94
 )
-\widetext@top=\box32
-\widetext@bot=\box33
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/share/texmf/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
-tion)
-LaTeX Info: Redefining \REV@mathfrak on input line 118.
+(/home/taranto/texmf/tex/latex/mypackages/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/share/texmf/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
-n)
-)
-(/usr/share/texmf/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
-on)
-)
 (/usr/share/texmf/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -87,7 +118,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texmf/tex/generic/babel/babel.def
 File: babel.def 2015/08/03 3.9m Babel common definitions
-\babel@savecnt=\count93
+\babel@savecnt=\count95
 \U@D=\dimen102
 )
 \l@canadian = a dialect from \language\l@american 
@@ -124,7 +155,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count94
+\Gread@gobject=\count96
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -142,7 +173,7 @@ Package color Info: Driver file: pdftex.def on input line 142.
 )
 (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf/tex/latex/amsmath/amstext.sty
@@ -152,7 +183,9 @@ Package: amstext 2000/06/29 v2.01
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen107
-))
+)
+LaTeX Info: Redefining \text on input line 39.
+)
 (/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen108
@@ -160,30 +193,30 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count97
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count98
+\leftroot@=\count99
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count100
+\DOTSCASE@=\count101
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box34
-\strutbox@=\box35
+\Mathstrutbox@=\box41
+\strutbox@=\box42
 \big@size=\dimen109
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
 \dotsspace@=\muskip11
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
 \tag@help=\toks18
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
 \andhelp@=\toks19
 \eqnshift@=\dimen110
 \alignsep@=\dimen111
@@ -192,49 +225,114 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen114
 \lineht@=\dimen115
 \@envbody=\toks20
-\multlinegap=\skip46
-\multlinetaggap=\skip47
+\multlinegap=\skip47
+\multlinetaggap=\skip48
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texmf/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
-) (./paper.aux
+)
+(/usr/share/texmf/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count109
+\float@exts=\toks22
+\float@box=\box43
+\@float@everytoks=\toks23
+\@floatcapt=\box44
+)
+(/usr/share/texmf/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texmf/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\par \vskip \abovecapti
+onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
+@capt@title {#1}{#2}}\@ifdim {\wd \@tempboxa >\hsize }{\begingroup \samepage \f
+lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
+dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
+ }}\endgroup \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count110
+Package caption Info: float package is loaded.
+) (/usr/share/texmf/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen123
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen124
+\subfiglabelskip=\skip52
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
+)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 27.
+
+
+Class revtex4-1 Warning: Repair the float package.
+
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
+(./paper.aux
 
 LaTeX Warning: Label `eq:app:P_pp' multiply defined.
 
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-Class revtex4 Info: Patching LaTeX tabular. on input line 23.
-Class revtex4 Info: cite was not loaded (OK!) on input line 23.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
  (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen116
-\scratchbox=\box36
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen117
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count115
+\scratchdimen=\dimen125
+\scratchbox=\box45
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen126
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -283,14 +381,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\openout3 = `paperNotes.bib'.
+
+
 (./content/Introduction.tex) (./content/fRG.tex [1{/usr/share/texmf/fonts/map/p
 dftex/updmap/pdftex.map}]
-<images/VertexBox.png, id=16, 379.4175pt x 205.76875pt>
+<images/VertexBox.png, id=20, 379.4175pt x 205.76875pt>
 File: images/VertexBox.png Graphic file (type png)
 
 <use images/VertexBox.png>
-Package pdftex.def Info: images/VertexBox.png used on input line 42.
-(pdftex.def)             Requested size: 76.49689pt x 41.48582pt.
+Package pdftex.def Info: images/VertexBox.png used on input line 43.
+(pdftex.def)             Requested size: 101.99844pt x 55.31653pt.
 
 Underfull \hbox (badness 1286) in paragraph at lines 65--67
 \T1/cmr/m/n/10 This al-lows us to ex-press the ver-tex by only one
@@ -301,15 +405,11 @@ Underfull \hbox (badness 4647) in paragraph at lines 65--67
 \T1/cmr/m/n/10 func-tion of three frequency-momentum ar-gu-ments:
  []
 
-[2 <./images/VertexBox.png (PNG copy)>]
-\@endnoteout=\write3
-\openout3 = `paper.end'.
-
-) (./content/VertexApproximation.tex
-[3] [4]) (./content/Results.tex
-<images/phasediag.png, id=35, 433.62pt x 289.08pt>
+[2 <./images/VertexBox.png>]) (./content/VertexApproximation.tex [3] [4])
+(./content/Results.tex <images/phasediag.png, id=36, 433.62pt x 289.08pt>
 File: images/phasediag.png Graphic file (type png)
- <use images/phasediag.png>
+
+<use images/phasediag.png>
 Package pdftex.def Info: images/phasediag.png used on input line 23.
 (pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
@@ -317,11 +417,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-
-LaTeX Warning: Reference `sec:cutoff' on page 5 undefined on input line 34.
-
-[5 <./images/phasediag.png>]
-<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=48, 433.62pt x 289.08pt>
+<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=37, 433.62pt x 289.08pt>
 File: images/chargeproblem_MC_vs_Lambda_fix_occ.png Graphic file (type png)
 
 <use images/chargeproblem_MC_vs_Lambda_fix_occ.png>
@@ -333,11 +429,8 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
-
-LaTeX Warning: Reference `sec:per_ladder' on page 6 undefined on input line 60.
-
-
-<images/chargeproblem_M_vs_Lambda_diff_occ.png, id=49, 433.62pt x 289.08pt>
+[5 <./images/phasediag.png>]
+<images/chargeproblem_M_vs_Lambda_diff_occ.png, id=42, 433.62pt x 289.08pt>
 File: images/chargeproblem_M_vs_Lambda_diff_occ.png Graphic file (type png)
 
 <use images/chargeproblem_M_vs_Lambda_diff_occ.png>
@@ -349,7 +442,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-<images/occupations_0975.png, id=50, 722.7pt x 722.7pt>
+<images/occupations_0975.png, id=43, 722.7pt x 722.7pt>
 File: images/occupations_0975.png Graphic file (type png)
 
 <use images/occupations_0975.png>
@@ -360,7 +453,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<images/occupations_0600.png, id=51, 722.7pt x 722.7pt>
+<images/occupations_0600.png, id=44, 722.7pt x 722.7pt>
 File: images/occupations_0600.png Graphic file (type png)
 
 <use images/occupations_0600.png>
@@ -371,61 +464,52 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-[6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <./images/chargeproblem_M_
-vs_Lambda_diff_occ.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 108.
-
-<images/Phi_color_all.png, id=57, 505.89pt x 505.89pt>
+<images/Phi_color_all.png, id=45, 505.89pt x 505.89pt>
 File: images/Phi_color_all.png Graphic file (type png)
 
 <use images/Phi_color_all.png>
 Package pdftex.def Info: images/Phi_color_all.png used on input line 111.
 (pdftex.def)             Requested size: 265.20218pt x 265.20253pt.
- [7 <./images/occupations_0975.png> <./images/occupations_0600.png>]
+ [6 <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <./images/chargeproblem_M
+_vs_Lambda_diff_occ.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 146.
+ on input line 130.
 
-<images/PL_all.png, id=65, 1084.05pt x 476.982pt>
+<images/PL_all.png, id=51, 1084.05pt x 476.982pt>
 File: images/PL_all.png Graphic file (type png)
  <use images/PL_all.png>
 Package pdftex.def Info: images/PL_all.png used on input line 149.
 (pdftex.def)             Requested size: 510.0pt x 224.3999pt.
 
-[8 <./images/Phi_color_all.png>]
-<images/Self_Im_occ0975.png, id=72, 433.62pt x 289.08pt>
+[7 <./images/occupations_0975.png> <./images/occupations_0600.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 159.
+
+[8 <./images/Phi_color_all.png>] [9 <./images/PL_all.png>]
+<images/Self_Im_occ0975.png, id=67, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0975.png Graphic file (type png)
 
 <use images/Self_Im_occ0975.png>
-Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 245.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 249.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 245--246
- [][] 
- []
-
-[9 <./images/PL_all.png>]
-<images/Self_Im_occ0600.png, id=77, 433.62pt x 289.08pt>
+<images/Self_Im_occ0600.png, id=68, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0600.png Graphic file (type png)
 
 <use images/Self_Im_occ0600.png>
 Package pdftex.def Info: images/Self_Im_occ0600.png used on input line 253.
-(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 253--254
- [][] 
- []
-
-<images/z_and_gamma975.png, id=78, 433.62pt x 289.08pt>
+<images/z_and_gamma975.png, id=69, 433.62pt x 289.08pt>
 File: images/z_and_gamma975.png Graphic file (type png)
 
 <use images/z_and_gamma975.png>
-Package pdftex.def Info: images/z_and_gamma975.png used on input line 261.
+Package pdftex.def Info: images/z_and_gamma975.png used on input line 279.
 (pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 261--262
+Overfull \hbox (9.0pt too wide) in paragraph at lines 279--280
  [][] 
  []
 
@@ -437,89 +521,72 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
 )
-(./content/Appendices.tex [10 <./images/Self_Im_occ0975.png> <./images/Self_Im_
-occ0600.png> <./images/z_and_gamma975.png>]
-<images/Phi_color_s_d_wave_SE_fill0_975.png, id=85, 433.62pt x 289.08pt>
+(./content/Appendices.tex
+Overfull \hbox (3.9982pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+[10] [11 <./images/Self_Im_occ0975.png> <./images/Self_Im_occ0600.png> <./image
+s/z_and_gamma975.png>]
+<images/Phi_color_s_d_wave_SE_fill0_975.png, id=82, 433.62pt x 289.08pt>
 File: images/Phi_color_s_d_wave_SE_fill0_975.png Graphic file (type png)
 
 <use images/Phi_color_s_d_wave_SE_fill0_975.png>
 Package pdftex.def Info: images/Phi_color_s_d_wave_SE_fill0_975.png used on inp
-ut line 92.
-(pdftex.def)             Requested size: 306.00311pt x 204.01314pt.
+ut line 112.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<images/Phi_color_s_d_wave_SE_fill0_600.png, id=86, 433.62pt x 289.08pt>
+<images/Phi_color_s_d_wave_SE_fill0_600.png, id=83, 433.62pt x 289.08pt>
 File: images/Phi_color_s_d_wave_SE_fill0_600.png Graphic file (type png)
 
 <use images/Phi_color_s_d_wave_SE_fill0_600.png>
 Package pdftex.def Info: images/Phi_color_s_d_wave_SE_fill0_600.png used on inp
-ut line 97.
-(pdftex.def)             Requested size: 306.00311pt x 204.01314pt.
-) [11] (./paper.bbl [12 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./image
-s/Phi_color_s_d_wave_SE_fill0_600.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
- []\T1/cmr/m/n/9 Christoph J. Hal-both and Wal-ter Met-zner.
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 39--43
- \T1/cmr/m/n/9 per-con-duc-tiv-ity and fer-ro-mag-netism.  \T1/cmr/m/it/9 Phys.
- Rev. B\T1/cmr/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 57--61
- []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing, and M. Salmhofer.
- []
-
-
-Underfull \hbox (badness 7116) in paragraph at lines 158--163
+ut line 116.
+(pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
+) (./paper.bbl [12 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./images/Phi
+_color_s_d_wave_SE_fill0_600.png>]
+Underfull \hbox (badness 7116) in paragraph at lines 176--180
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-(./paper.end)) [13] (./paper.aux)
-
-LaTeX Warning: There were undefined references.
-
+) [13] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4633 strings out of 493091
- 59825 string characters out of 6142993
- 174938 words of memory out of 5000000
- 8010 multiletter control sequences out of 15000+600000
- 17249 words of font info for 43 fonts, out of 8000000 for 9000
+ 6305 strings out of 493091
+ 87968 string characters out of 6142993
+ 198859 words of memory out of 5000000
+ 9661 multiletter control sequences out of 15000+600000
+ 16874 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,27p,1206b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,38p,1213b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmbx6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.pf
-b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi5.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/f
-onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/ams
-fonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/font
-s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfo
-nts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
-sr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts
-/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></us
+amsfonts/cm/cmbx7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
+f/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (13 pages, 2548815 bytes).
+Output written on paper.pdf (13 pages, 2493901 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 184 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

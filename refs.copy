@@ -47,7 +47,6 @@ url="https://doi.org/10.1007/s002570050385"
   doi = {10.1103/PhysRevB.61.7364},
   url = {https://link.aps.org/doi/10.1103/PhysRevB.61.7364}
 }
-
 @article{Halboth2000,
   title = {$\mathit{d}$},
   author = {Halboth, Christoph J. and Metzner, Walter},
@@ -62,7 +61,7 @@ url="https://doi.org/10.1007/s002570050385"
   doi = {10.1103/PhysRevLett.85.5162},
   url = {https://link.aps.org/doi/10.1103/PhysRevLett.85.5162}
 }
-
+@
 
 
 
@@ -363,6 +362,7 @@ doi = {10.1080/00018732.2013.862020},
   Bdsk-url-1               = {http://dx.doi.org/10.1143/PTP.105.1},
   Doi                      = {10.1143/PTP.105.1},
   Groups                   = {Paper_Vertex, fRG},
+  Owner                    = {Nils},
   Timestamp                = {2014.09.12}
 }
 
@@ -396,7 +396,7 @@ archivePrefix = "arXiv",
    adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170306505K},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
-
+}
 
 @article{Lichtenstein2017,
 title = "High-performance functional Renormalization Group calculations for interacting fermions ",
@@ -432,6 +432,7 @@ keywords = "Hubbard model "}
   Eid                      = {235115},
   Groups                   = {Paper_Vertex, fRG},
   Keywords                 = {Lattice fermion models, Fermions in reduced dimensions},
+  Owner                    = {nils},
   Timestamp                = {2016.03.08}
 }
 
@@ -450,13 +451,19 @@ keywords = "Hubbard model "}
   url = {https://link.aps.org/doi/10.1103/PhysRevLett.17.1133}
 }
 
-@Book{Abrikosov1963,
-  Title = {Methods of quantum field theory in statistical physics},
-  Author = {{Abrikosov},A.A. and {Gorkov}, L.P. and {Dzyaloshinski} I.E. }, 
-  Year = {1963}
-  Publisher={Dover Publications, Inc.}
-	}
+@Article{Abrikosov1961,
+  Title                    = {Contribution to the theory of superconducting alloys with paramagnetic impurities},
+  Author                   = {Abrikosov, AA and Gor'kov, LPr},
+  Journal                  = {Sov. Phys. JETP},
+  Year                     = {1961},
+  Pages                    = {1243-1253},
+  Volume                   = {12},
 
+  Groups                   = {OldWork},
+  Owner                    = {nils},
+  Publisher                = {Inst. of Problems in Physics, Academy of Sciences, USSR},
+  Timestamp                = {2015.08.06}
+}
 
 @article{Rohe2005,
 title = {Pseudogap at hot spots in the two-dimensional Hubbard model at weak coupling},

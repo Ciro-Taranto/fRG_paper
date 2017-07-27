@@ -1,5 +1,5 @@
  %\documentclass[aps,prb,twocolumn,showpacs,groupedaddress]{revtex4}
-\documentclass[aps,prb,twocolumn,showpacs,groupedaddress]{revtex4}
+\documentclass[aps,prb,twocolumn,showpacs,groupedaddress]{revtex4-1}
 
 %\usepackage[printfigures]{figcaps}
 \usepackage[T1]{fontenc}
@@ -9,9 +9,10 @@
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{bbold}
-
-
-\bibliographystyle{plain}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subfigure}
+%\usepackage{tikz}
 
 %\newcommand{\bs}[1] {\boldsymbol{#1}}
 \newcommand{\bs}[1] {\mathbf{#1}}
@@ -19,6 +20,9 @@
 \newcommand{\fl} [2]{#1^{\Lambda}_{\mathrm{#2} }  }
 
 %\setlength{\parskip}{\plus4mm minus3mm}
+%\makeatletter% Set distance from top of page to first float
+%\setlength{\@fptop}{-10pt}
+%\makeatother
 
 \begin{document}
 
@@ -67,6 +71,8 @@ We thank the Pink Floyd for providing us with a nice soundtrack while working. T
 \end{widetext}
 
 \bibliography{refs}
-\bibliographystyle{unsrt}
+%\bibliographystyle{unsrt}
+\bibliographystyle{apsrev4-1}
+
 
 \end{document}
