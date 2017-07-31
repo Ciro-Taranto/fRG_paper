@@ -43,7 +43,7 @@ Even though in our framework the flow cannot be continued beyond the critical sc
 
 %In the specific case of the interaction cutoff we can interprete the rescaled interaction $\tilde U^{\Lambda_\mathrm{c}}$ as the critical interaction at a given temperature.
 For the parameter sets shown in Fig.~\ref{fig:criscale}, and without self-energy feedback, there are two possible instabilities. 
-For doping smaller than $0.35$ the leading fluctations of the system are either commensurate or incommensurate antiferromagnetic.
+For doping smaller than $0.35$ the leading fluctations of the system are either commensurate (AF) or incommensurate antiferromagnetic (iAF).
 The incommensurability $\delta$ is defined through $\mathbf{Q}=(\pi,\pi-\delta)$, the momentum where the magnetic channel $\mathcal{M}^\Lambda$ has its maximum. 
 The region of commensurate antiferromagnetism for $0.125\le x \le 0.150$ has to be attributed to the presence of a large plateau around $(\pi,\pi)$ in the bare bubble. Correspondingly, the commensurate antiferromagnetic instablility is almost degenerate with an incommensurate one.
 %
@@ -138,7 +138,7 @@ The magnetic channel calculated with RPA would depend only on the frequency and 
 Hence any variation in the frequency structure has to be ascribed to the presence of the other channels in the fRG.
 The channel competition suppresses the magnetic channel: the largest value of $\mathcal{M}$ is reduced compared to the RPA, and the frequency dependent structure at the center is further reduced compared to the asymptotic values. 
 
-In the bottom left panel of Fig.~\ref{fig:freqplot} we show the frequency dependence of the charge channel $\mathcal{C}^{\Lambda_c}_{\bs{Q},\Omega}(\nu_1,\nu_2)$ for a finite frequency transfer $\Omega=2\pi/\beta$, related to the charge instability discussed in Ref.~\onlinecite{Husemann2009} and above. 
+In the bottom left panel of Fig.~\ref{fig:freqplot} we show the frequency dependence of the charge channel $\mathcal{C}^{\Lambda_c}_{\bs{Q},\Omega}(\nu_1,\nu_2)$ for a finite frequency transfer $\Omega=2\pi/\beta$, related to the charge instability discussed in Ref.~\onlinecite{Husemann2012} and above. 
 The frequency structure is completely different from the magnetic channel. 
 The charge channel assumes negative values, and the maximum is for frequencies $\nu_1 = \pi T$ and $\nu_2=-\pi T$. 
 This structure cannot be explained in terms of standard ladder diagrams. It might be related to the behavior of the retarded interaction described in Ref.~\onlinecite{Stepanov2016}.
@@ -220,10 +220,33 @@ This is probably the reason why the inclusion of the self-energy feedback preven
 
 \subsection{Self energy}
 
+\begin{figure*}[tbh]
+ % \begin{center}
+    \subfigure[$x=0.025$]{
+    \label{fig:selffermi0975}
+    \includegraphics[scale=0.55]{images/Self_Im_occ0975.png}}
+    \subfigure[$x=0.400$]
+    {
+    \label{fig:selffermi0600}
+    \includegraphics[scale=0.55]{images/Self_Im_occ0600.png}} 
+ % \end{center}
+  \caption{Self-energy as a function of frequency for $U=4t$, $t'=-0.32t$ at  temperature $T=0.08t$.
+The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset. The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and \ref{fig:occ600}, and does not change during the flow.
+The shaded area highlights the region between the maximal and minimal value of the self-energy for each frequency. }
+  \label{fig:selffermi}
+\end{figure*}
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{images/z_and_gamma975.png}
+\caption{Quasiparticle weight $\mathcal{Z}_{\bs{k} }$ and decay rate $\gamma_{\bf{k}}$ as function of the angle $\theta$ for the same parameters as in Fig.~\ref{fig:selffermi0975}. 
+The values on the left axis refer to the quasiparticle weight, the values on the right axis refer to the decay rate.}
+\label{fig:zetaandgamma}
+\end{figure}
+
+
 We now discuss the frequency and momentum dependence of the self energy. 
 In Fig.~\ref{fig:selffermi0975}  we show the frequency dependence of the imaginary part of the self-energy at $T=0.08t$ and low doping $x=0.025$. 
 The spread between the maximal and minimal self-energy at each frequency is rather small, indicating that the self-energy did not develop a large momentum dependence even when the flow parameter reached the critical scale. 
-For all momenta, $|\mathrm{Im}\Sigma(\bs{k},\nu)|$ decreases as a function of decreasing frequency, as in a Fermi liquid. 
+For all momenta and small frequencies, $|\mathrm{Im}\Sigma(\bs{k},\nu)|$ decreases as a function of decreasing frequency, as in a Fermi liquid. 
 One would generally expect the antinodal region to be more affected by correlation effects. However, there is only a slight increase of $|\mathrm{Im}\Sigma(\bs{k},\nu)|$ in this region. At the temperature we are considering, we do not observe a tendency towards the opening of a momentum selective gap. 
 
 In Fig.~\ref{fig:selffermi0600} we show the imaginary part of the self-energy for a larger doping $x=0.4$. As in the previous case, we do not see much momentum differentiation.
@@ -240,23 +263,8 @@ The procedure only works if the temperature is small enough, and if the frequenc
 In Fig.~\ref{fig:zetaandgamma} we plot $\mathcal{Z}_{\bs{k}}$ and $\gamma_{\bs{k}}$ against the angle $\theta$ along the Fermi surface, $\theta=0$ corresponding to the antinodal point and $\theta=\pi/4$ to the nodal one. 
 The variation of the quasiparticle weight along the Fermi surface is extremely small with $\mathcal{Z}$ assuming values between $0.754$ and $0.760$. 
 On the other hand, the relative variation of the decay rate $\gamma$ along the Fermi surface is sizable, varying from $\gamma\approx 0.056t$ and $\gamma \approx 0.082t$. These values are comparable with the temperature $T=0.08t$. 
-We conclude that at the critical scale, the system still has coherent quasiparticles along the Fermi surface, with a higher decay rate in the antinodal region. This is consistent with the observations of Ref.~\cite{Rohe2005}, where non-Fermi liquid behavior of the self-energy was observed only very close to the critical temperature and in the immediate vicinity of the hot spots. \emph{Honerkamp}  
+We conclude that at the critical scale, the system still has coherent quasiparticles along the Fermi surface, with a higher decay rate in the antinodal region. This is consistent with the observations of Ref.~\cite{Rohe2005}, where non-Fermi liquid behavior of the self-energy was observed only very close to the critical temperature and in the immediate vicinity of the hot spots.% \emph{Honerkamp}  
 
-\begin{figure*}[tbh]
- % \begin{center}
-    \subfigure[$x=0.025$]{
-    \label{fig:selffermi0975}
-    \includegraphics[scale=0.55]{images/Self_Im_occ0975.png}}
-    \subfigure[$x=0.400$]
-    {
-    \label{fig:selffermi0600}
-    \includegraphics[scale=0.55]{images/Self_Im_occ0600.png}} 
- % \end{center}
-  \caption{Self-energy as a function of frequency for $U=4t$, $t'=-0.32t$ at  temperature $T=0.08t$.
-The location of the $\mathbf{k}$-point in the Brillouin zone is color coded in the inset. The position of all the patching points taken into account for the self-energy is shown as black circles in the top row of Figs.~\ref{fig:occ975} and \ref{fig:occ600}, and does not change during the flow.
-The shaded area highlights the region between the maximal and minimal value of the self-energy for each frequency. }
-  \label{fig:selffermi}
-\end{figure*}
 
 
 %\begin{figure}
@@ -275,9 +283,4 @@ The shaded area highlights the region between the maximal and minimal value of t
 %\label{fig:selffermi0600}
 %\end{figure}
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{images/z_and_gamma975.png}
-\caption{Quasiparticle weight $\mathcal{Z}_{\bs{k} }$ and decay rate $\gamma_{\bf{k}}$ as function of the angle $\theta$ for the same parameters as in Fig.~\ref{fig:selffermi0975}. 
-The values on the left axis refer to the quasiparticle weight, the values on the right axis refer to the decay rate.}
-\label{fig:zetaandgamma}
-\end{figure}
+

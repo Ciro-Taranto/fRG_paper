@@ -6,7 +6,7 @@ The Hubbard model\cite{Hubbard1963} describes spin-$\frac{1}{2}$ fermions with a
  \mathcal{H} = \sum_{i,j,\sigma} t_{ij} c^{\dagger}_{i,\sigma} c_{j,\sigma}
  + U \sum_{i} n_{i,\uparrow} n_{i,\downarrow} ,
 \end{equation}
-where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation and annihilation operators for fermions on site $i$ with spin orientation $\sigma$ ($\uparrow$ or $\downarrow$). We consider the two-dimensional case on a square lattice and repulsive interaction $U>0$ at finite temperature $T$. The hopping amplitude is restricted to $t_{ij} = -t$ for nearest neighbors, $t_{ij}=-t'$ for next-to-nearest neighbors. Fourier transforming the hopping matrix yields the bare dispersion relation
+where $c^{\dagger}_{i,\sigma}$ ($c_{i,\sigma}$)  creates (annihilates) a fermion on site $i$ with spin orientation $\sigma$ ($\uparrow$ or $\downarrow$). We consider the two-dimensional case on a square lattice and repulsive interaction $U>0$ at finite temperature $T$. The hopping amplitude is restricted to $t_{ij} = -t$ for nearest neighbors, $t_{ij}=-t'$ for next-to-nearest neighbors. Fourier transforming the hopping matrix yields the bare dispersion relation
 \begin{equation}
  \varepsilon_{\mathbf{k}} =
  -2t \left( \cos{k_x} + \cos{k_y} \right) -4 t' \cos{k_x} \cos{k_y} .
@@ -17,14 +17,15 @@ where $c^{\dagger}_{i,\sigma}$ and $c_{i,\sigma}$ are, respectively, creation an
 
 In the following paragraph we will provide some details about the functional renormalization group,\cite{Metzner2012,Platt2013} defining in particular the notation used for the vertex. 
 
-Generally speaking, the fRG implements the renormalization group idea in the functional integral formalism. 
+The fRG implements the renormalization group idea in the functional integral formalism. 
 This is done by endowing the bare action with an additional dependence on a scale-parameter $\Lambda$,\cite{Metzner2012,Platt2013} 
 \begin{equation}
  \mathcal{S}^\Lambda[\overline\psi,\psi] =
  -(\overline\psi,{G_0^\Lambda}^{-1}\psi)+\mathcal{S}_{\mathrm{int}},  
 \end{equation} 
-where $\mathcal{S}_{\mathrm{int}}$ is the interaction part, and $(\overline\psi,\psi)$ summarizes the summation over all the quantum numbers of the fermionic fields  $\overline \psi$ and $\psi$. 
-The scale dependence, acquired through the non-interacting propagator $G_0^\Lambda$, generates flow equations (with known initial conditions) for generating functionals defined via functional integrals with the action $\mathcal{S}^\Lambda$, such as the generating functional for the connected Green's function and its Legendre transform, the socalled average effective action.\cite{Wetterich1993}
+where $\mathcal{S}_{\mathrm{int}}$ is the interaction part, and $(\overline\psi,\psi)$ denotes the summation over all the quantum numbers of the fermionic fields  $\overline \psi$ and $\psi$. 
+The scale dependence, acquired through the non-interacting propagator $G_0^\Lambda$, generates flow equations (with known initial conditions) for generating functionals. These are defined via functional integrals with the action $\mathcal{S}^\Lambda$. 
+Examples are the generating functional for the connected Green's function and its Legendre transform, the so-called average effective action.\cite{Wetterich1993}
 The final result is recovered for some final $\Lambda$-value restoring the original bare propagator, $G_0^{\Lambda_\mathrm{f}} = G_0$, so that the physical action of interest is recoved.  
 
 We will apply this approach to the effective action, whose expansions in the fields generates the one-particle irreducible (1PI) vertex functions. By expanding the functional flow equation,\cite{Wetterich1993} one obtains a hierarchy of flow equations for the 1PI functions, involving vertices of arbitrarily  high orders. 
@@ -47,14 +48,14 @@ where $k=(\nu,\mathbf{k})$, $\nu$ is a fermionic Matsubara frequency and $\mathb
 
 For the notation of the two-particle vertex function $V_{\sigma_1\sigma_2\sigma_3\sigma_4}(k_1,k_2,k_3)$ we refer to Fig.~\ref{fig:notvert}, where $k_i=(\mathbf{k_i},\nu_i)$.
 The momentum $k_4=k_1+k_2-k_3$ is fixed by momentum conservation.
-The SU(2) spin-rotation symmetry guarantees that the vertex does not vanish only for six spin combinations:
+The SU(2) spin-rotation symmetry guarantees that the vertex vanishes for all the six spin combinations apart from six:
 $V^\Lambda_{\uparrow\uparrow\uparrow\uparrow} =
  V^\Lambda_{\downarrow\downarrow\downarrow\downarrow}$, 
 $V^\Lambda_{\uparrow\downarrow\uparrow\downarrow} =
  V^\Lambda_{\downarrow\uparrow\downarrow\uparrow}$, and
 $V^\Lambda_{\uparrow\downarrow\downarrow\uparrow } =
  V^\Lambda_{\downarrow\uparrow\uparrow\downarrow}$.   
-Finally, due to the SU(2) symmetry and crossing relation one has \cite{Rohringer2012} 
+Finally, due to SU(2) symmetry and crossing relation one has \cite{Rohringer2012} 
 \begin{eqnarray}
 \nonumber
 V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)\\&-& V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3),
@@ -63,7 +64,7 @@ V^\Lambda_{\uparrow\uparrow\uparrow\uparrow}(k_1,k_2,k_3) &=& V^\Lambda_{\uparro
 V^\Lambda_{\uparrow\downarrow\downarrow\uparrow}(k_1,k_2,k_3)& =& -V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_1+k_2-k_3).
 \label{eq:spinsym2}
 \end{eqnarray}
-This allows us to express the vertex by only one function of three frequency-momentum arguments: $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$, all the others spin components being obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2}).\cite{Husemann2009}
+This allows us to express the vertex by only one function of three frequency-momentum arguments: $V^\Lambda(k_1,k_2,k_3)\equiv V^\Lambda_{\uparrow\downarrow\uparrow\downarrow}(k_1,k_2,k_3)$ where all the others spin components are obtained by Eqs.~(\ref{eq:spinsym1}-\ref{eq:spinsym2}).\cite{Husemann2009}
 
 The flow equation for the self energy can then be written as \cite{Metzner2012} 
 \begin{equation}
@@ -87,28 +88,63 @@ The flow equation for the vertex can be written as \cite{Metzner2012, Husemann20
 where \footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref.~\onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.}
 \begin{eqnarray}
 \label{eq:ppT} 
-\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{}(p,k_1+k_2-p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
+\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{\mathrm{pp}}(p,k_1+k_2-p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
 \label{eq:tpp} 
    \\ 
 \nonumber
 &&+  \fl{V}{}(k_1,k_2,p)\fl{V}{}(p,k_1+k_2-p,k_3) \Big\} ; \\  
 \label{eq:tph} 
-\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_p \fl{\mathcal{P}}{}(p,k_3-k_1+p)
+\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_p \fl{\mathcal{P}}{\mathrm{ph}}(p,k_3-k_1+p)
 \Big\{ 2 \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(p,k_2,k_3-k_1+p) \\
 \nonumber
 &&- \fl{V}{}( k_1,k_3-k_1+p,p)  \fl{V}{}(p,k_2,k_3-k_1+p) - \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(k_2,p,k_3-k_1+p) \Big\}; \\
 \label{eq:tphc}
-\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{}(p,k_2-k_3+p) \fl{V}{}(k_1,k_2-k_3+p,p)
+\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{\mathrm{ph}}(p,k_2-k_3+p) \fl{V}{}(k_1,k_2-k_3+p,p)
 \fl{V}{}(p,k_2,k_3).
 \end{eqnarray} 
-The subscripts $\mathrm{pp}$, $\mathrm{ph}$ and $\mathrm{phc}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed}.
-Here we have defined the quantity
+Here $\mathcal{T}^\Lambda_{\mathrm{pp}}$, $\mathcal{T}^\Lambda_{\mathrm{ph}}$ and $\mathcal{T}^\Lambda_{\mathrm{phc}}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed} channel.
+We have defined the quantities
 \begin{align}
- \mathcal{P}^\Lambda(p,p') &= G^\Lambda(p)S^\Lambda(p') + S^\Lambda(p) G^\Lambda(p'),
-%\fl{ \mathcal{P}}{}(p,Q+p) &= G^\Lambda(p)S^\Lambda(Q+p) +G^\Lambda(p+Q)S^\Lambda(p),
+ \mathcal{P}_{\mathrm{ph}}^\Lambda(Q,p) &= G^\Lambda(Q+p)S^\Lambda(p) + G^\Lambda(p) S^\Lambda(Q+p), \\ 
+ \mathcal{P}_{\mathrm{pp}}^\Lambda(Q,p) &=G^\Lambda(Q-p)S^\Lambda(p) + G^\Lambda(p) S^\Lambda(Q-p) 
+%\fl{ \mathcal{P}}{}(p,Q+p) &= G^\Lambda(p)S^\Lambda(Q+p) +G^\Lambda(p+Q)S^\Lambda(p).
 \end{align} 
-which is the scale-derivative, at fixed self energy, of the product of two Green's functions. %$Q$ is the frequency and momentum transfer.
+which are the scale derivatives, at fixed self energy, of the product of two Green's functions. %$Q$ is the frequency and momentum transfer.
+
+\end{widetext}
+
+\subsection{Interaction flow}
+\label{sec:IntFlow}
+To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator $G_0^\Lambda$.
+We used the \textit{interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}:
+ \begin{equation}
+ G_0^\Lambda(k) = \Lambda G_0(k)=\frac{\Lambda}{i\nu+\mu-\varepsilon_{\mathbf{k}} } , 
+ \end{equation}
+  Where the scale-parameter $\Lambda$ flows from $0$ to $1$%, and  
+% with $\varepsilon_{\bs{k}} = -2 t [\cos(k_x)+\cos(k_y)] - 4 t' \cos(k_x)\cos(k_y)$
+. $\mu$ is the chemical potential needed to fix the occupation at the desired value $n$. Correspondingly the interacting Green's function reads: 
+\begin{equation}
+G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)} 
+\end{equation} 
+We have introduced a $\Lambda$-dependent chemical potential to maintain the occupation fixed during the flow. The chemical potential becomes a functional of the flowing self-energy, $\mu=\mu[\Sigma^\Lambda]$, whose value is found by solving the equation:  
+\begin{equation}
+n = n^{\Lambda}(\mu) \equiv \int_k \frac{e^{i\nu 0^{+}}} {i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)}. 
+\end{equation} 
+for $\mu$.  
+
+The main advantage of the interaction cutoff is that  the $\Lambda$-dependent action can be interpreted\cite{Honerkamp2004} as the physical action of the system with rescaled interaction $\tilde{U}^\Lambda = \Lambda^2 U$.
+
+Since $T$ acts as an infrared cutoff, for our purposes we do not need to worry about the fact that this cutoff is not scale-selective, and hence does not regularize possible divergences in the bubbles. 
+%Furthermore it has been shown in Ref.~\onlinecite{Wentzell2016} that, in the context of the single-impurity Anderson model, the vertex-structures do not depend qualitatively on the cutoff-choice, and the specific effect of the interaction-cutoff on the vertex frequenc\mathcal{P}^\Lambda(p,p') &= G^\Lambda(p)S^\Lambda(p') + S^\Lambda(p) G^\Lambda(p'),y structure has been studied in detail.  
+
+%As a benchmark for the robustness of our results on the cutoff-choice, we have used a soft version of the \textit{frequency selective cutoff} defined\cite{Eberlein2014} by:
+%\begin{equation}
+%G_0^\Lambda(k) = \frac{1}{i\mathrm{sign}\sqrt{\nu^2+\Lambda^2 }-\mu- \varepsilon_{\bs{k}}},  
+%\end{equation}  
+%with $\Lambda_0=\infty$ and $\Lambda_{\mathrm{f}}=0$. Also in this case we have performed our calculations at fixed occupation. 
 
 
+%For both our cutoff choices at the beginning of the flow one has $G_0^{\Lambda_0}=0$, corresponding to a initial conditions for the self-energy and the vertex  defined by, $\Sigma^{\Lambda_0}=0$ and $V^{\Lambda_0 }= U$. 
+ 
 
 

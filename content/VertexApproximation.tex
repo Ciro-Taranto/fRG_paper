@@ -1,25 +1,34 @@
+%\begin{widetext}
+
 In order to deal with the frequency and momentum dependence of the vertex, we start by decomposing it as follows:\cite{Husemann2012} 
-\begin{align}
-\ve^{\Lambda}(k_1,k_2,k_3) = U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3) + \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)
- + \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
+\begin{eqnarray}
+\nonumber
+\ve^{\Lambda}(k_1,k_2,k_3)&=& U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3)  \\
+&+& \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)  \nonumber
+ \\ 
+ &+&
+  \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) \nonumber \\ & -& \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
  \label{eq:decomposition}
-\end{align}
-where we introduced the pairing channel $\phi_{\mathrm{p}}$, the magnetic channel $\phi_{\mathrm{m}}$ and the charge channel $\phi_{\mathrm{c}}$.
+\end{eqnarray}
+where we introduced the pairing- $\phi_{\mathrm{p}}$, the magnetic-  $\phi_{\mathrm{m}}$ and the charge-channel $\phi_{\mathrm{c}}$.
 Substituting Eq.~(\ref{eq:decomposition}) in Eq.~(\ref{eq:vertflow}) we obtain: 
 \begin{eqnarray}
 \nonumber
--\dot \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3) +\dot \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)
- + \frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) =\\ \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
-  \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + \fl{\mathcal{T}}{phc}(k_1,k_2,k_3).
+&&-\dot \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3)+ \dot \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)\\&& 
+ + \frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2)- \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2)\\&&=
+   \fl{\mathcal{T}}{pp}(k_1,k_2,k_3) +  
+  \fl{\mathcal{T}}{ph}(k_1,k_2,k_3) + 
+  \fl{\mathcal{T}}{phc}(k_1,k_2,k_3).
+  \nonumber
 \label{eq:decot}
 \end{eqnarray} 
-\end{widetext}
+%\end{widetext}
 We associate the momentum transfer argument of $\mathcal{P}^\Lambda$ in Eqns.~(\ref{eq:tpp}-\ref{eq:tphc}) to the momentum transfer argument of the $\phi_{\mathrm{x}}$ on the right hand side of Eq. \ref{eq:decomposition}.
 This way, it is easy to attribute $\fl{\mathcal{T}}{pp}$ to the flow equation of the only function in Eq. (\ref{eq:decot}) that depends explicitly on $k_1+k_2$: $-\dot\phi_{\mathrm{p}}^\Lambda=\fl{\mathcal{T}}{pp}$. 
 The same is true for the particle hole crossed channel: $\fl{\mathcal{T}}{phc}=\dot\phi_{\mathrm{m}}^\Lambda$.  We associate to the particle-hole diagram the third and fourth term on the left hand side of Eq.~(\ref{eq:decot}): $\fl{\mathcal{T}}{ph}(k_1,k_2,k_3)=\frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) $.  
 %The flow equation of the full vertex is then distributed to the $\phi$-channels. 
 %$\phi$ channels are defined by their respictive flow equations:
-Hence the flow equations for $\phi$ then read: 
+The flow equations for $\phi$ then read: 
 \begin{align}
 \dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
 \nonumber 
@@ -42,7 +51,7 @@ the completeness relation\cite{Lichtenstein2017}:
 The procedure outlined here is described in detail, e.g., in Ref.~\onlinecite{Lichtenstein2017}.
 
 We can then project each channel on a subset of form factors, whose choice is physically motivated\cite{Husemann2009}. 
-If one could keep all the  form factors the expansion would be exact.
+%If one could keep all the  form factors the expansion would be exact.
 
 For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k_x} - \cos{k_y}$:
 \begin{align}
@@ -51,7 +60,7 @@ For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k
     \mathcal{S}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3) +   \\ 
     & f_d\left(\frac{\bs{Q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{Q}}{2}-\bs{k}_3\right) \mathcal{D}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3).
 \end{align}
-The divergence in the channel $\mathcal{S}$ is associated to the emergence of $s$-wave superconductivity, while $\mathcal{D}$  to $d$-wave superconductivity.\cite{Metzner2012,Platt2013}
+The divergence in the channel $\mathcal{S}$ ($\mathcal{D}$) is associated to the emergence of $s$-wave ($d$-wave) superconductivity.\cite{Metzner2012,Platt2013}
 
 For the charge and magnetic channels we restrict ourselves to $f_{s}(\bs{k})=1$ only:
 \begin{align}
@@ -62,12 +71,12 @@ corresponding to instabilities in the charge and magnetic channels, respectively
 
 For each channel in Eq.~(\ref{eq:decomposition}) we have defined \textit{its own} frequency notation, consisting of one transfer frequency in the specific channel 
 and two remaining independent fermionic frequencies. 
- At finite temperature the frequency transfer is a bosonic Matsubara frequency.
+The frequency transfer is a bosonic Matsubara frequency.
  
  The choice of the mixed notation is the most natural since the transferred momentum and 
 frequency play a special role in the diagrammatics.
 Indeed, it is the only dependence generated in second order perturbation theory and the main dependence in finite 
-order perturbation theory. This notation is also convenient to express the Bethe-Salpeter equations, which are deeply related to parquet-approximations and fRG.
+order perturbation theory. This notation is also convenient to express the Bethe-Salpeter equations, which are related to parquet-approximations and fRG.
 Although one expects a leading dependence in the bosonic frequency, 
 in particular in the weak coupling regime, we will see that in some cases the dependence on fermionic frequencies can become strong and not negligible.
 In Refs.~\onlinecite{Husemann2009}, with a simplified frequency dependence, the channel functions above are interpreted as bosonic exchange propagators. Such an interpretation is missing with full frequency-dependence.
@@ -128,37 +137,4 @@ dependence on patches covering the Brillouin zone and truncate the frequency dep
 
 %While the form-factor projection procedure is well defined in momentum space, a similar approximation for the frequency, i.e., reducing the vertex frequency dependence to a frequency transfer only\cite{Karrasch2008a,Husemann2012,Taranto2014}, is more problematic.
 %Indeed this projection in frequency space requires that the two remaining frequencies are chosen arbitrarily. 
-%This choice affects quantitatively and qualitatively the results, for reasons that are clear looking at the frequency structure of the vertex, discussed below. 
-\subsection{Interaction flow}
-\label{sec:IntFlow}
-To use the flow equations defined above we need to specify the $\Lambda$-dependence of the non interacting propagator $G_0^\Lambda$.
-We used the \textit{interaction cutoff}, introduced in Ref. \onlinecite{Honerkamp2004}:
- \begin{equation}
- G_0^\Lambda(k) = \Lambda G_0(k)=\frac{\Lambda}{i\nu+\mu-\varepsilon_{\mathbf{k}} } , 
- \end{equation}
-  Where the scale-parameter $\Lambda$ flows from $0$ to $1$%, and  
-% with $\varepsilon_{\bs{k}} = -2 t [\cos(k_x)+\cos(k_y)] - 4 t' \cos(k_x)\cos(k_y)$
-. $\mu$ is the chemical potential needed to fix the occupation at the desired value $n$. Correspondingly the interacting Green's function reads: 
-\begin{equation}
-G^\Lambda (k) = \frac{\Lambda}{i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)} 
-\end{equation} 
-We have introduced a $\Lambda$-dependent chemical potential to maintain the occupation fixed during the flow. The chemical potential becomes a functional of the flowing self-energy, $\mu=\mu[\Sigma^\Lambda]$, whose value is found by solving the equation:  
-\begin{equation}
-n = n^{\Lambda}(\mu) \equiv \int_k \frac{e^{i\nu 0^{+}}} {i\nu - \varepsilon_{\bs{k}} +\mu^{\Lambda}-\Lambda\Sigma^\Lambda(k)}. 
-\end{equation} 
-for $\mu$.  
-
-The main advantage of the interaction cutoff is that  the $\Lambda$-dependent action can be interpreted\cite{Honerkamp2004} as the physical action of the system with rescaled interaction $\tilde{U}^\Lambda = \Lambda^2 U$.
-
-Since $T$ acts as an infrared cutoff, for our purposes we do not need to worry about the fact that this cutoff is not scale-selective, and hence does not regularize possible divergences in the bubbles. 
-%Furthermore it has been shown in Ref.~\onlinecite{Wentzell2016} that, in the context of the single-impurity Anderson model, the vertex-structures do not depend qualitatively on the cutoff-choice, and the specific effect of the interaction-cutoff on the vertex frequency structure has been studied in detail.  
-
-%As a benchmark for the robustness of our results on the cutoff-choice, we have used a soft version of the \textit{frequency selective cutoff} defined\cite{Eberlein2014} by:
-%\begin{equation}
-%G_0^\Lambda(k) = \frac{1}{i\mathrm{sign}\sqrt{\nu^2+\Lambda^2 }-\mu- \varepsilon_{\bs{k}}},  
-%\end{equation}  
-%with $\Lambda_0=\infty$ and $\Lambda_{\mathrm{f}}=0$. Also in this case we have performed our calculations at fixed occupation. 
-
-
-%For both our cutoff choices at the beginning of the flow one has $G_0^{\Lambda_0}=0$, corresponding to a initial conditions for the self-energy and the vertex  defined by, $\Sigma^{\Lambda_0}=0$ and $V^{\Lambda_0 }= U$. 
-   
+%This choice affects quantitatively and qualitatively the results, for reasons that are clear looking at the frequency structure of the vertex, discussed below.   

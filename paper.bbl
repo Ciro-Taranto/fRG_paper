@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{29}%
+\begin{thebibliography}{28}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,12 +50,16 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {{Wetterich}}(1993)}]{Wetterich1993}%
+\bibitem [{\citenamefont {{Berges}}\ \emph {et~al.}(2002)\citenamefont
+  {{Berges}}, \citenamefont {{Tetradis}},\ and\ \citenamefont
+  {{Wetterich}}}]{Berges2002}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Wetterich}}},\ }\href {\doibase 10.1016/0370-2693(93)90726-X} {\bibfield
-  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo
-  {volume} {301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Berges}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Tetradis}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Wetterich}}},\ }\href {\doibase 10.1016/S0370-1573(01)00098-9} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rep.}\ }\textbf {\bibinfo {volume}
+  {363}},\ \bibinfo {pages} {223} (\bibinfo {year} {2002})}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {{Metzner}}\ \emph {et~al.}(2012)\citenamefont
   {{Metzner}}, \citenamefont {{Salmhofer}}, \citenamefont {{Honerkamp}},
@@ -71,17 +75,29 @@
    {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo
   {volume} {84}},\ \bibinfo {pages} {299} (\bibinfo {year} {2012})}\BibitemShut
   {NoStop}%
-\bibitem [{\citenamefont {{Berges}}\ \emph {et~al.}(2002)\citenamefont
-  {{Berges}}, \citenamefont {{Tetradis}},\ and\ \citenamefont
-  {{Wetterich}}}]{Berges2002}%
+\bibitem [{\citenamefont {{Wetterich}}(1993)}]{Wetterich1993}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {{Berges}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
-  {{Tetradis}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Wetterich}}},\ }\href {\doibase 10.1016/S0370-1573(01)00098-9} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rep.}\ }\textbf {\bibinfo {volume}
-  {363}},\ \bibinfo {pages} {223} (\bibinfo {year} {2002})}\BibitemShut
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Wetterich}}},\ }\href {\doibase 10.1016/0370-2693(93)90726-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo
+  {volume} {301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {{Taranto}}\ \emph {et~al.}(2014)\citenamefont
+  {{Taranto}}, \citenamefont {{Andergassen}}, \citenamefont {{Bauer}},
+  \citenamefont {{Held}}, \citenamefont {{Katanin}}, \citenamefont {{Metzner}},
+  \citenamefont {{Rohringer}},\ and\ \citenamefont {{Toschi}}}]{Taranto2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Taranto}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {{Andergassen}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {{Bauer}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Held}}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Katanin}}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {{Metzner}}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {{Rohringer}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {{Toschi}}},\ }\href {\doibase
+  10.1103/PhysRevLett.112.196402} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {eid}
+  {196402} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zanchi}\ and\ \citenamefont
   {Schulz}(1996)}]{Zanchi1996}%
   \BibitemOpen
@@ -128,6 +144,15 @@
   {{Salmhofer}}},\ }\href {\doibase 10.1103/PhysRevB.79.195125} {\bibfield
   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
   {79}},\ \bibinfo {eid} {195125} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eberlein}\ and\ \citenamefont
+  {Metzner}(2013)}]{Eberlein2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Eberlein}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Metzner}},\ }\href {\doibase 10.1103/PhysRevB.87.174523} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {87}},\ \bibinfo {pages} {174523} (\bibinfo {year} {2013})}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Yamase}\ \emph {et~al.}(2016)\citenamefont {Yamase},
   \citenamefont {Eberlein},\ and\ \citenamefont {Metzner}}]{Eberlein2016}%
@@ -176,24 +201,6 @@
   {S.}~\bibnamefont {{Andergassen}}},\ }\href@noop {} {\bibfield  {journal}
   {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year}
   {2016})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Metzner}}\ and\ \citenamefont
-  {{Vollhardt}}(1989)}]{Metzner1989}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {{Metzner}}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {{Vollhardt}}},\ }\href {\doibase 10.1103/PhysRevLett.62.324} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {62}},\ \bibinfo {pages} {324} (\bibinfo {year} {1989})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {{Georges}}\ and\ \citenamefont
-  {{Kotliar}}(1992)}]{Georges1992}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {{Georges}}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {{Kotliar}}},\ }\href {\doibase 10.1103/PhysRevB.45.6479} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {45}},\ \bibinfo {pages} {6479} (\bibinfo {year} {1992})}\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {{Georges}}\ \emph {et~al.}(1996)\citenamefont
   {{Georges}}, \citenamefont {{Kotliar}}, \citenamefont {{Krauth}},\ and\
   \citenamefont {{Rozenberg}}}]{Georges1996}%
@@ -205,6 +212,17 @@
   {{Rozenberg}}},\ }\href {\doibase 10.1103/RevModPhys.68.13} {\bibfield
   {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
   {68}},\ \bibinfo {pages} {13} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Rohringer}}\ \emph {et~al.}(2012)\citenamefont
+  {{Rohringer}}, \citenamefont {{Valli}},\ and\ \citenamefont
+  {{Toschi}}}]{Rohringer2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {{Rohringer}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Valli}}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Toschi}}},\ }\href {\doibase 10.1103/PhysRevB.86.125114} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {86}},\ \bibinfo {eid} {125114} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {{Rohringer}}\ \emph {et~al.}(2017)\citenamefont
   {{Rohringer}}, \citenamefont {{Hafermann}}, \citenamefont {{Toschi}},
   \citenamefont {{Katanin}}, \citenamefont {{Antipov}}, \citenamefont
@@ -224,33 +242,6 @@
   e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
   {http://arxiv.org/abs/1705.00024} {arXiv:1705.00024 [cond-mat.str-el]}
   \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Rohringer}}\ \emph {et~al.}(2012)\citenamefont
-  {{Rohringer}}, \citenamefont {{Valli}},\ and\ \citenamefont
-  {{Toschi}}}]{Rohringer2012}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {{Rohringer}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {{Valli}}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {{Toschi}}},\ }\href {\doibase 10.1103/PhysRevB.86.125114} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {86}},\ \bibinfo {eid} {125114} (\bibinfo {year} {2012})}\BibitemShut
-  {NoStop}%
-\bibitem [{\citenamefont {{Taranto}}\ \emph {et~al.}(2014)\citenamefont
-  {{Taranto}}, \citenamefont {{Andergassen}}, \citenamefont {{Bauer}},
-  \citenamefont {{Held}}, \citenamefont {{Katanin}}, \citenamefont {{Metzner}},
-  \citenamefont {{Rohringer}},\ and\ \citenamefont {{Toschi}}}]{Taranto2014}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Taranto}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {{Andergassen}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {{Bauer}}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {{Held}}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Katanin}}}, \bibinfo
-  {author} {\bibfnamefont {W.}~\bibnamefont {{Metzner}}}, \bibinfo {author}
-  {\bibfnamefont {G.}~\bibnamefont {{Rohringer}}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {{Toschi}}},\ }\href {\doibase
-  10.1103/PhysRevLett.112.196402} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {eid}
-  {196402} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Hubbard}}(1963)}]{Hubbard1963}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
@@ -293,6 +284,17 @@
   instead of $V^{\Lambda }_{\protect \mathrm {} } = V^{\Lambda }_{\protect
   \mathrm {\delimiter "3222378 \delimiter "3223379 \delimiter "3223379
   \delimiter "3222378 } } $.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {{Honerkamp}}\ \emph {et~al.}(2004)\citenamefont
+  {{Honerkamp}}, \citenamefont {{Rohe}}, \citenamefont {{Andergassen}},\ and\
+  \citenamefont {{Enss}}}]{Honerkamp2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Honerkamp}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Rohe}}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Andergassen}}}, \ and\
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Enss}}},\ }\href
+  {\doibase 10.1103/PhysRevB.70.235115} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {eid}
+  {235115} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Lichtenstein}}\ \emph {et~al.}(2017)\citenamefont
   {{Lichtenstein}}, \citenamefont {{de la Pe\~na}}, \citenamefont {{Rohe}},
   \citenamefont {{Di Napoli}}, \citenamefont {{Honerkamp}},\ and\ \citenamefont
@@ -308,17 +310,6 @@
   {\bibinfo  {journal} {Computer Physics Communications}\ }\textbf {\bibinfo
   {volume} {213}},\ \bibinfo {pages} {100 } (\bibinfo {year}
   {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Honerkamp}}\ \emph {et~al.}(2004)\citenamefont
-  {{Honerkamp}}, \citenamefont {{Rohe}}, \citenamefont {{Andergassen}},\ and\
-  \citenamefont {{Enss}}}]{Honerkamp2004}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Honerkamp}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Rohe}}},
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Andergassen}}}, \ and\
-  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Enss}}},\ }\href
-  {\doibase 10.1103/PhysRevB.70.235115} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {eid}
-  {235115} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mermin}\ and\ \citenamefont
   {Wagner}(1966)}]{Mermin1966}%
   \BibitemOpen
@@ -351,8 +342,8 @@
   {{Abrikosov}}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
   {{Gorkov}}}, \ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of quantum field
-  theory in statistical physics}}}\ (\bibinfo {year} {1963})\BibitemShut
-  {NoStop}%
+  theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover Publications,
+  Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Rohe}\ and\ \citenamefont
   {Metzner}(2005)}]{Rohe2005}%
   \BibitemOpen
