@@ -88,21 +88,21 @@ The flow equation for the vertex can be written as \cite{Metzner2012, Husemann20
 where \footnote{The equation for the particle-particle channel is slightly different from the one usually reported in fRG, see, e.g., Ref.~\onlinecite{Husemann2009}. This is because we took $\fl{V}{} = \fl{V}{\uparrow \downarrow \uparrow\downarrow}$ instead of $\fl{V}{} = \fl{V}{\uparrow\downarrow\downarrow\uparrow}$.}
 \begin{eqnarray}
 \label{eq:ppT} 
-\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{\mathrm{pp}}(p,k_1+k_2-p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
+\fl{\mathcal{T}}{pp}(k_1,k_2,k_3) &=&-\frac{1}{2} \int_p \fl{\mathcal{P}}{\mathrm{pp}}(k_1+k_2,p) \Big\{  \fl{V}{}(k_1,k_2,k_1+k_2-p)\fl{V}{}(k_1+k_2-p,p,k_3) 
 \label{eq:tpp} 
    \\ 
 \nonumber
 &&+  \fl{V}{}(k_1,k_2,p)\fl{V}{}(p,k_1+k_2-p,k_3) \Big\} ; \\  
 \label{eq:tph} 
-\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_p \fl{\mathcal{P}}{\mathrm{ph}}(p,k_3-k_1+p)
+\fl{\mathcal{T} } {ph}(k_1,k_2,k_3) & =& -\int_p \fl{\mathcal{P}}{\mathrm{ph}}(k_3-k_1,p)
 \Big\{ 2 \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(p,k_2,k_3-k_1+p) \\
 \nonumber
 &&- \fl{V}{}( k_1,k_3-k_1+p,p)  \fl{V}{}(p,k_2,k_3-k_1+p) - \fl{V}{}( k_1,k_3-k_1+p,k_3)  \fl{V}{}(k_2,p,k_3-k_1+p) \Big\}; \\
 \label{eq:tphc}
-\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{\mathrm{ph}}(p,k_2-k_3+p) \fl{V}{}(k_1,k_2-k_3+p,p)
+\fl{\mathcal{T}}{phc}(k_1,k_2,k_3) & =& \int_p \fl{\mathcal{P}}{\mathrm{ph}}(k_2-k_3,p) \fl{V}{}(k_1,k_2-k_3+p,p)
 \fl{V}{}(p,k_2,k_3).
 \end{eqnarray} 
-Here $\mathcal{T}^\Lambda_{\mathrm{pp}}$, $\mathcal{T}^\Lambda_{\mathrm{ph}}$ and $\mathcal{T}^\Lambda_{\mathrm{phc}}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed} channel.
+Here $\mathcal{T}^\Lambda_{\mathrm{pp}}$, $\mathcal{T}^\Lambda_{\mathrm{ph}}$ and $\mathcal{T}^\Lambda_{\mathrm{phc}}$ stand respectively for \textit{particle-particle}, \textit{particle-hole} and \textit{particle-hole crossed} contributions.
 We have defined the quantities
 \begin{align}
  \mathcal{P}_{\mathrm{ph}}^\Lambda(Q,p) &= G^\Lambda(Q+p)S^\Lambda(p) + G^\Lambda(p) S^\Lambda(Q+p), \\ 
