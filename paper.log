@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  31 JUL 2017 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  10 AUG 2017 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,6 +363,11 @@ File: images/VertexBox.png Graphic file (type png)
 <use images/VertexBox.png>
 Package pdftex.def Info: images/VertexBox.png used on input line 44.
 (pdftex.def)             Requested size: 101.99844pt x 55.31653pt.
+ [2]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 59.
+
 
 Underfull \hbox (badness 1286) in paragraph at lines 66--68
 \T1/cmr/m/n/10 This al-lows us to ex-press the ver-tex by only one
@@ -373,8 +378,8 @@ Underfull \hbox (badness 4647) in paragraph at lines 66--68
 \T1/cmr/m/n/10 func-tion of three frequency-momentum ar-gu-ments:
  []
 
-[2 <./images/VertexBox.png>]) (./content/VertexApproximation.tex [3] [4])
-(./content/Results.tex <images/phasediag.png, id=36, 433.62pt x 289.08pt>
+[3 <./images/VertexBox.png>]) (./content/VertexApproximation.tex [4])
+(./content/Results.tex [5] <images/phasediag.png, id=39, 433.62pt x 289.08pt>
 File: images/phasediag.png Graphic file (type png)
 
 <use images/phasediag.png>
@@ -385,7 +390,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=37, 433.62pt x 289.08pt>
+<images/chargeproblem_MC_vs_Lambda_fix_occ.png, id=40, 433.62pt x 289.08pt>
 File: images/chargeproblem_MC_vs_Lambda_fix_occ.png Graphic file (type png)
 
 <use images/chargeproblem_MC_vs_Lambda_fix_occ.png>
@@ -396,11 +401,6 @@ input line 51.
 Overfull \hbox (9.0pt too wide) in paragraph at lines 51--52
  [][] 
  []
-
-[5]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 56.
 
 <images/chargeproblem_M_vs_Lambda_diff_occ.png, id=41, 433.62pt x 289.08pt>
 File: images/chargeproblem_M_vs_Lambda_diff_occ.png Graphic file (type png)
@@ -414,7 +414,12 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-<images/occupations_0975.png, id=42, 722.7pt x 722.7pt>
+[6 <./images/phasediag.png> <./images/chargeproblem_MC_vs_Lambda_fix_occ.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 76.
+
+<images/occupations_0975.png, id=53, 722.7pt x 722.7pt>
 File: images/occupations_0975.png Graphic file (type png)
 
 <use images/occupations_0975.png>
@@ -425,7 +430,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
-<images/occupations_0600.png, id=43, 722.7pt x 722.7pt>
+<images/occupations_0600.png, id=54, 722.7pt x 722.7pt>
 File: images/occupations_0600.png Graphic file (type png)
 
 <use images/occupations_0600.png>
@@ -436,128 +441,192 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 89--90
  [][] 
  []
 
-[6 <./images/phasediag.png> <./images/chargeproblem_MC_vs_Lambda_fix_occ.png> <
-./images/chargeproblem_M_vs_Lambda_diff_occ.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 100.
-
-<images/Phi_color_all.png, id=56, 505.89pt x 505.89pt>
+<images/Phi_color_all.png, id=55, 505.89pt x 505.89pt>
 File: images/Phi_color_all.png Graphic file (type png)
 
 <use images/Phi_color_all.png>
 Package pdftex.def Info: images/Phi_color_all.png used on input line 111.
 (pdftex.def)             Requested size: 265.20218pt x 265.20253pt.
- [7 <./images/occupations_0975.png> <./images/occupations_0600.png>]
+
+<images/phasediag_static.png, id=56, 433.62pt x 289.08pt>
+File: images/phasediag_static.png Graphic file (type png)
+
+<use images/phasediag_static.png>
+Package pdftex.def Info: images/phasediag_static.png used on input line 126.
+(pdftex.def)             Requested size: 255.0pt x 169.99992pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 126--127
+ [][] 
+ []
+
+[7 <./images/chargeproblem_M_vs_Lambda_diff_occ.png> <./images/occupations_0975
+.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 145.
 
-<images/PL_all.png, id=64, 1084.05pt x 476.982pt>
+[8 <./images/occupations_0600.png> <./images/Phi_color_all.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 168.
+
+<images/PL_all.png, id=70, 1084.05pt x 476.982pt>
 File: images/PL_all.png Graphic file (type png)
  <use images/PL_all.png>
-Package pdftex.def Info: images/PL_all.png used on input line 149.
+Package pdftex.def Info: images/PL_all.png used on input line 172.
 (pdftex.def)             Requested size: 510.0pt x 224.3999pt.
 
-[8 <./images/Phi_color_all.png>]
-<images/Self_Im_occ0975.png, id=71, 433.62pt x 289.08pt>
+[9 <./images/phasediag_static.png>]
+<images/Self_Im_occ0975.png, id=75, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0975.png Graphic file (type png)
 
 <use images/Self_Im_occ0975.png>
-Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 227.
+Package pdftex.def Info: images/Self_Im_occ0975.png used on input line 257.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<images/Self_Im_occ0600.png, id=72, 433.62pt x 289.08pt>
+<images/Self_Im_occ0600.png, id=76, 433.62pt x 289.08pt>
 File: images/Self_Im_occ0600.png Graphic file (type png)
 
 <use images/Self_Im_occ0600.png>
-Package pdftex.def Info: images/Self_Im_occ0600.png used on input line 231.
+Package pdftex.def Info: images/Self_Im_occ0600.png used on input line 261.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<images/z_and_gamma975.png, id=73, 433.62pt x 289.08pt>
+<images/z_and_gamma975.png, id=77, 433.62pt x 289.08pt>
 File: images/z_and_gamma975.png Graphic file (type png)
 
 <use images/z_and_gamma975.png>
-Package pdftex.def Info: images/z_and_gamma975.png used on input line 239.
+Package pdftex.def Info: images/z_and_gamma975.png used on input line 269.
 (pdftex.def)             Requested size: 255.0pt x 169.99992pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 239--240
+Overfull \hbox (9.0pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
-[9 <./images/PL_all.png>]) (./content/Conclusions.tex [10 <./images/Self_Im_occ
-0975.png> <./images/Self_Im_occ0600.png> <./images/z_and_gamma975.png>]
+[10 <./images/PL_all.png>]) (./content/Conclusions.tex
 Underfull \hbox (badness 3547) in paragraph at lines 8--10
 []\T1/cmr/m/n/10 The proper treat-ment of the ver-tex frequency-
  []
 
-) (./content/Appendices.tex
-Overfull \hbox (3.9982pt too wide) in paragraph at lines 24--24
+) [11 <./images/Self_Im_occ0975.png> <./images/Self_Im_occ0600.png> <./images/z
+_and_gamma975.png>] (./content/Appendices.tex
+Overfull \hbox (199.4684pt too wide) detected at line 12
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^W[]; ^^W[]\OT1/cmr/m/n/10 ) = [] [] [][](
+\OML/cmm/m/it/10 ^^W[]; ^^W\OT1/cmr/m/n/10 )[][](\OML/cmm/m/it/10 ^^W\OT1/cmr/m
+/n/10 )[][](\OML/cmm/m/it/10 ^^W; \OT1/cmr/m/n/10 
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^W[]\OT1/cmr/m/n/10 ) + [] [] [][](
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^W[]; ^^W\OT1/cmr/m/n/10 )[][](\OML/cmm
+/m/it/10 ^^W\OT1/cmr/m/n/10 )[][](\OML/cmm/m/it/10 ^^W; ^^W[]\OT1/cmr/m/n/10 )\
+OML/cmm/m/it/10 ;
+ []
+
+
+Overfull \hbox (47.09074pt too wide) detected at line 18
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/1
+0 G[]\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 p\OML/cmm/m/it/10 ; !\OT1/cmr/m/n/10 )\O
+ML/cmm/m/it/10 S[]\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 Q \OMS/cmsy/m/n/10 ^^@ \OT1
+/cmr/bx/n/10 p\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 G[
+]\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 Q \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/bx/n/10 p\OM
+L/cmm/m/it/10 ; \OT1/cmr/m/n/10 
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 !\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 S[]\O
+T1/cmr/m/n/10 (\OT1/cmr/bx/n/10 p\OML/cmm/m/it/10 ; !\OT1/cmr/m/n/10 )\OML/cmm/
+m/it/10 ;
+ []
+
+
+Overfull \hbox (267.9982pt too wide) in paragraph at lines 25--25
 [] 
  []
 
-[11] <images/Phi_color_s_d_wave_SE_fill0_975.png, id=90, 433.62pt x 289.08pt>
+
+Overfull \hbox (205.98999pt too wide) detected at line 32
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^W[]; ^^W[]\OT1/cmr/m/n/10 ) = [] [] [][](
+\OML/cmm/m/it/10 ^^W[]; ^^W\OT1/cmr/m/n/10 )[][][][](\OML/cmm/m/it/10 ^^W; \OT1
+/cmr/m/n/10 
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^W[]\OT1/cmr/m/n/10 ) + [] [] [][](
+ \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^W[]; ^^W\OT1/cmr/m/n/10 )[][](\OML/cmm
+/m/it/10 ^^W\OT1/cmr/m/n/10 )[][](\OML/cmm/m/it/10 ^^W; ^^W[]\OT1/cmr/m/n/10 )\
+OML/cmm/m/it/10 ;
+ []
+
+
+Overfull \hbox (142.56508pt too wide) detected at line 39
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 !\OT1/cmr/m/n/10 ) = [][] \OML/cmm/m/it/1
+0 f[] [][] [] ;
+ []
+
+
+Overfull \hbox (214.44972pt too wide) in paragraph at lines 49--49
+[] 
+ []
+
+
+Overfull \hbox (150.51895pt too wide) in paragraph at lines 68--68
+[] 
+ []
+
+<images/Phi_color_s_d_wave_SE_fill0_975.png, id=91, 433.62pt x 289.08pt>
 File: images/Phi_color_s_d_wave_SE_fill0_975.png Graphic file (type png)
 
 <use images/Phi_color_s_d_wave_SE_fill0_975.png>
 Package pdftex.def Info: images/Phi_color_s_d_wave_SE_fill0_975.png used on inp
-ut line 114.
+ut line 115.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
 
-<images/Phi_color_s_d_wave_SE_fill0_600.png, id=91, 433.62pt x 289.08pt>
+<images/Phi_color_s_d_wave_SE_fill0_600.png, id=92, 433.62pt x 289.08pt>
 File: images/Phi_color_s_d_wave_SE_fill0_600.png Graphic file (type png)
 
 <use images/Phi_color_s_d_wave_SE_fill0_600.png>
 Package pdftex.def Info: images/Phi_color_s_d_wave_SE_fill0_600.png used on inp
-ut line 118.
+ut line 119.
 (pdftex.def)             Requested size: 238.49173pt x 158.99448pt.
-) (./paper.bbl [12 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./images/Phi
-_color_s_d_wave_SE_fill0_600.png>]
+) (./paper.bbl [12]
 Underfull \hbox (badness 7116) in paragraph at lines 201--206
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-) [13] (./paper.aux)
+[13 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./images/Phi_color_s_d_wave
+_SE_fill0_600.png>]) [14] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5278 strings out of 493091
- 69231 string characters out of 6142993
- 200982 words of memory out of 5000000
- 8643 multiletter control sequences out of 15000+600000
+ 5296 strings out of 493091
+ 69609 string characters out of 6142993
+ 190931 words of memory out of 5000000
+ 8660 multiletter control sequences out of 15000+600000
  16874 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,27p,1206b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,27p,1301b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
 fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmbx6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx7.pf
 b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/
 fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi5.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9.pf
-b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/am
-sfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
-r/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfont
-s/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (13 pages, 2557584 bytes).
+amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/public/
+amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfon
+ts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/
+type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfti1000.pfb>
+Output written on paper.pdf (14 pages, 2640634 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
