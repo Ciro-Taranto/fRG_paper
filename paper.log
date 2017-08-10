@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  10 AUG 2017 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.6.8)  10 AUG 2017 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,22 +540,22 @@ Underfull \hbox (badness 2689) in paragraph at lines 194--202
  []\T1/cmr/m/n/9 C. Huse-mann, K.-U. Gier-ing,  and M. Salmhofer,
  []
 
-
+[13 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./images/Phi_color_s_d_wave
+_SE_fill0_600.png>]
 Underfull \hbox (badness 7116) in paragraph at lines 226--233
  []\T1/cmr/m/n/9 N. Wentzell, G. Li, A. Tagli-avini, C. Taranto,
  []
 
-[13 <./images/Phi_color_s_d_wave_SE_fill0_975.png> <./images/Phi_color_s_d_wave
-_SE_fill0_600.png>]) [14] (./paper.aux)
+) [14] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5302 strings out of 493091
- 69625 string characters out of 6142993
- 176629 words of memory out of 5000000
- 8663 multiletter control sequences out of 15000+600000
+ 5303 strings out of 493091
+ 69635 string characters out of 6142993
+ 176623 words of memory out of 5000000
+ 8664 multiletter control sequences out of 15000+600000
  17917 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,27p,1302b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -584,7 +584,7 @@ share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on paper.pdf (14 pages, 2658578 bytes).
+Output written on paper.pdf (14 pages, 2659100 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams

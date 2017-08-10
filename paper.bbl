@@ -377,14 +377,14 @@
   \bibnamefont {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of
   quantum field theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover
   Publications, Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Honerkamp, C.}}(2001)}]{Honerkamp2001a}%
+\bibitem [{\citenamefont {Honerkamp}(2001)}]{Honerkamp2001a}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Honerkamp, C.}}},\
-  }\bibfield  {title} {\enquote {\bibinfo {title} {{Electron-doping versus
-  hole-doping in the 2D t-t' Hubbard model}},}\ }\href {\doibase
-  10.1007/PL00011117} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J.
-  B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages} {81--91} (\bibinfo
-  {year} {2001})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carsten}\ \bibnamefont
+  {Honerkamp}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Electron-doping versus hole-doping in the 2D t-t' Hubbard model}},}\ }\href
+  {\doibase 10.1007/PL00011117} {\bibfield  {journal} {\bibinfo  {journal}
+  {Eur. Phys. J. B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages}
+  {81--91} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Honerkamp}\ and\ \citenamefont
   {Salmhofer}(2003)}]{Honerkamp2003}%
   \BibitemOpen
