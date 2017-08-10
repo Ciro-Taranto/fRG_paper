@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{31}%
+\begin{thebibliography}{30}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -242,24 +242,13 @@
   e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
   {http://arxiv.org/abs/1705.00024} {arXiv:1705.00024 [cond-mat.str-el]}
   \BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Hubbard}}(1963)}]{Hubbard1963}%
+\bibitem [{\citenamefont {Montorsi}(1992)}]{Montorsi1992}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {{Hubbard}}},\ }\href {\doibase 10.1098/rspa.1963.0204} {\bibfield  {journal}
-  {\bibinfo  {journal} {Proc. R. Soc. A}\ }\textbf {\bibinfo {volume} {276}},\
-  \bibinfo {pages} {238} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kanamori}(1963)}]{Kanamori1963}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Kanamori}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Progress of Theoretical Physics}\ }\textbf {\bibinfo {volume} {30}},\
-  \bibinfo {pages} {275} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Gutzwiller}(1963)}]{Gutzwiller1963}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
-  {Gutzwiller}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages}
-  {159} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Montorsi}},\ }\href {https://books.google.de/books?id=QoGl8H7tphYC} {\emph
+  {\bibinfo {title} {The Hubbard Model: A Reprint Volume}}}\ (\bibinfo
+  {publisher} {World Scientific},\ \bibinfo {year} {1992})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Platt}\ \emph {et~al.}(2013)\citenamefont {Platt},
   \citenamefont {Hanke},\ and\ \citenamefont {Thomale}}]{Platt2013}%
   \BibitemOpen
@@ -307,21 +296,6 @@
   {\doibase 10.1103/PhysRevB.70.235115} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {eid}
   {235115} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {{Lichtenstein}}\ \emph {et~al.}(2017)\citenamefont
-  {{Lichtenstein}}, \citenamefont {{de la Pe\~na}}, \citenamefont {{Rohe}},
-  \citenamefont {{Di Napoli}}, \citenamefont {{Honerkamp}},\ and\ \citenamefont
-  {{Maier}}}]{Lichtenstein2017}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {{Lichtenstein}}}, \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
-  {{de la Pe\~na}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {{Rohe}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Di Napoli}}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Honerkamp}}}, \ and\
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Maier}}},\ }\href
-  {\doibase https://doi.org/10.1016/j.cpc.2016.12.013} {\bibfield  {journal}
-  {\bibinfo  {journal} {Computer Physics Communications}\ }\textbf {\bibinfo
-  {volume} {213}},\ \bibinfo {pages} {100 } (\bibinfo {year}
-  {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mermin}\ and\ \citenamefont
   {Wagner}(1966)}]{Mermin1966}%
   \BibitemOpen
@@ -360,6 +334,21 @@
   {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of quantum field
   theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover Publications,
   Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Honerkamp, C.}}(2001)}]{Honerkamp2001a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Honerkamp, C.}}},\
+  }\href {\doibase 10.1007/PL00011117} {\bibfield  {journal} {\bibinfo
+  {journal} {Eur. Phys. J. B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo
+  {pages} {81} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Honerkamp}\ and\ \citenamefont
+  {Salmhofer}(2003)}]{Honerkamp2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Honerkamp}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Salmhofer}},\ }\href {\doibase 10.1103/PhysRevB.67.174504} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {67}},\ \bibinfo {pages} {174504} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Rohe}\ and\ \citenamefont
   {Metzner}(2005)}]{Rohe2005}%
   \BibitemOpen

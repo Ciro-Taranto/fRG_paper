@@ -1,6 +1,5 @@
-%\begin{widetext}
-
-In order to deal with the frequency and momentum dependence of the vertex, we start by decomposing it as follows:\cite{Husemann2012} 
+To parametrize the momentum and frequency dependence of the two-particle vertex, we use the channel decomposition of the vertex introduced by Husemann and Salmhofer, \cite{Husemann2009} where the vertex is written as a sum of the bare interaction and fluctuation induced effective pairing, magnetic and charge interactions.
+The function $V^\Lambda(k_1,k_2,k_3)$ is thus decomposed as
 \begin{eqnarray}
 \nonumber
 \ve^{\Lambda}(k_1,k_2,k_3)&=& U - \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3)  \\
@@ -10,8 +9,8 @@ In order to deal with the frequency and momentum dependence of the vertex, we st
   \frac{1}{2}  \phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) \nonumber \\ & -& \frac{1}{2} \phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2),
  \label{eq:decomposition}
 \end{eqnarray}
-where we introduced the pairing- $\phi_{\mathrm{p}}$, the magnetic-  $\phi_{\mathrm{m}}$ and the charge-channel $\phi_{\mathrm{c}}$.
-Substituting Eq.~(\ref{eq:decomposition}) in Eq.~(\ref{eq:vertflow}) we obtain: 
+with the {\em pairing} channel $\phi_{\mathrm{p}}$, the {\em magnetic} channel $\phi_{\mathrm{m}}$ and the {\em charge} channel $\phi_{\mathrm{c}}$. The first argument of $\phi_{\mathrm{p}}$ is the conserved total momentum and frequency of the particles, while the first argument of $\phi_{\mathrm{m}}$ and $\phi_{\mathrm{c}}$ is a momentum and frequency transfer.
+Substituting Eq.~(\ref{eq:decomposition}) into Eq.~(\ref{eq:vertflow}) we obtain: 
 \begin{eqnarray}
 \nonumber
 &&-\dot \phi^{\Lambda}_{\mathrm{p}}(k_1+k_2;k_1,k_3)+ \dot \phi^{\Lambda}_{\mathrm{m}}(k_3-k_1;k_1,k_2)\\&& 
@@ -23,118 +22,98 @@ Substituting Eq.~(\ref{eq:decomposition}) in Eq.~(\ref{eq:vertflow}) we obtain:
 \label{eq:decot}
 \end{eqnarray} 
 %\end{widetext}
-We associate the momentum transfer argument of $\mathcal{P}^\Lambda$ in Eqns.~(\ref{eq:tpp}-\ref{eq:tphc}) to the momentum transfer argument of the $\phi_{\mathrm{x}}$ on the right hand side of Eq. \ref{eq:decomposition}.
+We associate the total momentum argument of $\mathcal{P}^\Lambda_{\rm pp}$ and the momentum transfer argument of $\mathcal{P}^\Lambda_{\rm ph}$ in Eqs.~(\ref{eq:tpp}-\ref{eq:tphc}) to the corresponding arguments of the $\phi_{\mathrm{x}}$ on the right hand side of Eq.~\ref{eq:decomposition}.
 This way, it is easy to attribute $\fl{\mathcal{T}}{pp}$ to the flow equation of the only function in Eq. (\ref{eq:decot}) that depends explicitly on $k_1+k_2$: $-\dot\phi_{\mathrm{p}}^\Lambda=\fl{\mathcal{T}}{pp}$. 
-The same is true for the particle hole crossed channel: $\fl{\mathcal{T}}{phc}=\dot\phi_{\mathrm{m}}^\Lambda$.  We associate to the particle-hole diagram the third and fourth term on the left hand side of Eq.~(\ref{eq:decot}): $\fl{\mathcal{T}}{ph}(k_1,k_2,k_3)=\frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) $.  
+The same is true for the particle-hole crossed channel: $\fl{\mathcal{T}}{phc}=\dot\phi_{\mathrm{m}}^\Lambda$.  We associate to the particle-hole diagram the third and fourth term on the left hand side of Eq.~(\ref{eq:decot}): $\fl{\mathcal{T}}{ph}(k_1,k_2,k_3)=\frac{1}{2}  \dot\phi^{\Lambda}_{\mathrm{m}}(k_2- k_3;k_1,k_2) - \frac{1}{2} \dot\phi^{\Lambda}_{\mathrm{c}}(k_2-k_3;k_1,k_2) $.  
 %The flow equation of the full vertex is then distributed to the $\phi$-channels. 
 %$\phi$ channels are defined by their respictive flow equations:
-The flow equations for $\phi$ then read: 
-\begin{align}
-\dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &= -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
-\nonumber 
-\dot{\phi}_{\mathrm{c}}^{\Lambda}(Q;k_1,k_2) &= 
- -2\mathcal{T}^{\Lambda}_{\mathrm{ph}}(k_1,k_2,k_2-Q) +\\
-&\phantom{=}
-\phantom{2}\mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1) , \\
-\dot{\phi}_{\mathrm{m}}^{\Lambda}(Q;k_1,k_2) &= \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1), 
-\end{align}
-where $Q=(\Omega,\bs{Q})$ is a frequency and momentum transfer. 
+The flow equations for $\phi_{\mathrm{x}}$ then read: \cite{Husemann2009}
+\begin{eqnarray}
+\label{eq:phi_p}
+ \dot{\phi}_{\mathrm{p}}^{\Lambda}(Q;k_1,k_3) &=&
+ -\mathcal{T}^{\Lambda}_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
+\label{eq:phi_c}
+ \dot{\phi}_{\mathrm{c}}^{\Lambda}(Q;k_1,k_2) &=&
+ \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1) \nonumber \\
+ && -2\mathcal{T}^{\Lambda}_{\mathrm{ph}}(k_1,k_2,k_2-Q), \\
+\label{eq:phi_m}
+\dot{\phi}_{\mathrm{m}}^{\Lambda}(Q;k_1,k_2) &=& \mathcal{T}^{\Lambda}_{\mathrm{phc}}(k_1,k_2,Q+k_1) .
+\end{eqnarray}
  
-%\end{widetext}
-
-Following Refs. \onlinecite{Husemann2009,Husemann2012}, we address first the momentum dependence. To this end, we introduce a decomposition of 
-unity by means of a set of orthonormal form factors for the two fermionic momenta $\{f_{l}(\bs{k})\}$ obeying 
-the completeness relation\cite{Lichtenstein2017}:
-\begin{equation}
- \int_{\bs{k}}  f_{l}(\bs{k}) f_{m}(\bs{k}) = \delta_{l,m}.
-\end{equation}
-The procedure outlined here is described in detail, e.g., in Ref.~\onlinecite{Lichtenstein2017}.
-
-We can then project each channel on a subset of form factors, whose choice is physically motivated\cite{Husemann2009}. 
-%If one could keep all the  form factors the expansion would be exact.
+Following Refs.~\onlinecite{Husemann2009,Husemann2012}, we address first the momentum dependence. To parametrize the dependence on the fermionic momenta, we use a decomposition of unity by means of a set of orthonormal form factors
+$\{f_{l}(\bs{k})\}$.
+%The procedure outlined here is described in detail, for example, in %Ref.~\onlinecite{Lichtenstein2017}.
+We can then project each channel on a subset of form factors, whose choice is physically motivated.\cite{Husemann2009}
+%If one could keep all the form factors the expansion would be exact.
 
 For the pairing channel we keep only $f_{s}(\bs{k}) = 1$ and $f_d(\bs{k})=\cos{k_x} - \cos{k_y}$:
 \begin{align}
-\nonumber
-  \phi^{\Lambda}_{\mathrm{p}}(Q;k_1,k_3) =&
-    \mathcal{S}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3) +   \\ 
-    & f_d\left(\frac{\bs{Q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{Q}}{2}-\bs{k}_3\right) \mathcal{D}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3).
+ \phi^{\Lambda}_{\mathrm{p}}(Q;k_1,k_3) &=
+ \mathcal{S}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3) \nonumber \\ 
+ &+ f_d\left(\frac{\bs{Q}}{2}-\bs{k}_1\right) f_d\left(\frac{\bs{Q}}{2}-\bs{k}_3\right) \mathcal{D}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_3).
 \end{align}
-The divergence in the channel $\mathcal{S}$ ($\mathcal{D}$) is associated to the emergence of $s$-wave ($d$-wave) superconductivity.\cite{Metzner2012,Platt2013}
+A divergence in the channel $\mathcal{S}$ ($\mathcal{D}$) is associated to the emergence of $s$-wave ($d$-wave) superconductivity.\cite{Metzner2012,Platt2013}
 
 For the charge and magnetic channels we restrict ourselves to $f_{s}(\bs{k})=1$ only:
 \begin{align}
   \phi^\Lambda_{\mathrm{c}}(Q;k_1,k_2) &= \mathcal{C}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_2), \\
-  \phi^\Lambda_{\mathrm{m}}(Q;k_1,k_2) &= \mathcal{M}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_2),
+  \phi^\Lambda_{\mathrm{m}}(Q;k_1,k_2) &= \mathcal{M}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_2).
 \end{align}
-corresponding to instabilities in the charge and magnetic channels, respectively.
+A divergence of these functions signals $s$-wave instabilities in the charge and magnetic channels, respectively.
 
-For each channel in Eq.~(\ref{eq:decomposition}) we have defined \textit{its own} frequency notation, consisting of one transfer frequency in the specific channel 
-and two remaining independent fermionic frequencies. 
-The frequency transfer is a bosonic Matsubara frequency.
- 
- The choice of the mixed notation is the most natural since the transferred momentum and 
-frequency play a special role in the diagrammatics.
-Indeed, it is the only dependence generated in second order perturbation theory and the main dependence in finite 
-order perturbation theory. This notation is also convenient to express the Bethe-Salpeter equations, which are related to parquet-approximations and fRG.
-Although one expects a leading dependence in the bosonic frequency, 
-in particular in the weak coupling regime, we will see that in some cases the dependence on fermionic frequencies can become strong and not negligible.
-In Refs.~\onlinecite{Husemann2009}, with a simplified frequency dependence, the channel functions above are interpreted as bosonic exchange propagators. Such an interpretation is missing with full frequency-dependence.
+Each channel in Eq.~(\ref{eq:decomposition}) contains a (bosonic) linear combination of momenta and frequencies, and two remaining independent fermionic momentum and frequency variables. 
+The choice of the mixed notation is natural since the bosonic momenta and 
+frequencies play a special role in the diagrammatics.
+Indeed, it is the only dependence generated in second order perturbation theory and the main dependence in finite order perturbation theory.
+Although one expects a dominant dependence on the bosonic frequency, in particular in the weak coupling regime, we will see that the dependence on the fermionic frequencies can become strong and not negligible, too.
+In Refs.~\onlinecite{Husemann2009,Husemann2012}, with no or a simplified frequency dependence, the channel functions are interpreted as bosonic exchange propagators. Such an interpretation is not possible with full frequency-dependence.
 
-The flow equations for the channels $\mathcal{S}$,  $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$ can be derived from the projection onto form factors of Eq. (\ref{eq:tpp})-(\ref{eq:tphc}):
+The flow equations for the channels $\mathcal{S}$,  $\mathcal{D}$, $\mathcal{C}$ and $\mathcal{M}$ can be derived from the projection of Eqs.~(\ref{eq:phi_p})-(\ref{eq:phi_m}) onto the form factors:
 \begin{eqnarray}
-\dot{\mathcal{S}}_{\bs{Q},\Omega}^{\Lambda}(\nu_1,\nu_3)  &=& - \int _{\bs{k}_1, \bs{k}_3 } \mathcal{T}^\Lambda_{\mathrm{pp}}(k_1,Q-k_1,k_3); \\ 
+\dot{\mathcal{S}}_{\bs{Q},\Omega}^{\Lambda}(\nu_1,\nu_3)  &=& - \int _{\bs{k}_1, \bs{k}_3 } \mathcal{T}^\Lambda_{\mathrm{pp}}(k_1,Q-k_1,k_3), \\ 
 \dot{\mathcal{D}}_{\bs{Q},\Omega}^{\Lambda}(\nu_1,\nu_3)  &=& -
 \int _{\bs{k}_1,\bs{k}_3}  f_d\left( {\frac{\bs{Q}}{2} - \bs{k}_1} \right ) f_d\left ({\frac{\bs{Q}}{2} - \bs{k}_3} \right)  \nonumber \\ 
- &&\mathcal{T}^\Lambda_{\mathrm{pp}}(k_1,Q-k_1,k_3) ; 
-\\
+ && \times \, \mathcal{T}^\Lambda_{\mathrm{pp}}(k_1,Q-k_1,k_3) , \\
 \nonumber
 \dot{\mathcal{C}}_{\bs{Q},\Omega}^{\Lambda}(\nu_1,\nu_2) &=& 
-\int _{\bs{k}_1,\bs{k}_2}   \mathcal{T}^\Lambda_{\mathrm{phc}}(k_1,k_2,Q+k_1)\\ &-&2\mathcal{T}_{\mathrm{ph}}(k_1,k_2,k_2-Q) ; 
-\\ 
+\int _{\bs{k}_1,\bs{k}_2}   \mathcal{T}^\Lambda_{\mathrm{phc}}(k_1,k_2,Q+k_1) \\
+ && - \, 2\mathcal{T}_{\mathrm{ph}}(k_1,k_2,k_2-Q) , \\ 
 \dot{\mathcal{M}}_{\bs{Q},\Omega}^{\Lambda}(\nu_1,\nu_2) & =& 
-\int _{\bs{k}_1,\bs{k}_2}  \mathcal{T}^\Lambda_{\mathrm{phc}}(k_1,k_2,Q+k_1). 
+\int _{\bs{k}_1,\bs{k}_2}  \mathcal{T}^\Lambda_{\mathrm{phc}}(k_1,k_2,Q+k_1) . 
 \end{eqnarray}
-The final equations are then obtained by substituting the decomposition (\ref{eq:decomposition}) into the equations above, and using trigonometric equalities.
+The final equations are then obtained by substituting the decomposition (\ref{eq:decomposition}) into the equations above, and using trigonometric identities.
+
+As an example we report here the equations for the magnetic channel, while the expressions for the other channels are presented in the Appendix \ref{sec:FlowEquations}:
 \begin{widetext}
-As an example we report here the equation for the magnetic channel, while the expression for the other channels are reported in the Appendix \ref{sec:FlowEquations}: 
 \begin{equation}
-\dot{\mathcal{M}}^{\Lambda}_{\bs{Q},\Omega}(\nu_1,\nu_2) = 
-\sum_\nu
-{L_\mathrm{m}^\Lambda}_{\mathbf{Q},\Omega}(\nu_1,\nu) 
-P_{\bs{Q},\Omega}^{\Lambda}(\nu) 
-{L_\mathrm{m}^{\Lambda}}_{\mathbf{Q},\Omega}( \nu,\nu_2-\Omega), 
+ \dot{\mathcal{M}}^{\Lambda}_{\bs{Q},\Omega}(\nu_1,\nu_2) = 
+ \sum_\nu L^{\mathrm{m},\Lambda}_{\mathbf{Q},\Omega}(\nu_1,\nu) 
+ P_{\bs{Q},\Omega}^{\Lambda}(\nu) 
+ L^{\mathrm{m},\Lambda}_{\mathbf{Q},\Omega}(\nu,\nu_2-\Omega), 
 \label{eq:FlowMag}
 \end{equation} 	   
-with: 
+with
 \begin{equation}
-P_{\bs{Q},\Omega}^{\Lambda}(\omega) = \int_{\bs{p}}  G^\Lambda(\bs{p},\omega)S^\Lambda(\bs{Q}+\bs{p},\Omega+\omega) +G^\Lambda(\bs{Q}+\bs{p},\Omega+\omega)
-S^\Lambda(\bs{p},\omega),
+ P_{\bs{Q},\Omega}^{\Lambda}(\omega) = \int_{\bs{p}}
+ G^\Lambda(\bs{p},\omega) S^\Lambda(\bs{Q}+\bs{p},\Omega+\omega) +
+ G^\Lambda(\bs{Q}+\bs{p},\Omega+\omega) S^\Lambda(\bs{p},\omega),
 \label{eq:Pph} 
 \end{equation} 
-and: 
+and
 \begin{eqnarray} 
 \nonumber
-{L_{\mathrm{m}}^\Lambda}_{\bs{Q},\Omega}(\nu_1,\nu_2)
-&=&
-U+\mathcal{M}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_2) 
-+ \int_{\bs{p}} \Big \{- \mathcal{S}^\Lambda_{\bs{p},\nu_1+\nu_2}(\nu_1,\nu_1+\Omega)  
--\frac{1}{2} 
-\mathcal{D}^\Lambda_{\bs{p},\nu_1+\nu_2}(\nu_1,\nu_1+\Omega)
-[\cos(Q_x)+\cos(Q_y)]  
-\\
-&+&\frac{1}{2} \Big[  \mathcal{M}^\Lambda_{\bs{p},\nu_2-\nu_1-\Omega}( \nu_1,\nu_2) 
-- \mathcal{C}^\Lambda_{\bs{p},\nu_2-\nu_1-\Omega}(\nu_1,\nu_2) \Big] 
-\Big \}
+ L^{\mathrm{m},\Lambda}_{\bs{Q},\Omega}(\nu_1,\nu_2)
+ &=& U + \mathcal{M}^\Lambda_{\bs{Q},\Omega}(\nu_1,\nu_2) 
+ + \int_{\bs{p}} \Big \{- \mathcal{S}^\Lambda_{\bs{p},\nu_1+\nu_2}(\nu_1,\nu_1+\Omega)  
+ -\frac{1}{2} \mathcal{D}^\Lambda_{\bs{p},\nu_1+\nu_2}(\nu_1,\nu_1+\Omega)
+ [\cos(Q_x)+\cos(Q_y)] \\
+ &+&\frac{1}{2} \Big[  \mathcal{M}^\Lambda_{\bs{p},\nu_2-\nu_1-\Omega}( \nu_1,\nu_2) 
+ - \mathcal{C}^\Lambda_{\bs{p},\nu_2-\nu_1-\Omega}(\nu_1,\nu_2) \Big] 
+ \Big \}
 \label{eq:Lxph} 
-\end{eqnarray}	 
-Note that after the momentum integrals in $P$ and $L$ are performed, the right hand side can be expressed as a matrix-matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
+\end{eqnarray}
 \end{widetext}
+Note that after the momentum integrals in $P$ and $L$ are performed, the right hand side of Eq.~(\ref{eq:FlowMag}) can be expressed as a matrix multiplication in frequency space, where $\Omega$ and $\mathbf{Q}$ appear as parameters.
+%\end{widetext}
 
-After this decomposition, the evaluation of the vertex-flow equation, depending on six arguments, is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$, $\mathcal{M}$ 
-each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we discretize the momentum 
-dependence on patches covering the Brillouin zone and truncate the frequency dependence to some maximal frequency value.
-
-%While the form-factor projection procedure is well defined in momentum space, a similar approximation for the frequency, i.e., reducing the vertex frequency dependence to a frequency transfer only\cite{Karrasch2008a,Husemann2012,Taranto2014}, is more problematic.
-%Indeed this projection in frequency space requires that the two remaining frequencies are chosen arbitrarily. 
-%This choice affects quantitatively and qualitatively the results, for reasons that are clear looking at the frequency structure of the vertex, discussed below.   
+After this decomposition, the evaluation of the vertex-flow equation, depending on six arguments, is reduced to the flow of the four functions $\mathcal{S}$, $\mathcal{D}$, $\mathcal{C}$, $\mathcal{M}$, each of them depending on three frequencies and one momentum only. In order to compute these equations numerically we discretize the momentum dependence on patches covering the Brillouin zone and truncate the frequency dependence to some maximal frequency value.
