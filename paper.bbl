@@ -1,10 +1,10 @@
 %merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 %Control: key (0)
-%Control: author (72) initials jnrlst
+%Control: author (0) dotless jnrlst
 %Control: editor formatted (1) identically to author
-%Control: production of article title (-1) disabled
-%Control: page (0) single
-%Control: year (1) truncated
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
 %Control: production of eprint (0) enabled
 \begin{thebibliography}{30}%
 \makeatletter
@@ -57,10 +57,12 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {{Berges}}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
   {{Tetradis}}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Wetterich}}},\ }\href {\doibase 10.1016/S0370-1573(01)00098-9} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rep.}\ }\textbf {\bibinfo {volume}
-  {363}},\ \bibinfo {pages} {223} (\bibinfo {year} {2002})}\BibitemShut
-  {NoStop}%
+  {{Wetterich}}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Non-perturbative renormalization flow in quantum field theory and
+  statistical physics}},}\ }\href {\doibase 10.1016/S0370-1573(01)00098-9}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rep.}\ }\textbf {\bibinfo
+  {volume} {363}},\ \bibinfo {pages} {223--386} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Metzner}}\ \emph {et~al.}(2012)\citenamefont
   {{Metzner}}, \citenamefont {{Salmhofer}}, \citenamefont {{Honerkamp}},
   \citenamefont {{Meden}},\ and\ \citenamefont
@@ -71,17 +73,20 @@
   {{Salmhofer}}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {{Honerkamp}}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
   {{Meden}}}, \ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {{Sch{\"o}nhammer}}},\ }\href {\doibase 10.1103/RevModPhys.84.299} {\bibfield
-   {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo
-  {volume} {84}},\ \bibinfo {pages} {299} (\bibinfo {year} {2012})}\BibitemShut
+  {{Sch{\"o}nhammer}}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Functional renormalization group approach to correlated fermion
+  systems}},}\ }\href {\doibase 10.1103/RevModPhys.84.299} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
+  {84}},\ \bibinfo {pages} {299--352} (\bibinfo {year} {2012})}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {{Wetterich}}(1993)}]{Wetterich1993}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Wetterich}}},\ }\href {\doibase 10.1016/0370-2693(93)90726-X} {\bibfield
-  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf {\bibinfo
-  {volume} {301}},\ \bibinfo {pages} {90} (\bibinfo {year} {1993})}\BibitemShut
-  {NoStop}%
+  {{Wetterich}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Exact
+  evolution equation for the effective potential}},}\ }\href {\doibase
+  10.1016/0370-2693(93)90726-X} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics Letters B}\ }\textbf {\bibinfo {volume} {301}},\ \bibinfo {pages}
+  {90--94} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Taranto}}\ \emph {et~al.}(2014)\citenamefont
   {{Taranto}}, \citenamefont {{Andergassen}}, \citenamefont {{Bauer}},
   \citenamefont {{Held}}, \citenamefont {{Katanin}}, \citenamefont {{Metzner}},
@@ -94,36 +99,44 @@
   \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{Katanin}}}, \bibinfo
   {author} {\bibfnamefont {W.}~\bibnamefont {{Metzner}}}, \bibinfo {author}
   {\bibfnamefont {G.}~\bibnamefont {{Rohringer}}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {A.}~\bibnamefont {{Toschi}}},\ }\href {\doibase
-  10.1103/PhysRevLett.112.196402} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {eid}
-  {196402} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+  {\bibfnamefont {A.}~\bibnamefont {{Toschi}}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{From Infinite to Two Dimensions through the Functional
+  Renormalization Group}},}\ }\href {\doibase 10.1103/PhysRevLett.112.196402}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {112}},\ \bibinfo {eid} {196402} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zanchi}\ and\ \citenamefont
   {Schulz}(1996)}]{Zanchi1996}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Zanchi}}\ and\ \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
-  {Schulz}},\ }\href {\doibase 10.1007/s002570050385} {\bibfield  {journal}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Dra{\v{z}}en}\
+  \bibnamefont {Zanchi}}\ and\ \bibinfo {author} {\bibfnamefont {Heinz~J.}\
+  \bibnamefont {Schulz}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Instabilities of weakly correlated electronic gas on a two dimensional
+  lattice},}\ }\href {\doibase 10.1007/s002570050385} {\bibfield  {journal}
   {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik B Condensed Matter}\
-  }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages} {339} (\bibinfo {year}
-  {1996})}\BibitemShut {NoStop}%
+  }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages} {339--342} (\bibinfo
+  {year} {1996})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Halboth}\ and\ \citenamefont
   {Metzner}(2000{\natexlab{a}})}]{Halboth2000}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
-  {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Metzner}},\ }\href {\doibase 10.1103/PhysRevLett.85.5162} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {85}},\ \bibinfo {pages} {5162} (\bibinfo {year}
-  {2000}{\natexlab{a}})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christoph~J.}\
+  \bibnamefont {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\
+  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{$\mathit{d}$-Wave Superconductivity and Pomeranchuk Instability in the
+  Two-Dimensional Hubbard Model}},}\ }\href {\doibase
+  10.1103/PhysRevLett.85.5162} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages}
+  {5162--5165} (\bibinfo {year} {2000}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Halboth}\ and\ \citenamefont
   {Metzner}(2000{\natexlab{b}})}]{Halboth2000b}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
-  {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Metzner}},\ }\href {\doibase 10.1103/PhysRevB.61.7364} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {61}},\
-  \bibinfo {pages} {7364} (\bibinfo {year} {2000}{\natexlab{b}})}\BibitemShut
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christoph~J.}\
+  \bibnamefont {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\
+  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Renormalization-group analysis of the two-dimensional Hubbard model}},}\
+  }\href {\doibase 10.1103/PhysRevB.61.7364} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
+  {pages} {7364--7377} (\bibinfo {year} {2000}{\natexlab{b}})}\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Honerkamp}\ \emph {et~al.}(2001)\citenamefont
   {Honerkamp}, \citenamefont {Salmhofer}, \citenamefont {Furukawa},\ and\
@@ -133,7 +146,9 @@
   {Honerkamp}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {Salmhofer}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Furukawa}},
   \ and\ \bibinfo {author} {\bibfnamefont {T.~M.}\ \bibnamefont {Rice}},\
-  }\href {\doibase 10.1103/PhysRevB.63.035109} {\bibfield  {journal} {\bibinfo
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Breakdown of the
+  landau-fermi liquid in two dimensions due to umklapp scattering},}\ }\href
+  {\doibase 10.1103/PhysRevB.63.035109} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {63}},\ \bibinfo
   {pages} {035109} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Husemann}}\ and\ \citenamefont
@@ -141,28 +156,34 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {{Husemann}}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {{Salmhofer}}},\ }\href {\doibase 10.1103/PhysRevB.79.195125} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {79}},\ \bibinfo {eid} {195125} (\bibinfo {year} {2009})}\BibitemShut
-  {NoStop}%
+  {{Salmhofer}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Efficient
+  parametrization of the vertex function, {$\Omega$} scheme, and the $t,t'$
+  Hubbard model at van Hove filling}},}\ }\href {\doibase
+  10.1103/PhysRevB.79.195125} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {eid} {195125}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Eberlein}\ and\ \citenamefont
   {Metzner}(2013)}]{Eberlein2013}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Eberlein}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
-  {Metzner}},\ }\href {\doibase 10.1103/PhysRevB.87.174523} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {87}},\ \bibinfo {pages} {174523} (\bibinfo {year} {2013})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andreas}\ \bibnamefont
+  {Eberlein}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\ \bibnamefont
+  {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Effective
+  interactions and fluctuation effects in spin-singlet superfluids},}\ }\href
+  {\doibase 10.1103/PhysRevB.87.174523} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo
+  {pages} {174523} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Yamase}\ \emph {et~al.}(2016)\citenamefont {Yamase},
   \citenamefont {Eberlein},\ and\ \citenamefont {Metzner}}]{Eberlein2016}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Yamase}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Eberlein}}, \
-  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Metzner}},\ }\href
-  {\doibase 10.1103/PhysRevLett.116.096402} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo
-  {pages} {096402} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hiroyuki}\
+  \bibnamefont {Yamase}}, \bibinfo {author} {\bibfnamefont {Andreas}\
+  \bibnamefont {Eberlein}}, \ and\ \bibinfo {author} {\bibfnamefont {Walter}\
+  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Coexistence of Incommensurate Magnetism and Superconductivity in the
+  Two-Dimensional Hubbard Model}},}\ }\href {\doibase
+  10.1103/PhysRevLett.116.096402} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {096402} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Husemann}\ \emph {et~al.}(2012)\citenamefont
   {Husemann}, \citenamefont {Giering},\ and\ \citenamefont
   {Salmhofer}}]{Husemann2012}%
@@ -170,7 +191,9 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Husemann}}, \bibinfo {author} {\bibfnamefont {K.-U.}\ \bibnamefont
   {Giering}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Salmhofer}},\ }\href {\doibase 10.1103/PhysRevB.85.075121} {\bibfield
+  {Salmhofer}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Frequency-dependent vertex functions of the ($t,t'$) Hubbard model at weak
+  coupling}},}\ }\href {\doibase 10.1103/PhysRevB.85.075121} {\bibfield
   {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
   {85}},\ \bibinfo {pages} {075121} (\bibinfo {year} {2012})}\BibitemShut
   {NoStop}%
@@ -181,8 +204,10 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {{Kinza}}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Ortloff}}},
   \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{Bauer}}}, \ and\
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Honerkamp}}},\ }\href
-  {\doibase 10.1103/PhysRevB.87.035111} {\bibfield  {journal} {\bibinfo
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{Honerkamp}}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Alternative functional
+  renormalization group approach to the single impurity Anderson model}},}\
+  }\href {\doibase 10.1103/PhysRevB.87.035111} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo {eid}
   {035111} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Wentzell}}\ \emph {et~al.}(2016)\citenamefont
@@ -198,8 +223,10 @@
   {\bibfnamefont {G.}~\bibnamefont {{Rohringer}}}, \bibinfo {author}
   {\bibfnamefont {K.}~\bibnamefont {{Held}}}, \bibinfo {author} {\bibfnamefont
   {A.}~\bibnamefont {{Toschi}}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {S.}~\bibnamefont {{Andergassen}}},\ }\href@noop {} {\bibfield  {journal}
-  {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year}
+  {S.}~\bibnamefont {{Andergassen}}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{High-frequency asymptotics of the vertex function: diagrammatic
+  parametrization and algorithmic implementation}},}\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {ArXiv e-prints}\ } (\bibinfo {year}
   {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Georges}}\ \emph {et~al.}(1996)\citenamefont
   {{Georges}}, \citenamefont {{Kotliar}}, \citenamefont {{Krauth}},\ and\
@@ -209,9 +236,12 @@
   {{Georges}}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
   {{Kotliar}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {{Krauth}}},
   \ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {{Rozenberg}}},\ }\href {\doibase 10.1103/RevModPhys.68.13} {\bibfield
-  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
-  {68}},\ \bibinfo {pages} {13} (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+  {{Rozenberg}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Dynamical
+  mean-field theory of strongly correlated fermion systems and the limit of
+  infinite dimensions}},}\ }\href {\doibase 10.1103/RevModPhys.68.13}
+  {\bibfield  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf
+  {\bibinfo {volume} {68}},\ \bibinfo {pages} {13--125} (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Rohringer}}\ \emph {et~al.}(2012)\citenamefont
   {{Rohringer}}, \citenamefont {{Valli}},\ and\ \citenamefont
   {{Toschi}}}]{Rohringer2012}%
@@ -219,10 +249,11 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
   {{Rohringer}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {{Valli}}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {{Toschi}}},\ }\href {\doibase 10.1103/PhysRevB.86.125114} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {86}},\ \bibinfo {eid} {125114} (\bibinfo {year} {2012})}\BibitemShut
-  {NoStop}%
+  {{Toschi}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Local
+  electronic correlation at the two-particle level}},}\ }\href {\doibase
+  10.1103/PhysRevB.86.125114} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo {eid} {125114}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Rohringer}}\ \emph {et~al.}(2017)\citenamefont
   {{Rohringer}}, \citenamefont {{Hafermann}}, \citenamefont {{Toschi}},
   \citenamefont {{Katanin}}, \citenamefont {{Antipov}}, \citenamefont
@@ -238,15 +269,16 @@
   {{Katsnelson}}}, \bibinfo {author} {\bibfnamefont {A.~I.}\ \bibnamefont
   {{Lichtenstein}}}, \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
   {{Rubtsov}}}, \ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {{Held}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv
-  e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
-  {http://arxiv.org/abs/1705.00024} {arXiv:1705.00024 [cond-mat.str-el]}
-  \BibitemShut {NoStop}%
+  {{Held}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Diagrammatic
+  routes to non-local correlations beyond dynamical mean field theory}},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv e-prints}\ }
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1705.00024}
+  {arXiv:1705.00024 [cond-mat.str-el]} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Montorsi}(1992)}]{Montorsi1992}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Montorsi}},\ }\href {https://books.google.de/books?id=QoGl8H7tphYC} {\emph
-  {\bibinfo {title} {The Hubbard Model: A Reprint Volume}}}\ (\bibinfo
+  {\bibinfo {title} {{The Hubbard Model: A Reprint Volume}}}}\ (\bibinfo
   {publisher} {World Scientific},\ \bibinfo {year} {1992})\BibitemShut
   {NoStop}%
 \bibitem [{\citenamefont {Platt}\ \emph {et~al.}(2013)\citenamefont {Platt},
@@ -254,27 +286,32 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Platt}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Hanke}}, \ and\
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Thomale}},\ }\href
-  {\doibase 10.1080/00018732.2013.862020} {\bibfield  {journal} {\bibinfo
-  {journal} {Advances in Physics}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo
-  {pages} {453} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Thomale}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Functional renormalization group for
+  multi-orbital fermi surface instabilities},}\ }\href {\doibase
+  10.1080/00018732.2013.862020} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in Physics}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo {pages}
+  {453--562} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Salmhofer}}\ and\ \citenamefont
   {{Honerkamp}}(2001)}]{Salmhofer2001}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {{Salmhofer}}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {{Honerkamp}}},\ }\href {\doibase 10.1143/PTP.105.1} {\bibfield  {journal}
-  {\bibinfo  {journal} {Prog. Theor. Phys.}\ }\textbf {\bibinfo {volume}
-  {105}},\ \bibinfo {pages} {1} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+  {{Honerkamp}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Fermionic
+  Renormalization Group Flows ---Technique and Theory---}},}\ }\href {\doibase
+  10.1143/PTP.105.1} {\bibfield  {journal} {\bibinfo  {journal} {Prog. Theor.
+  Phys.}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages} {1--35}
+  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Kugler}}\ and\ \citenamefont {{von
   Delft}}(2017)}]{Kugler2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~B.}\ \bibnamefont
   {{Kugler}}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {{von
-  Delft}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv
-  e-prints}\ } (\bibinfo {year} {2017})},\ \Eprint
-  {http://arxiv.org/abs/1703.06505} {arXiv:1703.06505 [cond-mat.str-el]}
-  \BibitemShut {NoStop}%
+  Delft}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Multiloop
+  functional renormalization group that sums up all parquet diagrams}},}\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {ArXiv e-prints}\ }
+  (\bibinfo {year} {2017})},\ \Eprint {http://arxiv.org/abs/1703.06505}
+  {arXiv:1703.06505 [cond-mat.str-el]} \BibitemShut {NoStop}%
 \bibitem [{Note1()}]{Note1}%
   \BibitemOpen
   \bibinfo {note} {The equation for the particle-particle channel is slightly
@@ -292,18 +329,22 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {{Honerkamp}}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {{Rohe}}},
   \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {{Andergassen}}}, \ and\
-  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Enss}}},\ }\href
-  {\doibase 10.1103/PhysRevB.70.235115} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {eid}
-  {235115} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {{Enss}}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Interaction flow method for
+  many-fermion systems}},}\ }\href {\doibase 10.1103/PhysRevB.70.235115}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {70}},\ \bibinfo {eid} {235115} (\bibinfo {year}
+  {2004})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mermin}\ and\ \citenamefont
   {Wagner}(1966)}]{Mermin1966}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~D.}\ \bibnamefont
   {Mermin}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Wagner}},\ }\href {\doibase 10.1103/PhysRevLett.17.1133} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
-  {volume} {17}},\ \bibinfo {pages} {1133} (\bibinfo {year}
+  {Wagner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Absence of
+  Ferromagnetism or Antiferromagnetism in One- or Two-Dimensional Isotropic
+  Heisenberg Models}},}\ }\href {\doibase 10.1103/PhysRevLett.17.1133}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {17}},\ \bibinfo {pages} {1133--1136} (\bibinfo {year}
   {1966})}\BibitemShut {NoStop}%
 \bibitem [{Note2()}]{Note2}%
   \BibitemOpen
@@ -320,41 +361,48 @@
   {Katanin}}, \bibinfo {author} {\bibfnamefont {A.~I.}\ \bibnamefont
   {Lichtenstein}}, \bibinfo {author} {\bibfnamefont {M.~I.}\ \bibnamefont
   {Katsnelson}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
-  {Rubtsov}},\ }\href {\doibase 10.1103/PhysRevB.93.045107} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {93}},\ \bibinfo {pages} {045107} (\bibinfo {year} {2016})}\BibitemShut
-  {NoStop}%
+  {Rubtsov}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Self-consistent
+  dual boson approach to single-particle and collective excitations in
+  correlated systems},}\ }\href {\doibase 10.1103/PhysRevB.93.045107}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {93}},\ \bibinfo {pages} {045107} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Abrikosov}}\ \emph {et~al.}(1963)\citenamefont
   {{Abrikosov}}, \citenamefont {{Gorkov}},\ and\ \citenamefont
   {I.E.}}]{Abrikosov1963}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {{Abrikosov}}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {{Gorkov}}}, \ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of quantum field
-  theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover Publications,
-  Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.A.}\ \bibnamefont
+  {{Abrikosov}}}, \bibinfo {author} {\bibfnamefont {L.P.}\ \bibnamefont
+  {{Gorkov}}}, \ and\ \bibinfo {author} {\bibfnamefont {{Dzyaloshinski}}\
+  \bibnamefont {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of
+  quantum field theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover
+  Publications, Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Honerkamp, C.}}(2001)}]{Honerkamp2001a}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Honerkamp, C.}}},\
-  }\href {\doibase 10.1007/PL00011117} {\bibfield  {journal} {\bibinfo
-  {journal} {Eur. Phys. J. B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo
-  {pages} {81} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Electron-doping versus
+  hole-doping in the 2D t-t' Hubbard model}},}\ }\href {\doibase
+  10.1007/PL00011117} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J.
+  B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages} {81--91} (\bibinfo
+  {year} {2001})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Honerkamp}\ and\ \citenamefont
   {Salmhofer}(2003)}]{Honerkamp2003}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
-  {Honerkamp}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Salmhofer}},\ }\href {\doibase 10.1103/PhysRevB.67.174504} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
-  {67}},\ \bibinfo {pages} {174504} (\bibinfo {year} {2003})}\BibitemShut
-  {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carsten}\ \bibnamefont
+  {Honerkamp}}\ and\ \bibinfo {author} {\bibfnamefont {Manfred}\ \bibnamefont
+  {Salmhofer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Flow of the
+  quasiparticle weight in the $N$-patch renormalization group scheme}},}\
+  }\href {\doibase 10.1103/PhysRevB.67.174504} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {67}},\ \bibinfo
+  {pages} {174504} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Rohe}\ and\ \citenamefont
   {Metzner}(2005)}]{Rohe2005}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Rohe}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Metzner}},\
-  }\href {\doibase 10.1103/PhysRevB.71.115116} {\bibfield  {journal} {\bibinfo
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
+  {Rohe}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\ \bibnamefont
+  {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pseudogap at
+  hot spots in the two-dimensional Hubbard model at weak coupling}},}\ }\href
+  {\doibase 10.1103/PhysRevB.71.115116} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {71}},\ \bibinfo
   {pages} {115116} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
 \end{thebibliography}%
