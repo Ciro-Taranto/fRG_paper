@@ -105,34 +105,34 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {112}},\ \bibinfo {eid} {196402} (\bibinfo {year}
   {2014})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Zanchi}\ and\ \citenamefont
-  {Schulz}(1996)}]{Zanchi1996}%
+\bibitem [{\citenamefont {{Zanchi}}\ and\ \citenamefont
+  {{Schulz}}(1996)}]{Zanchi1996}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Dra{\v{z}}en}\
-  \bibnamefont {Zanchi}}\ and\ \bibinfo {author} {\bibfnamefont {Heinz~J.}\
-  \bibnamefont {Schulz}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {Instabilities of weakly correlated electronic gas on a two dimensional
-  lattice},}\ }\href {\doibase 10.1007/s002570050385} {\bibfield  {journal}
-  {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik B Condensed Matter}\
-  }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages} {339--342} (\bibinfo
-  {year} {1996})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Halboth}\ and\ \citenamefont
-  {Metzner}(2000{\natexlab{a}})}]{Halboth2000}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Zanchi}}}\ and\ \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {{Schulz}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Instabilities
+  of weakly correlated electronic gas on a two dimensional lattice},}\ }\href
+  {\doibase 10.1007/s002570050385} {\bibfield  {journal} {\bibinfo  {journal}
+  {Zeitschrift f{\"u}r Physik B Condensed Matter}\ }\textbf {\bibinfo {volume}
+  {103}},\ \bibinfo {pages} {339--342} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Halboth}}\ and\ \citenamefont
+  {{Metzner}}(2000{\natexlab{a}})}]{Halboth2000}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christoph~J.}\
-  \bibnamefont {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\
-  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {{Halboth}}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Metzner}}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
   {{$\mathit{d}$-Wave Superconductivity and Pomeranchuk Instability in the
   Two-Dimensional Hubbard Model}},}\ }\href {\doibase
   10.1103/PhysRevLett.85.5162} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages}
   {5162--5165} (\bibinfo {year} {2000}{\natexlab{a}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Halboth}\ and\ \citenamefont
-  {Metzner}(2000{\natexlab{b}})}]{Halboth2000b}%
+\bibitem [{\citenamefont {{Halboth}}\ and\ \citenamefont
+  {{Metzner}}(2000{\natexlab{b}})}]{Halboth2000b}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christoph~J.}\
-  \bibnamefont {Halboth}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\
-  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {{Halboth}}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Metzner}}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
   {{Renormalization-group analysis of the two-dimensional Hubbard model}},}\
   }\href {\doibase 10.1103/PhysRevB.61.7364} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
@@ -162,25 +162,24 @@
   10.1103/PhysRevB.79.195125} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. B}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {eid} {195125}
   (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Eberlein}\ and\ \citenamefont
-  {Metzner}(2013)}]{Eberlein2013}%
+\bibitem [{\citenamefont {{Eberlein}}\ and\ \citenamefont
+  {{Metzner}}(2013)}]{Eberlein2013}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Andreas}\ \bibnamefont
-  {Eberlein}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\ \bibnamefont
-  {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Effective
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Eberlein}}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Metzner}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Effective
   interactions and fluctuation effects in spin-singlet superfluids},}\ }\href
   {\doibase 10.1103/PhysRevB.87.174523} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {87}},\ \bibinfo
   {pages} {174523} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Yamase}\ \emph {et~al.}(2016)\citenamefont {Yamase},
-  \citenamefont {Eberlein},\ and\ \citenamefont {Metzner}}]{Eberlein2016}%
+\bibitem [{\citenamefont {{Yamase}}\ and\ \citenamefont
+  {{Metzner}}(2016)}]{Eberlein2016}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Hiroyuki}\
-  \bibnamefont {Yamase}}, \bibinfo {author} {\bibfnamefont {Andreas}\
-  \bibnamefont {Eberlein}}, \ and\ \bibinfo {author} {\bibfnamefont {Walter}\
-  \bibnamefont {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
-  {{Coexistence of Incommensurate Magnetism and Superconductivity in the
-  Two-Dimensional Hubbard Model}},}\ }\href {\doibase
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Yamase}}, \bibfnamefont {H.~{Eberlein}}}\ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {{Metzner}}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Coexistence of Incommensurate Magnetism and
+  Superconductivity in the Two-Dimensional Hubbard Model}},}\ }\href {\doibase
   10.1103/PhysRevLett.116.096402} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
   {096402} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
@@ -377,30 +376,30 @@
   \bibnamefont {I.E.}},\ }\href@noop {} {\emph {\bibinfo {title} {Methods of
   quantum field theory in statistical physics}}}\ (\bibinfo  {publisher} {Dover
   Publications, Inc.},\ \bibinfo {year} {1963})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Honerkamp}(2001)}]{Honerkamp2001a}%
+\bibitem [{\citenamefont {{Honerkamp}}(2001)}]{Honerkamp2001a}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carsten}\ \bibnamefont
-  {Honerkamp}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Honerkamp}}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
   {{Electron-doping versus hole-doping in the 2D t-t' Hubbard model}},}\ }\href
   {\doibase 10.1007/PL00011117} {\bibfield  {journal} {\bibinfo  {journal}
   {Eur. Phys. J. B}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages}
   {81--91} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Honerkamp}\ and\ \citenamefont
-  {Salmhofer}(2003)}]{Honerkamp2003}%
+\bibitem [{\citenamefont {{Honerkamp}}\ and\ \citenamefont
+  {{Salmhofer}}(2003)}]{Honerkamp2003}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Carsten}\ \bibnamefont
-  {Honerkamp}}\ and\ \bibinfo {author} {\bibfnamefont {Manfred}\ \bibnamefont
-  {Salmhofer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Flow of the
-  quasiparticle weight in the $N$-patch renormalization group scheme}},}\
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Honerkamp}}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {{Salmhofer}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Flow of
+  the quasiparticle weight in the $N$-patch renormalization group scheme}},}\
   }\href {\doibase 10.1103/PhysRevB.67.174504} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {67}},\ \bibinfo
   {pages} {174504} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Rohe}\ and\ \citenamefont
-  {Metzner}(2005)}]{Rohe2005}%
+\bibitem [{\citenamefont {{Rohe}}\ and\ \citenamefont
+  {{Metzner}}(2005)}]{Rohe2005}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont
-  {Rohe}}\ and\ \bibinfo {author} {\bibfnamefont {Walter}\ \bibnamefont
-  {Metzner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pseudogap at
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {{Rohe}}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {{Metzner}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Pseudogap at
   hot spots in the two-dimensional Hubbard model at weak coupling}},}\ }\href
   {\doibase 10.1103/PhysRevB.71.115116} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {71}},\ \bibinfo
